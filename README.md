@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # homello
 
 This template should help get you started developing with Vue 3 in Vite.
@@ -27,3 +28,7 @@ npm run dev
 ```sh
 npm run build
 ```
+=======
+# homello-ecommerce-webapp
+A Home Furniture Ecommerce Site Made in Vuejs, MySQL and BootstrapCss
+>>>>>>> 90d1fa4d2bfbc020c6632426e7516d38419bea07
