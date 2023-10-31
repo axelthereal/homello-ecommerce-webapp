@@ -1,0 +1,55 @@
+/* HomeScreen Styling */
+  /* MainBanner -imgBanner */
+  @media only screen and (max-width:1040px) {
+      .MainBanner img.img-fluid{
+         width:100% !important;
+         height:50% !important; 
+      }
+  }
+     .MainBanner.contentBanner{
+        border-bottom-right-radius: 100px;
+     }
+     .contentBanner:not(.minBanner) .banner-container{
+        min-height: 85vh; 
+     }
+    .MainBanner img{
+      border: 3px solid var(--cl-active);
+      width: 100%;
+      height:auto;  
+      border-radius: 50px 30px 180px 30px;
+  } 
+
+     /* banner-containers */
+     .banner-container .bx-one{
+        padding-right: 25px;
+     }
+ 
+ /* partners-img */
+    .banner-container img.partners-img{
+       width: 100%;
+       height: auto; 
+    }   
+
+/* SixthBanner */
+   .SixthBanner{
+      background: url("../gallery/countryside-workers-out-field.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top;
+   }  
+   
+/* SeventhBanner */
+ .SeventhBanner img{ 
+   height: auto;
+ }  
+
+
+/* TenthBanner */
+  .TenthBanner{
+   background: url("../gallery/globe.png");
+   background-repeat: no-repeat;
+   background-position: top;
+   background-size:100%;
+  } 
+
+    
