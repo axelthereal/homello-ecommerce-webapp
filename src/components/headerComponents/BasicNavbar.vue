@@ -3,7 +3,7 @@
 </style>
 
 <template>
-    <nav class="navbar py-3 navbar-expand-md navbar-default bg-default nav-primary fixed-top" aria-label="Offcanvas navbar large">
+    <nav class="navbar py-3 navbar-expand-lg navbar-default bg-default nav-primary fixed-top" aria-label="Offcanvas navbar large">
     <div class="container">
       <a class="navbar-brand fw-semibold fs-5 text-white" href="#">Homello</a>
       <button class="navbar-toggler border-0 fs-1 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBasicNavbar1" aria-controls="offcanvasBasicNavbar1" aria-label="Toggle navigation">
