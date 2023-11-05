@@ -3,7 +3,7 @@
 </style>
 
 <template>
-    <nav class="navbar py-3 navbar-expand-lg navbar-default bg-default nav-primary fixed-top" aria-label="Offcanvas navbar large">
+    <nav class="navbar py-3 navbar-expand-md navbar-default bg-default nav-primary fixed-top" aria-label="Offcanvas navbar large">
     <div class="container">
       <a class="navbar-brand fw-semibold fs-5 text-white" href="#">Homello</a>
       <button class="navbar-toggler border-0 fs-1 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBasicNavbar1" aria-controls="offcanvasBasicNavbar1" aria-label="Toggle navigation">
@@ -21,9 +21,10 @@
               <a :class="`nav-link fs-6` + isIndexActive(navlink)" aria-current="page" :href="navlink.url">{{ navlink.label }}</a>
             </li>
             </span> 
-            <li class="nav-item">
+            <li class="nav-item ms-lg-5">
               <a class="nav-link fs-5" href=""><span class="icon"><i class="bi bi-cart"></i></span></a>
             </li>
+            <LinkButton btn-theme="light-btn" btn-label="Login / Register" btn-url="" btn-icon="person" outlined="true" class="nav-link"/>
           </ul> 
         </div>
       </div>
@@ -32,6 +33,8 @@
 </template>
 
 <script>
+import LinkButton from '../btnComponents/GlobalButtons/LinkButton.vue';
+
 export default {
        name: "BasicNavbar",
        data(){
@@ -54,6 +57,12 @@ export default {
                     isActive:false,
                     url:"",
                     label: "About us"
+                   },
+                   {
+                    tag:"services",
+                    isActive:false,
+                    url:"",
+                    label: "Services"
                    },
                    {
                     tag:"Blog",
@@ -80,6 +89,9 @@ export default {
          isIndexActive(e){
                return e.tag == this.active ? " active" : "";
           }
+       },
+       components: {
+           LinkButton
        } 
 }
 </script>
