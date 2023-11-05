@@ -1,0 +1,29 @@
+
+
+/* Root-Properties */
+   :root{
+      /* colors */
+        --bg-color-primary:#265a5a;
+        --bg-color-light: #f1f1f1;
+   }
+
+/* Ui-Properties */
+   /* Colors */
+     .bg-color-primary{
+         background-color: var(--bg-color-primary) !important;
+     }   
+
+/* Components */
+  /* Navbars-Components */
+     /* Globals */
+        .nav-primary{
+            background-color: var(--bg-color-primary);
+        }
+        .nav-primary .navbar-toggler .icon{ color: var(--bg-color-light) !important;}
+        .navbar a.nav-link{
+             color: var(--bg-color-light) !important;
+             font-size: 1.0em;
+             margin-inline:5px !important;
+        }
+        .navbar a.nav-link:hover { opacity:1 !important;}
+        .navbar a.nav-link:not(.active){ opacity:0.8; } 

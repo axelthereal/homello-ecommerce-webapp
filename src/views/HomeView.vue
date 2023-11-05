@@ -2,9 +2,13 @@
 </style>
 
 <template>
+    <!-- Navbar --> 
+      <BasicNavbar active="home" />
 </template>
 
 <script>
+import BasicNavbar from '../components/headerComponents/BasicNavbar.vue';
+
 export default {
        name:"HomeView",
        data(){
@@ -17,6 +21,7 @@ export default {
            }
        },
        components: { 
+         BasicNavbar
        },
        beforeMount() {
          this.setPageTitle()
