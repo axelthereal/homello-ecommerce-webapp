@@ -14,6 +14,13 @@
   max-width: 30%;
   height: auto;
 }
+
+.carousel-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50% !important;
+  font-size: 20px;
+}
 </style>
 
 <template>
@@ -131,15 +138,15 @@
                 </div>
 
               </div>
-              <button class="carousel-control-prev bg-success" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
+              <button
+                class="carousel-btn carousel-control-prev bg-success d-flex justify-content-center align-items-center"
+                type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="bi bi-arrow-left" aria-hidden="true"></span>
               </button>
-              <button class="carousel-control-next bg-success" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
+              <button
+                class="carousel-btn carousel-control-next bg-success d-flex justify-content-center align-items-center"
+                type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="bi bi-arrow-right" aria-hidden="true"></span>
               </button>
             </div>
           </div>

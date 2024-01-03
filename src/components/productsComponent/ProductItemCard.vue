@@ -18,11 +18,11 @@
 </style>
 
 <template>
-  <div class="product-card">
-    <div class="card-img">
+  <div class="product-card m-1">
+    <div class="card-img h-100">
       <img src="../../assets/images/product-3.png" alt="" />
     </div>
-    <div class="card-body d-flex flex-column align-items-between justify-content gap-2">
+    <div class="card-body py-3 d-flex flex-column align-items-between justify-content gap-2">
       <span class="product-info d-flex justify-content-between align-items-center">
         <span class="product-category opacity-50 small">Decor</span>
         <span class="product-rating small">...</span>
