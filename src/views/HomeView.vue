@@ -98,6 +98,57 @@
     </div>
 
 
+    <!-- New-Products Banner-display -->
+    <div class="newprods-banner my-5 py-5">
+      <div class="container px-4 py-5 my-5">
+        <div class="row row-cols-1 row-cols-lg-2 align-items-stretch">
+
+          <!-- Banner-Description -->
+          <div class="banner-desc col-12 col-lg-4">
+            <h3 class="fs-2 fw-semibold">New in our store</h3>
+            <p class="fs-4">Discover some of our newest premium furnitures, at the cheapest rates possible </p>
+
+            <LinkButton btn-theme="secondary-btn" btn-label="Discover Now" btn-url="" btn-icon="arrow-right"
+              outlined="false" class="btn-lg mt-3" />
+          </div>
+
+          <!-- Products-Box -->
+          <div class="products-bx col">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+              <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                  <img src="../assets/images/girl-customer-service-image.jpg" class="d-block w-100" alt="...">
+                </div>
+
+                <div class="carousel-item">
+                  <img src="../assets/images/girl-customer-service-image.jpg" class="d-block w-100" alt="...">
+                </div>
+
+                <div class="carousel-item">
+                  <img src="../assets/images/girl-customer-service-image.jpg" class="d-block w-100" alt="...">
+                </div>
+
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
     <br>
   </main>
 </template>
