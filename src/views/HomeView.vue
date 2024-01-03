@@ -119,15 +119,15 @@
               <div class="carousel-inner">
 
                 <div class="carousel-item active">
-                  <img src="../assets/images/girl-customer-service-image.jpg" class="d-block w-100" alt="...">
+                  <ProductItemCard />
                 </div>
 
                 <div class="carousel-item">
-                  <img src="../assets/images/girl-customer-service-image.jpg" class="d-block w-100" alt="...">
+                  ...
                 </div>
 
                 <div class="carousel-item">
-                  <img src="../assets/images/girl-customer-service-image.jpg" class="d-block w-100" alt="...">
+                  ...
                 </div>
 
               </div>
@@ -157,7 +157,7 @@
 import BasicNavbar from '../components/headerComponents/BasicNavbar.vue';
 import LinkButton from '../components/btnComponents/GlobalButtons/LinkButton.vue';
 import MediumImageBanner from '../components/bodyComponents/MediumImageBanner.vue';
-
+import ProductItemCard from '../components/productsComponent/ProductItemCard.vue';
 
 export default {
   name: "HomeView",
@@ -173,7 +173,8 @@ export default {
   components: {
     BasicNavbar,
     LinkButton,
-    MediumImageBanner
+    MediumImageBanner,
+    ProductItemCard
   },
   beforeMount() {
     this.setPageTitle()
