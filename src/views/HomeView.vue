@@ -26,9 +26,9 @@
     <!-- Main-Banner -->
     <div class="mainbanner mb-0 py-5 my-5 d-flex align-items-center">
       <div class="container py-5 my-5">
-        <div class="bannercontent text-white col-lg-5">
+        <div class="bannercontent text-white row row-cols-1 row-cols-lg-2 align-items-stretch">
 
-          <div class="content">
+          <div class="content col">
             <h1 class="display-3 fw-semibold">Modern & Unique Home Furnitures.</h1>
             <p class="lead opacity-75">Fill your home with furniture that brings you
               comfort as soon as you walk in the door.</p>
@@ -36,8 +36,8 @@
               outlined="false" class="btn-lg mt-3" />
           </div>
 
-          <div class="banner-image">
-            <img src="../assets/images/120-large_default.webp" alt="">
+          <div class="banner-image col">
+            <img src="../assets/images/couch.png" class="w-100" alt="">
           </div>
 
         </div>
