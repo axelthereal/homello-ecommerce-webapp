@@ -36,6 +36,10 @@
       </div>
     </div>
 
+
+    <!-- Double - Images-Banner -->
+    <MediumImageBanner />
+
     <!-- PositivePoints-Banner -->
     <div class="positive-points bg-color-secondary">
       <div class="container px-4 py-5">
@@ -79,6 +83,8 @@
 <script>
 import BasicNavbar from '../components/headerComponents/BasicNavbar.vue';
 import LinkButton from '../components/btnComponents/GlobalButtons/LinkButton.vue';
+import MediumImageBanner from '../components/bodyComponents/MediumImageBanner.vue';
+
 
 export default {
   name: "HomeView",
@@ -93,7 +99,8 @@ export default {
   },
   components: {
     BasicNavbar,
-    LinkButton
+    LinkButton,
+    MediumImageBanner
   },
   beforeMount() {
     this.setPageTitle()
