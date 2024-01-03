@@ -21,6 +21,11 @@
   border-radius: 50% !important;
   font-size: 20px;
 }
+
+.newproducts-banner .carousel-item {
+  padding-left: 40px;
+  padding-right: 40px;
+}
 </style>
 
 <template>
@@ -106,9 +111,9 @@
 
 
     <!-- New-Products Banner-display -->
-    <div class="newprods-banner my-5 py-5">
+    <div class="newproducts-banner my-5 py-5">
       <div class="container px-4 py-5 my-5">
-        <div class="row row-cols-1 row-cols-lg-2 align-items-stretch">
+        <div class="row row-cols-1 row-cols-lg-2 align-items-center">
 
           <!-- Banner-Description -->
           <div class="banner-desc col-12 col-lg-4">
@@ -120,13 +125,17 @@
           </div>
 
           <!-- Products-Box -->
-          <div class="products-bx col">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="products-bx col-12 col-lg-8">
+            <div id="newProductsCarousel" class="carousel slide" data-bs-ride="carousel">
 
               <div class="carousel-inner">
 
                 <div class="carousel-item active">
-                  <ProductItemCard class="col-11 col-lg-5" />
+                  <div class="products-list row row-cols-1 row-cols-lg-3 align-items-stretch">
+                    <ProductItemCard class="col-11 col-lg-4" />
+                    <ProductItemCard class="col-11 col-lg-4" />
+                    <ProductItemCard class="col-11 col-lg-4" />
+                  </div>
                 </div>
 
                 <div class="carousel-item">
@@ -138,16 +147,14 @@
                 </div>
 
               </div>
-              <button
-                class="carousel-btn carousel-control-prev bg-success d-flex justify-content-center align-items-center"
-                type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-btn carousel-control-prev bg-success d-flex justify-content-center align-items-center"
+                type="button" data-bs-target="#newProductsCarousel" data-bs-slide="prev">
                 <span class="bi bi-arrow-left" aria-hidden="true"></span>
-              </button>
-              <button
-                class="carousel-btn carousel-control-next bg-success d-flex justify-content-center align-items-center"
-                type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              </span>
+              <span class="carousel-btn carousel-control-next bg-success d-flex justify-content-center align-items-center"
+                type="button" data-bs-target="#newProductsCarousel" data-bs-slide="next">
                 <span class="bi bi-arrow-right" aria-hidden="true"></span>
-              </button>
+              </span>
             </div>
           </div>
 

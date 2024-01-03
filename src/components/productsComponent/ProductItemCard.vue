@@ -18,8 +18,8 @@
 </style>
 
 <template>
-  <div class="product-card m-1">
-    <div class="card-img h-100">
+  <div class="product-card">
+    <div class="card-img py-5">
       <img src="../../assets/images/product-3.png" alt="" />
     </div>
     <div class="card-body py-3 d-flex flex-column align-items-between justify-content gap-2">
@@ -27,7 +27,7 @@
         <span class="product-category opacity-50 small">Decor</span>
         <span class="product-rating small">...</span>
       </span>
-      <span class="product-name fs-5 fw-semibold">
+      <span class="product-name fs-6 fw-semibold">
         Cillum dolore Lorem ipsum dolor sit amet decoration item</span>
       <span class="product-price fs-6">
         <span class="act-price color-primary fw-bold">$100</span>
