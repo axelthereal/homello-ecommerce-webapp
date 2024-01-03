@@ -32,6 +32,14 @@
   padding-left: 50px;
   padding-right: 50px;
 }
+
+.banner-nav .banner-nav-item {
+  padding: 0px 15px 0px 15px;
+}
+
+.banner-nav .banner-nav-item.active {
+  opacity: 0.6;
+}
 </style>
 
 <template>
@@ -171,6 +179,30 @@
           </div>
 
 
+        </div>
+      </div>
+    </div>
+    <!-- ...endProductSlider -->
+
+
+    <div class="tranding-products-bx">
+      <div class="container">
+        <div class="bx-header border-top py-4 mb-4 d-flex justify-content-between align-items-center">
+          <span class="fs-2 fw-semibold">Best selling</span>
+          <span class="banner-nav fs-6 fw-medium opacity-80 d-flex justify-content-between align-items-center">
+            <a href="" class="link-primary"><span class="banner-nav-item active">All Products</span></a>
+            <a href="" class="link-primary"><span class="banner-nav-item">Accessories</span></a>
+            <a href="" class="link-primary"><span class="banner-nav-item">Chair</span></a>
+            <a href="" class="link-primary"><span class="banner-nav-item">Decoration</span></a>
+            <a href="" class="link-primary"><span class="banner-nav-item">Furniture</span></a>
+            <a href="" class="link-primary"><span class="banner-nav-item">Tables</span></a>
+          </span>
+        </div>
+        <div class="content row row-cols-1 row-cols-lg-4 align-items-stretch">
+          <ProductItemCard class="col-11 col-lg-3" />
+          <ProductItemCard class="col-11 col-lg-3" />
+          <ProductItemCard class="col-11 col-lg-3" />
+          <ProductItemCard class="col-11 col-lg-3" />
         </div>
       </div>
     </div>

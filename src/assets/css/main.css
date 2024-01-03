@@ -4,6 +4,7 @@
   --colr-primary: #265a5a;
   --colr-primary-dark: #214e4e;
   --colr-primary-darker: #193b3b;
+  --colr-primary-light: #409682;
 
   --colr-secondary: #eac5b5;
   --colr-secondary-dark: #d8b4a5;
@@ -86,6 +87,18 @@ a:after {
 }
 .navbar a.nav-link:not(.active) {
   opacity: 0.8;
+}
+
+/*  Links */
+.link-primary {
+  color: inherit !important;
+}
+.link-primary:hover {
+  opacity: 100% !important;
+  color: var(--colr-primary-light) !important;
+}
+.link-primary:active {
+  color: var(--colr-primary-dark) !important;
 }
 
 /*  Buttons-Components */
