@@ -38,7 +38,12 @@
 
 
     <!-- Double - Images-Banner -->
-    <MediumImageBanner />
+    <div class="middle-image-banner bg-color-primary">
+      <div class="container bg-color-secondary p-4 d-flex justify-content-evenly align-items-center">
+        <MediumImageBanner />
+        <MediumImageBanner />
+      </div>
+    </div>
 
     <!-- PositivePoints-Banner -->
     <div class="positive-points bg-color-secondary">

@@ -5,24 +5,42 @@ import LinkButton from '../btnComponents/GlobalButtons/LinkButton.vue';
 <style scoped>
 /* Image Banner Style */
 .mdImgBanner {
-    display: relative;
+    position: relative;
 }
 
-.mdImgBanner .bannerImage {}
+.mdImgBanner .bannerCaption {
+    position: relative;
+    z-index: 2 !important;
+}
 
-.mdImgBanner .bannerImage img {}
+.mdImgBanner .bannerImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1 !important;
+    overflow: hidden !important;
+}
+
+.mdImgBanner .bannerImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 2 !important;
+}
 </style>
 
 <template>
-    <div class="mdImgBanner">
-        <div class="bannerCaption">
+    <div class="mdImgBanner w-100 m-2">
+        <div class="bannerCaption p-5">
             <h3 class="fs-2 fw-semibold">Banner title</h3>
             <p class="fs-4">Banner desc title</p>
             <LinkButton btn-theme="primary-btn" btn-label="Discover now" btn-url="" btn-icon="arrow-right" outlined="false"
                 class="btn-lg mt-3" />
         </div>
         <div class="bannerImage">
-            <img src="../../assets/images/63ee15346d25e11b0e0148b0_hero-bg.jpg" alt="" srcset="">
+            <img src="../../assets/images/product" alt="" srcset="">
         </div>
     </div>
 </template>
