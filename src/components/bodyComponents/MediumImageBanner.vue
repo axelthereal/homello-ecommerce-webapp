@@ -1,4 +1,5 @@
 <script setup>
+import { stringifyQuery } from 'vue-router';
 import LinkButton from '../btnComponents/GlobalButtons/LinkButton.vue';
 </script>
 
@@ -28,29 +29,38 @@ import LinkButton from '../btnComponents/GlobalButtons/LinkButton.vue';
     height: 100%;
     object-fit: cover;
     z-index: 2 !important;
+    background-color: #f8f8f8;
 }
 </style>
 
 <template>
     <div class="mdImgBanner w-100 m-2">
         <div class="bannerCaption p-5">
-            <h3 class="fs-2 fw-semibold">Banner title</h3>
-            <p class="fs-4">Banner desc title</p>
-            <LinkButton btn-theme="primary-btn" btn-label="Discover now" btn-url="" btn-icon="arrow-right" outlined="false"
-                class="btn-lg mt-3" />
+            <h3 class="fs-2 fw-semibold">{{ bannerTitle }}</h3>
+            <p class="fs-5">{{ bannerDescription }}</p>
+            <LinkButton btn-theme="primary-btn" :btn-label="btnLabel" :btn-url="bannerLink" btn-icon="arrow-right"
+                outlined="false" class="btn-lg mt-4" />
+            <br><br>
         </div>
         <div class="bannerImage">
-            <img src="../../assets/images/product" alt="" srcset="">
+            <img :src="bannerImage" alt="" srcset="">
         </div>
     </div>
 </template>
 
 <script>
 export default {
+    name: "MediumImageBanner",
     data() {
         return {
-            name: "MediumImageBanner"
         }
+    },
+    props: {
+        bannerTitle: { type: String, default: "Image Banner Title" },
+        bannerDescription: { type: String, default: "Description text goes here..." },
+        bannerImage: { type: String },
+        bannerLink: { type: String },
+        btnLabel: { type: String, default: "Discover now" }
     }
 }
 </script>
