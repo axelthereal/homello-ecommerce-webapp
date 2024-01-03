@@ -184,7 +184,7 @@
     </div>
     <!-- ...endProductSlider -->
 
-
+    <!-- Trending Product List -->
     <div class="tranding-products-bx">
       <div class="container">
         <div class="bx-header border-top py-4 mb-4 d-flex justify-content-between align-items-center">
@@ -206,6 +206,34 @@
         </div>
       </div>
     </div>
+
+
+    <!-- addBanner -->
+    <div class="addBanner my-5 py-5">
+      <div class="container">
+        <MediumImageBanner banner-title="50% OFF Interior Collection"
+          banner-description="Free shipping over 115$ for international orders"
+          banner-image="src/assets/images/sli-h1.webp" class="py-5" />
+      </div>
+    </div>
+
+
+
+    <!-- Latest arrivals Product List -->
+    <div class="tranding-products-bx">
+      <div class="container">
+        <div class="bx-header border-top py-4 mb-4 d-flex justify-content-between align-items-center">
+          <span class="fs-2 fw-semibold">Latest Arrivals</span>
+        </div>
+        <div class="content row row-cols-1 row-cols-lg-4 align-items-stretch">
+          <ProductItemCard class="col-11 col-lg-3" />
+          <ProductItemCard class="col-11 col-lg-3" />
+          <ProductItemCard class="col-11 col-lg-3" />
+          <ProductItemCard class="col-11 col-lg-3" />
+        </div>
+      </div>
+    </div>
+
 
     <br>
   </main>
