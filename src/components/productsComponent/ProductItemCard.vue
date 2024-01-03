@@ -19,7 +19,7 @@
 
 <template>
   <div class="product-card">
-    <div class="card-img py-5">
+    <div class="card-img py-4">
       <img src="../../assets/images/product-3.png" alt="" />
     </div>
     <div class="card-body py-3 d-flex flex-column align-items-between justify-content gap-2">
