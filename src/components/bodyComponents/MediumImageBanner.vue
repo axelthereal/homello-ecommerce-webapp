@@ -1,10 +1,11 @@
 <script setup>
 import { stringifyQuery } from 'vue-router';
 import LinkButton from '../btnComponents/GlobalButtons/LinkButton.vue';
+
 </script>
 
 <style scoped>
-/* Image Banner Style */
+/* Image Banner-Style */
 .mdImgBanner {
     position: relative;
 }

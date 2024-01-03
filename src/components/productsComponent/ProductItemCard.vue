@@ -1,4 +1,5 @@
 <style scoped>
+/* Product Card Design */
 .product-card {
   position: relative;
 }

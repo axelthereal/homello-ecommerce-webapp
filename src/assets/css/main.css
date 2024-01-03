@@ -1,6 +1,6 @@
 /* Root-Properties */
 :root {
-  /* colors */
+  /* colors properties */
   --colr-primary: #265a5a;
   --colr-primary-dark: #214e4e;
   --colr-primary-darker: #193b3b;
@@ -69,8 +69,8 @@ a:after {
 }
 
 /* Components */
-/* Navbars-Components */
-/* Globals */
+/* Navbars-Component */
+/* Global */
 .nav-primary {
   background-color: var(--colr-primary);
 }
@@ -102,7 +102,7 @@ a:after {
 }
 
 /*  Buttons-Components */
-/* Globals */
+/* Global */
 /* Btn-Outlined */
 .outlined-btn {
   background-color: transparent !important;

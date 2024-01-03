@@ -328,7 +328,7 @@ button.round-carousel-btn {
                 </div>
               </div>
             </div>
-            <!-- ...CUSTOMERS REVIEWS... -->
+            <!-- ...End CUSTOMERS REVIEWS... -->
 
 
 
@@ -344,9 +344,9 @@ button.round-carousel-btn {
 
 <script>
 import BasicNavbar from '../components/headerComponents/BasicNavbar.vue';
-import LinkButton from '../components/btnComponents/GlobalButtons/LinkButton.vue';
 import MediumImageBanner from '../components/bodyComponents/MediumImageBanner.vue';
 import ProductItemCard from '../components/productsComponent/ProductItemCard.vue';
+import LinkButton from '../components/btnComponents/GlobalButtons/LinkButton.vue';
 
 export default {
   name: "HomeView",
