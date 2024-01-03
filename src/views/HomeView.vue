@@ -16,15 +16,21 @@
 }
 
 .carousel-btn {
+  max-width: 45px;
+}
+
+.carousel-btn .btn {
   width: 40px;
   height: 40px;
   border-radius: 50% !important;
   font-size: 20px;
 }
 
+
+
 .newproducts-banner .carousel-item {
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 </style>
 
@@ -147,14 +153,20 @@
                 </div>
 
               </div>
-              <span class="carousel-btn carousel-control-prev bg-success d-flex justify-content-center align-items-center"
-                type="button" data-bs-target="#newProductsCarousel" data-bs-slide="prev">
-                <span class="bi bi-arrow-left" aria-hidden="true"></span>
+
+              <span class="carousel-btn carousel-control-prev" type="button" data-bs-target="#newProductsCarousel"
+                data-bs-slide="prev">
+                <span class="btn text-white bg-success d-flex justify-content-center align-items-center">
+                  <span class="bi bi-arrow-left" aria-hidden="true"></span>
+                </span>
               </span>
-              <span class="carousel-btn carousel-control-next bg-success d-flex justify-content-center align-items-center"
-                type="button" data-bs-target="#newProductsCarousel" data-bs-slide="next">
-                <span class="bi bi-arrow-right" aria-hidden="true"></span>
+              <span class="carousel-btn carousel-control-next" type="button" data-bs-target="#newProductsCarousel"
+                data-bs-slide="next">
+                <span class="btn text-white bg-success d-flex justify-content-center align-items-center">
+                  <span class="bi bi-arrow-right" aria-hidden="true"></span>
+                </span>
               </span>
+
             </div>
           </div>
 
