@@ -114,6 +114,10 @@ a:after {
   background-color: var(--colr-primary);
   color: #fff !important;
 }
+.primary-btn.outlined-btn {
+  color: var(--colr-primary) !important;
+  border: 1px solid var(--colr-primary) !important;
+}
 .primary-btn:hover {
   border: 1px solid var(--colr-primary-dark) !important;
   background-color: var(--colr-primary-dark);
