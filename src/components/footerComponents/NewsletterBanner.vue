@@ -10,8 +10,8 @@
                     <p class="fs-5 opacity-80">Subscribe to our newsletter and get discount 50% off </p>
                 </div>
                 <div class="formbx col-11 col-lg-8">
-                    <form action="" class="formbx d-flex bg-white">
-                        <input type="email" name="" id="" class="form-control border border-0 w-100"
+                    <form action="" class="formbx d-flex bg-white p-2">
+                        <input type="email" name="" id="" class="form-control fw-medium border border-0 w-100"
                             placeholder="Your email address">
                         <button type="submit" class="btn btn-default border border-0">
                             <span class="bi bi-arrow-right"></span>
