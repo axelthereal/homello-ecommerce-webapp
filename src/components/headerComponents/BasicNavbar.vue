@@ -1,6 +1,6 @@
 <style scoped>
 .navbar-brand {
-  font-size: 27px;
+  font-size: 26px;
   font-weight: bold;
 }
 </style>
@@ -29,7 +29,13 @@
               </li>
             </span>
             <li class="nav-item ms-lg-5">
-              <a class="nav-link fs-5" href=""><span class="icon"><i class="bi bi-cart"></i></span></a>
+              <a class="nav-link fs-5 visually-hidden" href=""><span class="icon"><i class="bi bi-cart"></i></span></a>
+            </li>
+            <li class="nav-item p-0">
+              <a class="nav-link fs-5" href=""><span class="icon"><i class="bi bi-heart"></i></span></a>
+            </li>
+            <li class="nav-item p-0 me-lg-3">
+              <a class="nav-link fs-4" href=""><span class="icon"><i class="bi bi-cart"></i></span></a>
             </li>
             <LinkButton btn-theme="light-btn" btn-label="Login / Register" btn-url="" btn-icon="person" outlined="true"
               class="nav-link" />
@@ -65,12 +71,6 @@ export default {
           isActive: false,
           url: "",
           label: "About us"
-        },
-        {
-          tag: "services",
-          isActive: false,
-          url: "",
-          label: "Services"
         },
         {
           tag: "Blog",
