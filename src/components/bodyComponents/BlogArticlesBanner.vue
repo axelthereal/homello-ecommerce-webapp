@@ -12,14 +12,22 @@
             </div>
             <div class="content row row-cols-1 row-cols-lg-4 align-items-stretch">
                 <!-- ProductItemCard class="col-11 col-lg-3" -->
-
+                <BlogArticleCard class="col-11 col-lg-3" />
+                <BlogArticleCard class="col-11 col-lg-3" />
+                <BlogArticleCard class="col-11 col-lg-3" />
+                <BlogArticleCard class="col-11 col-lg-3" />
             </div>
         </div>
     </div>
 </template>
 
 <script>
+import BlogArticleCard from './BlogArticleCard.vue';
+
 export default {
-    name: "BlogArticlesBanner"
+    name: "BlogArticlesBanner",
+    components: {
+        BlogArticleCard
+    }
 }
 </script>
