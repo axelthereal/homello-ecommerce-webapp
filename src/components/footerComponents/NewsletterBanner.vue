@@ -1,6 +1,8 @@
 <style scoped></style>
 
-<template></template>
+<template>
+    
+</template>
 
 <script>
 export default {
