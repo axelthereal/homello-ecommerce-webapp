@@ -1,9 +1,16 @@
-<style></style>
+<style scoped>
+.review-img {
+    width: 70px !important;
+    height: 70px !important;
+    border-radius: 50% !important;
+    object-fit: cover;
+}
+</style>
 
 <template>
     <div class="review-item my-3 text-center mx-auto mb-5 pb-3">
 
-        <img src="../assets/images/girl-customer-service-image.jpg" class="mx-auto  review-img" alt="" />
+        <img src="../../assets/images/girl-customer-service-image.jpg" class="mx-auto  review-img" alt="" />
         <p class="opacity-80 my-3">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis saepe dolorem ducimus
             consectetur laudantium! Aperiam vero praesentium in odio sunt? Eum recusandae eligendi earum cum
