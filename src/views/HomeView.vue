@@ -246,6 +246,10 @@
     <NewsletterBanner />
 
     <br>
+
+
+    <!-- Footer -->
+    <GlobalFooter />
   </main>
 </template>
 
