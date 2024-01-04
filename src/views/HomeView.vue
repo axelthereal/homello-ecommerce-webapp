@@ -257,6 +257,7 @@ import CustomersReviewsBanner from '../components/bodyComponents/CustomersReview
 import NewsletterBanner from '../components/footerComponents/NewsletterBanner.vue';
 import MediumImageBanner from '../components/bodyComponents/MediumImageBanner.vue';
 import ProductItemCard from '../components/productsComponent/ProductItemCard.vue';
+import GlobalFooter from '../components/footerComponents/GlobalFooter.vue';
 
 export default {
   name: "HomeView",
@@ -276,7 +277,8 @@ export default {
     ProductItemCard,
     CustomersReviewsBanner,
     BlogArticlesBanner,
-    NewsletterBanner
+    NewsletterBanner,
+    GlobalFooter
   },
   beforeMount() {
     this.setPageTitle()
