@@ -240,7 +240,7 @@
 
 
     <!-- Blog-Articles -->
-
+    <BlogArticlesBanner />
 
     <br>
   </main>
@@ -252,6 +252,8 @@ import MediumImageBanner from '../components/bodyComponents/MediumImageBanner.vu
 import ProductItemCard from '../components/productsComponent/ProductItemCard.vue';
 import LinkButton from '../components/btnComponents/GlobalButtons/LinkButton.vue';
 import ReviewsBanner from '../components/bodyComponents/ReviewsBanner.vue';
+import BlogArticlesBanner from '../components/bodyComponents/BlogArticlesBanner.vue';
+
 
 export default {
   name: "HomeView",
@@ -269,7 +271,8 @@ export default {
     LinkButton,
     MediumImageBanner,
     ProductItemCard,
-    ReviewsBanner
+    ReviewsBanner,
+    BlogArticlesBanner
   },
   beforeMount() {
     this.setPageTitle()
