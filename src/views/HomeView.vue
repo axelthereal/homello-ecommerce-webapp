@@ -251,12 +251,12 @@
 
 <script>
 import BasicNavbar from '../components/headerComponents/BasicNavbar.vue';
-import MediumImageBanner from '../components/bodyComponents/MediumImageBanner.vue';
-import ProductItemCard from '../components/productsComponent/ProductItemCard.vue';
 import LinkButton from '../components/btnComponents/GlobalButtons/LinkButton.vue';
 import BlogArticlesBanner from '../components/bodyComponents/BlogArticlesBanner.vue';
 import CustomersReviewsBanner from '../components/bodyComponents/CustomersReviewsBanner.vue';
 import NewsletterBanner from '../components/footerComponents/NewsletterBanner.vue';
+import MediumImageBanner from '../components/bodyComponents/MediumImageBanner.vue';
+import ProductItemCard from '../components/productsComponent/ProductItemCard.vue';
 
 export default {
   name: "HomeView",

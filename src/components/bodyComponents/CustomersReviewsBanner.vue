@@ -62,7 +62,7 @@ button.round-carousel-btn {
 
 <script>
 import ReviewsComponent from '../productsComponent/ReviewsComponent.vue';
-
+import LinkButton from '../btnComponents/GlobalButtons/LinkButton.vue';
 
 export default {
     name: "CustomersReviewsBanner",
@@ -71,7 +71,8 @@ export default {
         }
     },
     components: {
-        ReviewsComponent
+        ReviewsComponent,
+        LinkButton
     }
 }
 </script>
