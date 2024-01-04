@@ -1,10 +1,15 @@
-<style scoped></style>
+<style scoped>
+.navbar-brand {
+  font-size: 27px;
+  font-weight: bold;
+}
+</style>
 
 <template>
   <nav class="navbar py-3 navbar-expand-lg navbar-default bg-default nav-primary fixed-top"
     aria-label="Offcanvas navbar large">
     <div class="container">
-      <a class="navbar-brand fw-semibold fs-5 text-white" href="#">Homello</a>
+      <a class="navbar-brand fw-semibold text-white" href="#"><span class="bi bi-house"></span> Homello</a>
       <button class="navbar-toggler border-0 fs-1 shadow-none" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#offcanvasBasicNavbar1" aria-controls="offcanvasBasicNavbar1" aria-label="Toggle navigation">
         <span class="icon"><i class="bi bi-list"></i></span>
