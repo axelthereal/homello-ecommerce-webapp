@@ -245,11 +245,10 @@
     <!-- Newsletter-banner -->
     <NewsletterBanner />
 
-    <br>
 
 
     <!-- Footer -->
-    <GlobalFooter />
+    <GlobalFooter class="mt-5" />
   </main>
 </template>
 

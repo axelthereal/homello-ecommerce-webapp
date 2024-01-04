@@ -2,60 +2,99 @@
 footer {
     background-color: #f8f8f8;
 }
+
+.logo-brand {
+    font-size: 25px;
+    font-weight: bold;
+}
 </style>
 
 <template>
     <footer class="footer">
-        <div class="container py-5">
+        <div class="container py-5 pb-0">
             <div class="row">
                 <div class="col-12 col-md">
+                    <span class="logo logo-brand">Homello</span>
                     <small class="d-block mb-3 text-body-secondary">© 2017–2024</small>
                 </div>
                 <div class="col-6 col-md">
-                    <h5>Features</h5>
-                    <ul class="list-unstyled text-small">
-                        <li><a class="link-secondary text-decoration-none" href="#">Home Page</a></li>
-                        <li><a class="link-secondary text-decoration-none" href="#">Furnitures</a></li>
-                        <li><a class="link-secondary text-decoration-none" href="#">Our Services</a></li>
-                        <li><a class="link-secondary text-decoration-none" href="#">Create an account</a></li>
-                        <li><a class="link-secondary text-decoration-none" href="#">Login</a></li>
-                        <li><a class="link-secondary text-decoration-none" href="#">Github</a></li>
+                    <h5 class="fw-semibold">Features</h5>
+                    <ul class="list-unstyled text-small mt-3">
+                        <li class="my-1"><a class="link-secondary text-decoration-none fw-medium color-black  link-primary"
+                                href="#">Home
+                                Page</a></li>
+                        <li class="my-1"><a class="link-secondary text-decoration-none fw-medium color-black  link-primary"
+                                href="#">Furnitures</a></li>
+                        <li class="my-1"><a class="link-secondary text-decoration-none fw-medium color-black  link-primary"
+                                href="#">Our
+                                Services</a></li>
+                        <li class="my-1"><a class="link-secondary text-decoration-none fw-medium color-black  link-primary"
+                                href="#">Create an
+                                account</a>
+                        </li>
                     </ul>
                 </div>
 
                 <div class="col-6 col-md">
-                    <h5>Resources</h5>
-                    <ul class="list-unstyled text-small">
-                        <li><a class="link-secondary text-decoration-none" href="#">Business</a></li>
-                        <li><a class="link-secondary text-decoration-none" href="#">Education</a></li>
-                        <li><a class="link-secondary text-decoration-none" href="#">Government</a></li>
-                        <li><a class="link-secondary text-decoration-none" href="#">Gaming</a></li>
+                    <h5 class="fw-semibold">Resources</h5>
+                    <ul class="list-unstyled text-small mt-3">
+                        <li class="my-1"><a class="link-secondary text-decoration-none fw-medium color-black  link-primary"
+                                href="#">Business</a>
+                        </li>
+                        <li class="my-1"><a class="link-secondary text-decoration-none fw-medium color-black  link-primary"
+                                href="#">Education</a></li>
+                        <li class="my-1"><a class="link-secondary text-decoration-none fw-medium color-black  link-primary"
+                                href="#">Government</a></li>
+                        <li class="my-1"><a class="link-secondary text-decoration-none fw-medium color-black  link-primary"
+                                href="#">Gaming</a>
+                        </li>
                     </ul>
                 </div>
 
                 <div class="col-6 col-md">
-                    <h5>About Us</h5>
-                    <ul class="list-unstyled text-small">
-                        <li><a class="link-secondary text-decoration-none" href="#">About us</a></li>
-                        <li><a class="link-secondary text-decoration-none" href="#">What we do</a></li>
-                        <li><a class="link-secondary text-decoration-none" href="#">FAQ Page</a></li>
-                        <li><a class="link-secondary text-decoration-none" href="#">Contact Us</a></li>
+                    <h5 class="fw-semibold">About Us</h5>
+                    <ul class="list-unstyled text-small mt-3">
+                        <li class="my-1"><a class="link-secondary text-decoration-none fw-medium color-black  link-primary"
+                                href="#">About us</a>
+                        </li>
+                        <li class="my-1"><a class="link-secondary text-decoration-none fw-medium color-black  link-primary"
+                                href="#">What we
+                                do</a></li>
+                        <li class="my-1"><a class="link-secondary text-decoration-none fw-medium color-black  link-primary"
+                                href="#">FAQ Page</a>
+                        </li>
+                        <li class="my-1"><a class="link-secondary text-decoration-none fw-medium color-black  link-primary"
+                                href="#">Contact
+                                Us</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-md">
-                    <h5>Policy & Terms</h5>
-                    <ul class="list-unstyled text-small">
-                        <li><a class="link-secondary text-decoration-none" href="#">Terms & Condition</a></li>
-                        <li><a class="link-secondary text-decoration-none" href="#">Privacy Policy</a></li>
-                        <li><a class="link-secondary text-decoration-none" href="#">Our Store</a></li>
-                        <li><a class="link-secondary text-decoration-none" href="#">Shopping Guide</a></li>
+                    <h5 class="fw-semibold">Policy & Terms</h5>
+                    <ul class="list-unstyled text-small mt-3">
+                        <li class="my-1"><a class="link-secondary text-decoration-none fw-medium color-black  link-primary"
+                                href="#">Terms &
+                                Condition</a>
+                        </li>
+                        <li class="my-1"><a class="link-secondary text-decoration-none fw-medium color-black  link-primary"
+                                href="#">Privacy
+                                Policy</a>
+                        </li>
+                        <li class="my-1"><a class="link-secondary text-decoration-none fw-medium color-black  link-primary"
+                                href="#">Our
+                                Store</a></li>
+                        <li class="my-1"><a class="link-secondary text-decoration-none fw-medium color-black  link-primary"
+                                href="#">Shopping
+                                Guide</a>
+                        </li>
                     </ul>
                 </div>
             </div>
 
             <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
                 <div class="col-md-4 d-flex align-items-center">
-                    <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Homello, Inc</span>
+                    <span class="mb-3 mb-md-0 text-body-secondary opacity-75 small fw-medium">Copyright &copy;2024 Homello
+                        All rights
+                        reserved.</span>
                 </div>
 
                 <ul class="nav col-md-4 justify-content-end list-unstyled d-flex color-dark">
