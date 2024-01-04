@@ -251,8 +251,8 @@ import BasicNavbar from '../components/headerComponents/BasicNavbar.vue';
 import MediumImageBanner from '../components/bodyComponents/MediumImageBanner.vue';
 import ProductItemCard from '../components/productsComponent/ProductItemCard.vue';
 import LinkButton from '../components/btnComponents/GlobalButtons/LinkButton.vue';
-import ReviewsBanner from '../components/bodyComponents/ReviewsBanner.vue';
 import BlogArticlesBanner from '../components/bodyComponents/BlogArticlesBanner.vue';
+import ReviewsBanner from '../components/bodyComponents/ReviewsBanner.vue';
 
 
 export default {
