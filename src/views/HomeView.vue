@@ -239,6 +239,9 @@
     <ReviewsBanner />
 
 
+    <!-- Blog-Articles -->
+
+
     <br>
   </main>
 </template>
