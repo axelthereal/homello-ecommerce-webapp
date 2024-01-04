@@ -25,7 +25,7 @@
 
 <script>
 export default {
-    name: "ReviewComponent",
+    name: "ReviewsComponent",
     data() {
         return {
 

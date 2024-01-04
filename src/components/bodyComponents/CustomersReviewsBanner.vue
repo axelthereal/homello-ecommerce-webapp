@@ -35,19 +35,19 @@ button.round-carousel-btn {
                             <div class="carousel-item">
 
                                 <div class="container">
-                                    <ReviewComponent class="w-75" />
+                                    <ReviewsComponent class="w-75" />
                                 </div>
                             </div>
                             <div class="carousel-item">
 
                                 <div class="container">
-                                    <ReviewComponent class="w-75" />
+                                    <ReviewsComponent class="w-75" />
                                 </div>
                             </div>
                             <div class="carousel-item active">
 
                                 <div class="container">
-                                    <ReviewComponent class="w-75" />
+                                    <ReviewsComponent class="w-75" />
                                 </div>
                             </div>
                         </div>
@@ -61,17 +61,17 @@ button.round-carousel-btn {
 
 
 <script>
-import ReviewComponent from '../productsComponent/ReviewComponent.vue';
+import ReviewsComponent from '../productsComponent/ReviewsComponent.vue';
 
 
 export default {
-    name: "ReviewsBanner",
+    name: "CustomersReviewsBanner",
     data() {
         return {
         }
     },
     components: {
-        ReviewComponent
+        ReviewsComponent
     }
 }
 </script>

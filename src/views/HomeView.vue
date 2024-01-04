@@ -236,7 +236,7 @@
 
 
     <!-- Customers-Testimonials -->
-    <ReviewsBanner />
+    <CustomersReviewsBanner />
 
 
     <!-- Blog-Articles -->
@@ -252,7 +252,7 @@ import MediumImageBanner from '../components/bodyComponents/MediumImageBanner.vu
 import ProductItemCard from '../components/productsComponent/ProductItemCard.vue';
 import LinkButton from '../components/btnComponents/GlobalButtons/LinkButton.vue';
 import BlogArticlesBanner from '../components/bodyComponents/BlogArticlesBanner.vue';
-import ReviewsBanner from '../components/bodyComponents/ReviewsBanner.vue';
+import CustomersReviewsBanner from '../components/bodyComponents/CustomersReviewsBanner.vue';
 
 
 export default {
@@ -271,7 +271,7 @@ export default {
     LinkButton,
     MediumImageBanner,
     ProductItemCard,
-    ReviewsBanner,
+    CustomersReviewsBanner,
     BlogArticlesBanner
   },
   beforeMount() {
