@@ -10,6 +10,7 @@ footer {
 </style>
 
 <template>
+    <!-- GlobalFooter Component -->
     <footer class="footer">
         <div class="container py-5 pb-0">
             <div class="row">
@@ -17,6 +18,7 @@ footer {
                     <span class="logo logo-brand">Homello</span>
                     <small class="d-block mb-3 text-body-secondary">© 2017–2024</small>
                 </div>
+
                 <div class="col-6 col-md">
                     <h5 class="fw-semibold">Features</h5>
                     <ul class="list-unstyled text-small mt-3">
@@ -106,9 +108,12 @@ footer {
                     <li class="ms-3"><a class="text-body-secondary" href="#">
                             <span class="bi bi-facebook"></span>
                         </a></li>
+
                 </ul>
             </div>
         </div>
+
+        <!-- GlobalFooterComponent -->
     </footer>
 </template>
 

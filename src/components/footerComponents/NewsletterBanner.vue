@@ -1,8 +1,11 @@
 <style scoped></style>
 
 <template>
+    <!-- NewsLetter Component -->
     <div class="newletter-banner my-5 py-5">
+
         <div class="container">
+
             <div class="banner-bx bg-color-secondary p-5 row row-cols-1 row-cols-lg-2 align-items-center">
 
                 <div class="content col-11 col-lg-4">
@@ -23,10 +26,11 @@
             </div>
         </div>
     </div>
+    <!-- */Newsletter-component -->
 </template>
 
 <script>
 export default {
-    name: "NewsletterBanner"
+    name: "NewsletterBanner",
 }
 </script>

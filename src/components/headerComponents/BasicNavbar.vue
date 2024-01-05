@@ -6,6 +6,7 @@
 </style>
 
 <template>
+  <!-- BasicNavbar -->
   <nav class="navbar py-3 navbar-expand-lg navbar-default bg-default nav-primary fixed-top"
     aria-label="Offcanvas navbar large">
     <div class="container">
@@ -34,9 +35,11 @@
             <li class="nav-item p-0">
               <a class="nav-link fs-5" href=""><span class="icon"><i class="bi bi-heart"></i></span></a>
             </li>
+
             <li class="nav-item p-0 me-lg-3">
               <a class="nav-link fs-4" href=""><span class="icon"><i class="bi bi-cart"></i></span></a>
             </li>
+
             <LinkButton btn-theme="light-btn" btn-label="Login / Register" btn-url="" btn-icon="person" outlined="true"
               class="nav-link" />
           </ul>
@@ -44,7 +47,9 @@
       </div>
     </div>
   </nav>
+  <!-- */Basic-navbar -->
 </template>
+
 
 <script>
 import LinkButton from '../btnComponents/GlobalButtons/LinkButton.vue';
