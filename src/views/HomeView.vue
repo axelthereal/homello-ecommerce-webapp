@@ -70,7 +70,7 @@
         </div>
       </div>
     </div>
-
+    <!-- */Main-Banner -->
 
     <!-- Double - Images-Banner -->
     <div class="middle-image-banner bg-color-primary">
@@ -87,6 +87,7 @@
         </div>
       </div>
     </div>
+    <!-- */Double - Images-Banner -->
 
     <!-- PositivePoints-Banner -->
     <div class="positive-points bg-color-secondary">
@@ -123,6 +124,7 @@
         </div>
       </div>
     </div>
+    <!-- */PositivePoints-Banner -->
 
 
     <!-- New-Products Banner-display -->
@@ -138,6 +140,7 @@
             <LinkButton btn-theme="secondary-btn" btn-label="Discover Now" btn-url="" btn-icon="arrow-right"
               outlined="false" class="btn-lg mt-3" />
           </div>
+          <!-- */Banner-Description -->
 
           <!-- Products-Box -->
           <div class="products-bx col-12 col-lg-8">
@@ -178,6 +181,7 @@
 
             </div>
           </div>
+          <!-- */Products-Box -->
 
 
         </div>
@@ -207,6 +211,7 @@
         </div>
       </div>
     </div>
+    <!-- */Trending-Product-List -->
 
 
     <!-- addBanner -->
@@ -217,6 +222,7 @@
           banner-image="src/assets/images/sli-h1.webp" class="py-5" />
       </div>
     </div>
+    <!-- */addBanner -->
 
 
 
@@ -234,17 +240,20 @@
         </div>
       </div>
     </div>
-
+    <!-- */Latest-arrivals-Product-List -->
 
     <!-- Customers-Testimonials -->
     <CustomersReviewsBanner />
+    <!-- */Customers-Testimonials -->
 
 
     <!-- Blog-Articles -->
     <BlogArticlesBanner />
+    <!-- */Blog-Articles -->
 
     <!-- Newsletter-banner -->
     <NewsletterBanner />
+    <!-- */Newsletter-banner -->
 
 
 
