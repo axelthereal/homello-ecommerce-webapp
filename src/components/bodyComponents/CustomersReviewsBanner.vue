@@ -7,14 +7,15 @@ button.round-carousel-btn {
 </style>
 
 <template>
+    <!-- Customer Reviews Component -->
     <div class="reviews-banner py-4 my-4">
+
         <div class="container bg-color-secondary p-4 my-5 rounded rounded-1">
             <div class="row row-cols-1 row-cols-lg-2 py-4 ps-lg-4 align-items-center">
                 <div class="banner-desc col-11 col-lg-5">
                     <h2 class="color-primary">What they say about us</h2>
                     <p class="fs-5 color-black opacity-75">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Aliquam sit
-                        veniam cumat, gotask atque.
+                        Aliquam sit veniam cumat, gotask atque.
                     </p>
                     <LinkButton btn-theme="primary-btn" btn-label="Leave a review" btn-url="" btn-icon="chat-right-text"
                         outlined="true" class="btn-lg mt-3" />
@@ -53,10 +54,13 @@ button.round-carousel-btn {
                         </div>
                     </div>
                     <!-- ...End CUSTOMERS REVIEWS... -->
+
                 </div>
             </div>
+
         </div>
     </div>
+    <!-- */Customer Reviews Component -->
 </template>
 
 

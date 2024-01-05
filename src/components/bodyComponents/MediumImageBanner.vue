@@ -1,5 +1,4 @@
 <script setup>
-import { stringifyQuery } from 'vue-router';
 import LinkButton from '../btnComponents/GlobalButtons/LinkButton.vue';
 
 </script>
@@ -35,7 +34,9 @@ import LinkButton from '../btnComponents/GlobalButtons/LinkButton.vue';
 </style>
 
 <template>
+    <!-- Medium Image Component -->
     <div class="mdImgBanner w-100 m-2">
+
         <div class="bannerCaption p-5">
             <h3 class="fs-2 fw-semibold">{{ bannerTitle }}</h3>
             <p class="fs-5">{{ bannerDescription }}</p>
@@ -46,7 +47,10 @@ import LinkButton from '../btnComponents/GlobalButtons/LinkButton.vue';
         <div class="bannerImage">
             <img :src="bannerImage" alt="" srcset="">
         </div>
+
     </div>
+
+    <!-- */MediumImageComponent -->
 </template>
 
 <script>

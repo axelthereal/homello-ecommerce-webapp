@@ -1,6 +1,7 @@
 <style scoped></style>
 
 <template>
+    <!-- Blog article Component -->
     <div class="tranding-products-bx">
         <div class="container">
             <div class="bx-header border-top py-4 mb-4 d-flex justify-content-between align-items-center">
@@ -10,15 +11,19 @@
                                 class="bi bi-arrow-right ms-2"></span></span></a>
                 </span>
             </div>
+
             <div class="content row row-cols-1 row-cols-lg-4 align-items-stretch">
-                <!-- ProductItemCard class="col-11 col-lg-3" -->
+                <!-- ProductItemCards -->
                 <BlogArticleCard class="col-11 col-lg-3" />
                 <BlogArticleCard class="col-11 col-lg-3" />
                 <BlogArticleCard class="col-11 col-lg-3" />
                 <BlogArticleCard class="col-11 col-lg-3" />
+                <!-- */ProductItemCards -->
             </div>
         </div>
     </div>
+
+    <!-- */BlogArticles Component -->
 </template>
 
 <script>

@@ -14,8 +14,10 @@
 </style>
 
 <template>
+    <!-- BlogArticle Card -->
     <a href="">
         <div class="card border border-0">
+
             <div class="card-img-top w-100 rounded rounded-0">
                 <img src="../../assets/images/girl-customer-service-image.jpg" alt="" srcset="">
             </div>
@@ -34,8 +36,11 @@
                     </small>
                 </p>
             </div>
+
         </div>
     </a>
+
+    <!-- */BlogArticleCards -->
 </template>
 
 
@@ -44,7 +49,6 @@ export default {
     name: "BlogArticleCard",
     data() {
         return {
-
         }
     }
 }
