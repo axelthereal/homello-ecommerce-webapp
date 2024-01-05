@@ -19,6 +19,7 @@
 </style>
 
 <template>
+  <!-- Product-card-item -->
   <div class="product-card">
     <div class="card-img py-4">
       <img src="../../assets/images/product-3.png" alt="" />
@@ -36,6 +37,7 @@
       </span>
     </div>
   </div>
+  <!-- */Product-card-item -->
 </template>
 
 <script>

@@ -8,6 +8,7 @@
 </style>
 
 <template>
+    <!-- ReviewsComponent -->
     <div class="review-item my-3 text-center mx-auto mb-5 pb-3">
 
         <img src="../../assets/images/girl-customer-service-image.jpg" class="mx-auto  review-img" alt="" />
