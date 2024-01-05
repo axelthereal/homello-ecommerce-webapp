@@ -45,6 +45,7 @@
 <template>
   <!-- Navbar -->
   <BasicNavbar active="home" />
+  <!-- */Navbar -->
 
   <!-- Main  -->
   <main class="main">
@@ -249,7 +250,9 @@
 
     <!-- Footer -->
     <GlobalFooter class="mt-5" />
+    <!-- */Footer -->
   </main>
+  <!-- */Main  -->
 </template>
 
 <script>
