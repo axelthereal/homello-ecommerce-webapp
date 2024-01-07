@@ -4,8 +4,8 @@
     <!-- NewsLetter Component -->
     <div class="newletter-banner my-5 py-5">
 
+        <!-- Container -->
         <div class="container">
-
             <div class="banner-bx bg-color-secondary p-5 row row-cols-1 row-cols-lg-2 align-items-center">
 
                 <div class="content col-11 col-lg-4">
@@ -19,6 +19,7 @@
                         <button type="submit" class="btn btn-default border border-0">
                             <span class="bi bi-arrow-right"></span>
                         </button>
+
                     </form>
                 </div>
 

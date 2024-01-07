@@ -1,4 +1,5 @@
 <style scoped>
+/* navbar-brand (Logo) */
 .navbar-brand {
   font-size: 26px;
   font-weight: bold;
@@ -6,15 +7,19 @@
 </style>
 
 <template>
-  <!-- BasicNavbar -->
+  <!-- Basic-Navbar -->
   <nav class="navbar py-3 navbar-expand-lg navbar-default bg-default nav-primary fixed-top"
     aria-label="Offcanvas navbar large">
     <div class="container">
+
       <a class="navbar-brand fw-semibold text-white" href="#"><span class="bi bi-house"></span> Homello</a>
+
+      <!-- Navbar-toggler -->
       <button class="navbar-toggler border-0 fs-1 shadow-none" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#offcanvasBasicNavbar1" aria-controls="offcanvasBasicNavbar1" aria-label="Toggle navigation">
         <span class="icon"><i class="bi bi-list"></i></span>
       </button>
+
       <div class="offcanvas offcanvas-end text-bg-dark bg-color-primary" tabindex="-1" id="offcanvasBasicNavbar1"
         aria-labelledby="offcanvasBasicNavbar1Label">
         <div class="offcanvas-header">
@@ -47,7 +52,7 @@
       </div>
     </div>
   </nav>
-  <!-- */Basic-navbar -->
+  <!-- /Basic-navbar -->
 </template>
 
 

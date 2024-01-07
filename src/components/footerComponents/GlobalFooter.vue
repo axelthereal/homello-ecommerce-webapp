@@ -1,8 +1,10 @@
 <style scoped>
+/* Footer */
 footer {
     background-color: #f8f8f8;
 }
 
+/* Footer-logo */
 .logo-brand {
     font-size: 25px;
     font-weight: bold;
@@ -10,7 +12,7 @@ footer {
 </style>
 
 <template>
-    <!-- GlobalFooter Component -->
+    <!-- Global-Footer-Component -->
     <footer class="footer">
         <div class="container py-5 pb-0">
             <div class="row">
@@ -113,7 +115,7 @@ footer {
             </div>
         </div>
 
-        <!-- GlobalFooterComponent -->
+        <!-- Global-Footer-Component -->
     </footer>
 </template>
 
