@@ -1,12 +1,15 @@
-<style scoped></style>
+<style scoped>
+/* Style */
+</style>
 
 <template>
-    <!-- LinkButton Component -->
+    <!-- LinkButton-Component -->
     <a :href="btnUrl" type="button" class="btn btn-default cursor-pointer fs-6 border-0 rounded rounded-0"
         :class="btnTheme + [outlined == 'true' ? ' outlined-btn' : '']">
         {{ btnLabel }}
-
-        <span v-if="btnIcon"><i :class="`ms-1 bi bi-` + btnIcon"></i></span>
+        <span v-if="btnIcon">
+            <i :class="`ms-1 bi bi-` + btnIcon"></i>
+        </span>
     </a>
 </template>
 
