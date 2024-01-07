@@ -58,11 +58,12 @@
           <div class="content col">
             <h1 class="display-3 fw-semibold">Modern & Unique Home Furnitures.</h1>
             <p class="lead opacity-75">Fill your home with furniture that brings you
-              comfort as soon as you walk in the door.</p>
+              comfort as soon as you walk in the door..</p>
             <LinkButton btn-theme="secondary-btn" btn-label="Explore Now" btn-url="" btn-icon="arrow-right"
               outlined="false" class="btn-lg mt-3" />
           </div>
 
+          <!-- Banner-Image -->
           <div class="banner-image col">
             <img src="../assets/images/couch.png" class="w-100" alt="">
           </div>
@@ -137,6 +138,7 @@
             <h3 class="fs-2 fw-semibold">New in our store</h3>
             <p class="fs-4">Discover some of our newest premium furnitures, at the cheapest rates possible </p>
 
+            <!-- LinkButton -->
             <LinkButton btn-theme="secondary-btn" btn-label="Discover Now" btn-url="" btn-icon="arrow-right"
               outlined="false" class="btn-lg mt-3" />
           </div>
@@ -147,7 +149,7 @@
             <div id="newProductsCarousel" class="carousel slide" data-bs-ride="carousel">
 
               <div class="carousel-inner">
-
+                <!-- ProductItem-Carousel -->
                 <div class="carousel-item active">
                   <div class="products-list row row-cols-1 row-cols-lg-3 align-items-stretch">
                     <ProductItemCard class="col-11 col-lg-4" />
