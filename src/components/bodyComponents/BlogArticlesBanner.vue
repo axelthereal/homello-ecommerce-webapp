@@ -1,7 +1,7 @@
 <style scoped></style>
 
 <template>
-    <!-- Blog article Component -->
+    <!-- Blog-article-Component -->
     <div class="tranding-products-bx">
         <div class="container">
             <div class="bx-header border-top py-4 mb-4 d-flex justify-content-between align-items-center">
@@ -13,17 +13,17 @@
             </div>
 
             <div class="content row row-cols-1 row-cols-lg-4 align-items-stretch">
-                <!-- ProductItemCards -->
+                <!-- ProductItem-Cards -->
                 <BlogArticleCard class="col-11 col-lg-3" />
                 <BlogArticleCard class="col-11 col-lg-3" />
                 <BlogArticleCard class="col-11 col-lg-3" />
                 <BlogArticleCard class="col-11 col-lg-3" />
-                <!-- */ProductItemCards -->
+                <!-- */ProductItem-Cards -->
             </div>
         </div>
     </div>
 
-    <!-- */BlogArticles Component -->
+    <!-- */BlogArticles-Component -->
 </template>
 
 <script>

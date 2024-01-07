@@ -1,9 +1,11 @@
 <style scoped>
+/* CardImg-top */
 .card-img-top {
     position: relative;
     overflow: hidden;
 }
 
+/* CardImgTop Img */
 .card-img-top img {
     object-fit: cover;
     object-position: center !important;
@@ -14,13 +16,14 @@
 </style>
 
 <template>
-    <!-- BlogArticle Card -->
+    <!-- Blog-Article Card -->
     <a href="">
         <div class="card border border-0">
 
             <div class="card-img-top w-100 rounded rounded-0">
                 <img src="../../assets/images/girl-customer-service-image.jpg" alt="" srcset="">
             </div>
+
             <div class="card-body py-3 px-1">
                 <p class="card-title fw-bold">This card has supporting text below as a natural lead-in to additional
                     content.</p>
@@ -28,11 +31,16 @@
                     <small class="text-body-secondary fw-medium small">
                         <span class="color-black-dark">Jan 04, 2024</span>
                         <span class="mx-2 opacity-50 fs-5">/</span>
+
                         <span class="">
                             <span class="opacity-75">in</span>
-                            <span class="color-black"> Tutorials</span></span>
+                            <span class="color-black"> Tutorials</span>
+                        </span>
                         <span class="mx-2 opacity-50 fs-5">/</span>
-                        <span class=""><span class="opacity-75">by</span> <span class="color-primary">Admin</span></span>
+                        <span class=""><span class="opacity-75">by</span>
+                            <span class="color-primary">Admin</span>
+
+                        </span>
                     </small>
                 </p>
             </div>
@@ -40,7 +48,7 @@
         </div>
     </a>
 
-    <!-- */BlogArticleCards -->
+    <!-- */Blog-Article-Cards -->
 </template>
 
 

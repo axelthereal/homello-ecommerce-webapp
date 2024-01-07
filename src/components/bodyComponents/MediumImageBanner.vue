@@ -9,6 +9,7 @@ import LinkButton from '../btnComponents/GlobalButtons/LinkButton.vue';
     position: relative;
 }
 
+/* BannerCaption */
 .mdImgBanner .bannerCaption {
     position: relative;
     z-index: 2 !important;
@@ -24,6 +25,7 @@ import LinkButton from '../btnComponents/GlobalButtons/LinkButton.vue';
     overflow: hidden !important;
 }
 
+/* Banner-Img Img*/
 .mdImgBanner .bannerImage img {
     width: 100%;
     height: 100%;
@@ -34,7 +36,7 @@ import LinkButton from '../btnComponents/GlobalButtons/LinkButton.vue';
 </style>
 
 <template>
-    <!-- Medium Image Component -->
+    <!-- Medium-Image-Component -->
     <div class="mdImgBanner w-100 m-2">
 
         <div class="bannerCaption p-5">
@@ -50,7 +52,7 @@ import LinkButton from '../btnComponents/GlobalButtons/LinkButton.vue';
 
     </div>
 
-    <!-- */MediumImageComponent -->
+    <!-- */Medium-Image-Component -->
 </template>
 
 <script>

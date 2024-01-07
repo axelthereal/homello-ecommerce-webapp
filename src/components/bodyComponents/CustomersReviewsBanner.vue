@@ -1,4 +1,5 @@
 <style scoped>
+/* Round-carousel-btn */
 button.round-carousel-btn {
     width: 13px;
     height: 13px;
@@ -7,7 +8,7 @@ button.round-carousel-btn {
 </style>
 
 <template>
-    <!-- Customer Reviews Component -->
+    <!-- Customer-Reviews-Component -->
     <div class="reviews-banner py-4 my-4">
 
         <div class="container bg-color-secondary p-4 my-5 rounded rounded-1">
@@ -22,7 +23,7 @@ button.round-carousel-btn {
                 </div>
 
                 <div class="reviews col-11 col-lg-7">
-                    <!-- CUSTOMERS REVIEWS... -->
+                    <!-- CUSTOMERS-REVIEWS... -->
                     <div id="myCarousel" class="carousel slide mb-6 pointer-event" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0"
@@ -53,14 +54,14 @@ button.round-carousel-btn {
                             </div>
                         </div>
                     </div>
-                    <!-- ...End CUSTOMERS REVIEWS... -->
+                    <!-- ...End-CUSTOMERS-REVIEWS... -->
 
                 </div>
             </div>
 
         </div>
     </div>
-    <!-- */Customer Reviews Component -->
+    <!-- */Customer-Reviews-Component -->
 </template>
 
 
