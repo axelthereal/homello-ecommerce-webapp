@@ -1,9 +1,10 @@
 <style scoped>
-/* Product Card Design */
+/* Product-Card-Design */
 .product-card {
   position: relative;
 }
 
+/* Product-card-img */
 .product-card .card-img {
   width: 100%;
   overflow: hidden;
@@ -11,6 +12,8 @@
   background: #dcdbe0 !important;
 }
 
+
+/* Product-card */
 .product-card .card-img img {
   width: 100%;
   max-width: 100%;
@@ -26,7 +29,7 @@
     </div>
     <div class="card-body py-3 d-flex flex-column align-items-between justify-content gap-2">
       <span class="product-info d-flex justify-content-between align-items-center">
-        <span class="product-category opacity-50 small">Decor</span>
+        <span class="product-category opacity-50 small">Decors</span>
         <span class="product-rating small">...</span>
       </span>
       <span class="product-name fs-6 fw-semibold">
@@ -37,7 +40,7 @@
       </span>
     </div>
   </div>
-  <!-- */Product-card-item -->
+  <!-- /Product-card-item -->
 </template>
 
 <script>
@@ -45,6 +48,7 @@ export default {
   name: "ProductItemCard",
   data() {
     return {
+
     }
   }
 }
