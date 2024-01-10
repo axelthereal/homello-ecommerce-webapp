@@ -177,9 +177,12 @@
                 <!-- ProductItem-Carousel -->
                 <div class="carousel-item active">
                   <div class="products-list row row-cols-1 row-cols-lg-3 align-items-stretch">
-                    <ProductItemCard class="col-11 col-lg-4" />
-                    <ProductItemCard class="col-11 col-lg-4" />
-                    <ProductItemCard class="col-11 col-lg-4" />
+                    <ProductItemCard product-title="Nordic Chair" product-category="Homello" product-price="67.00"
+                      product-discount="" product-image="../../src/assets/images/product-1.png" class="col-11 col-lg-4" />
+                    <ProductItemCard product-title="Ergonomic Chair" product-category="Homello" product-price="45.87"
+                      product-discount="" product-image="../../src/assets/images/product-3.png" class="col-11 col-lg-4" />
+                    <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
+                      product-discount="" product-image="../../src/assets/images/product-2.png" class="col-11 col-lg-4" />
                   </div>
                 </div>
 

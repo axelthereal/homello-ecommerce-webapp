@@ -39,6 +39,9 @@ a:after {
   color: initial !important;
   text-decoration: none;
 }
+.cursor-p{
+  cursor: pointer !important;
+}
 .form-control,
 .btn {
   box-shadow: none !important;
@@ -57,6 +60,9 @@ a:after {
 }
 .bg-color-secondary-dark {
   background-color: var(--colr-secondary-dark) !important;
+}
+.color-secondary {
+  color: var(--colr-secondary-dark) !important;
 }
 .color-primary {
   color: var(--colr-primary) !important;
@@ -180,3 +186,6 @@ a:after {
   border: 1px solid var(--colr-light-darker) !important;
   background-color: var(--colr-light-darker);
 }
+
+
+/**/
