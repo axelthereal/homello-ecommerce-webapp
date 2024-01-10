@@ -55,6 +55,9 @@ a:after {
 .bg-color-secondary {
   background-color: var(--colr-secondary-light) !important;
 }
+.bg-color-secondary-dark {
+  background-color: var(--colr-secondary-dark) !important;
+}
 .color-primary {
   color: var(--colr-primary) !important;
 }

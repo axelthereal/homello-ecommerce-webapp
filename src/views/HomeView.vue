@@ -10,6 +10,29 @@
   background: #265a5a !important;
 }
 
+.mainbanner .banner-image {
+  position: relative;
+}
+
+.mainbanner .main-banner-img {
+  top: -100px;
+  left: -50px;
+  width: auto;
+  position: absolute;
+}
+
+@media only screen and (max-width:1395px) {
+  .mainbanner .main-banner-img {
+    top: 0px;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    max-width: 100%;
+    height: auto;
+    position: initial !important;
+  }
+}
+
+
 .icon-img {
   max-width: 30%;
   height: auto;
@@ -53,9 +76,9 @@
     <!-- Main-Banner -->
     <div class="mainbanner mb-0 py-5 my-5 d-flex align-items-center">
       <div class="container py-5 my-5">
-        <div class="bannercontent text-white row row-cols-1 row-cols-lg-2 align-items-stretch">
+        <div class="bannercontent text-white row row-cols-1 row-cols-lg-2 align-items-stretch gap-5">
 
-          <div class="content col">
+          <div class="content col-11 col-lg-5 px-lg-0">
             <h1 class="display-3 fw-semibold">Modern & Unique Home Furnitures.</h1>
             <p class="lead opacity-75">Fill your home with furniture that brings you
               comfort as soon as you walk in the door..</p>
@@ -64,25 +87,27 @@
           </div>
 
           <!-- Banner-Image -->
-          <div class="banner-image col">
-            <img src="../assets/images/couch.png" class="w-100" alt="">
+          <div class="banner-image col-11 col-lg-6 px-lg-0">
+            <img src="../assets/images/couch.png" class="main-banner-img mx-auto" alt="">
           </div>
 
         </div>
       </div>
+
     </div>
     <!-- */Main-Banner -->
 
     <!-- Double - Images-Banner -->
     <div class="middle-image-banner bg-color-primary">
+      <br><br>
       <div class="container bg-color-secondary p-4">
         <div class="row row-cols-1 row-cols-lg-2 align-items-stretch">
-          <div class="col">
-            <MediumImageBanner banner-title="Apparels Collection" banner-description="Homello Furniture"
-              banner-image="src/assets/images/sli-h1.webp" />
+          <div class="col mx-0">
+            <MediumImageBanner class="w-100 mx-0" banner-title="Apparels Collection"
+              banner-description="Homello Furniture" banner-image="src/assets/images/sli-h1.webp" />
           </div>
-          <div class="col">
-            <MediumImageBanner class="col-4" banner-title="Chair Collection" banner-description="Homello Furniture"
+          <div class="col mx-0">
+            <MediumImageBanner class="w-100 mx-0" banner-title="Chair Collection" banner-description="Homello Furniture"
               banner-image="src/assets/images/slide-2.png" />
           </div>
         </div>
