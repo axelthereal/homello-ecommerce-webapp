@@ -56,6 +56,7 @@
 /* Product-card-img */
 .product-card .card-img {
   width: 100%;
+  max-height: 100%;
   overflow: hidden;
   position: relative;
   background: #dcdbe0 !important;
@@ -66,6 +67,7 @@
 .product-card .card-img img {
   width: 100%;
   max-width: 100%;
+  height: auto !important;
   object-fit: cover;
 }
 </style>
