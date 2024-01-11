@@ -124,7 +124,11 @@ export default {
     name: "GlobalFooter",
     data() {
         return {
+            temp: ""
         }
+    },
+    props: {
+        data: String
     }
 }
 </script>

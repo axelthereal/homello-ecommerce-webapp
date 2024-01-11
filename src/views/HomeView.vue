@@ -320,7 +320,7 @@
 
 
     <!-- Footer -->
-    <GlobalFooter class="mt-5" />
+    <GlobalFooter class="mt-5" data="none" />
     <!-- */Footer -->
   </main>
   <!-- */Main  -->
