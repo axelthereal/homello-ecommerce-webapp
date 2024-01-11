@@ -1,8 +1,8 @@
 <style scoped>
 /* Round-carousel-btn */
 button.round-carousel-btn {
-    width: 13px;
-    height: 13px;
+    width: 11px;
+    height: 11px;
     border-radius: 50% !important;
 }
 </style>
@@ -12,7 +12,7 @@ button.round-carousel-btn {
     <div class="reviews-banner py-4 my-4">
 
         <div class="container bg-color-secondary p-4 my-5 rounded rounded-1">
-            <div class="row row-cols-1 row-cols-lg-2 py-4 ps-lg-4 align-items-center">
+            <div class="row row-cols-1 row-cols-lg-2 py-4 ps-lg-4 justify-content-between align-items-center mx-0">
                 <div class="banner-desc col-11 col-lg-5">
                     <h2 class="color-primary">What they say about us</h2>
                     <p class="fs-5 color-black opacity-75">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -24,7 +24,7 @@ button.round-carousel-btn {
 
                 <div class="reviews col-11 col-lg-7">
                     <!-- CUSTOMERS-REVIEWS... -->
-                    <div id="myCarousel" class="carousel slide mb-6 pointer-event" data-bs-ride="carousel">
+                    <div id="myCarousel" class="carousel slide mb-6 pointer-event p-0 mx-0" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0"
                                 class="round-carousel-btn bg-color-primary" aria-label="Slide 1"></button>
@@ -33,23 +33,29 @@ button.round-carousel-btn {
                             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
                                 class="round-carousel-btn bg-color-primary active" aria-current="true"></button>
                         </div>
-                        <div class="carousel-inner">
+                        <div class="carousel-inner px-0 mx-0 mt-3 mt-lg-0">
                             <div class="carousel-item">
 
-                                <div class="container">
-                                    <ReviewsComponent class="w-75" />
+                                <div class="p-3 mx-0">
+                                    <ReviewsComponent rev-name="Axel Tokam" rev-location="Cameroon, Yaounde"
+                                        rev-img="../../src/assets/images/person-1.png" :rev-text="tempComment"
+                                        class="w-75" />
                                 </div>
                             </div>
                             <div class="carousel-item">
 
-                                <div class="container">
-                                    <ReviewsComponent class="w-75" />
+                                <div class="p-3 mx-0">
+                                    <ReviewsComponent rev-name="Maria Lopez" rev-location="America, Mexico"
+                                        rev-img="../../src/assets/images/person-1.png" :rev-text="tempComment"
+                                        class="w-75" />
                                 </div>
                             </div>
                             <div class="carousel-item active">
 
-                                <div class="container">
-                                    <ReviewsComponent class="w-75" />
+                                <div class="p-3 mx-0">
+                                    <ReviewsComponent rev-name="Ronisia" rev-location="France, Paris"
+                                        rev-img="../../src/assets/images/person-1.png" :rev-text="tempComment"
+                                        class="w-75" />
                                 </div>
                             </div>
                         </div>
@@ -73,6 +79,7 @@ export default {
     name: "CustomersReviewsBanner",
     data() {
         return {
+            tempComment: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos error aliquid rem corrupti. Reiciendis dolores architecto nemo temporibus, dicta incidunt, beatae laboriosam dolorum est neque consequatur hic facere enim sequi?s"
         }
     },
     components: {
