@@ -14,10 +14,14 @@
 
             <div class="content row row-cols-1 row-cols-lg-4 align-items-stretch">
                 <!-- ProductItem-Cards -->
-                <BlogArticleCard class="col-11 col-lg-3" />
-                <BlogArticleCard class="col-11 col-lg-3" />
-                <BlogArticleCard class="col-11 col-lg-3" />
-                <BlogArticleCard class="col-11 col-lg-3" />
+                <BlogArticleCard :title="tmpTitle" :date="tmpDate" category="Tutorials" author="Admin" :img="tmpImg"
+                    class="col-11 col-lg-3" />
+                <BlogArticleCard :title="tmpTitle" :date="tmpDate" category="Tutorials" author="Admin" :img="tmpImg"
+                    class="col-11 col-lg-3" />
+                <BlogArticleCard :title="tmpTitle" :date="tmpDate" category="Tutorials" author="Admin" :img="tmpImg"
+                    class="col-11 col-lg-3" />
+                <BlogArticleCard :title="tmpTitle" :date="tmpDate" category="Tutorials" author="Admin" :img="tmpImg"
+                    class="col-11 col-lg-3" />
                 <!-- */ProductItem-Cards -->
             </div>
         </div>
@@ -31,6 +35,13 @@ import BlogArticleCard from './BlogArticleCard.vue';
 
 export default {
     name: "BlogArticlesBanner",
+    data() {
+        return {
+            tmpTitle: "This card has supporting text below as a natural lead-in to additional content",
+            tmpDate: "Jan 04, 2024",
+            tmpImg: "../../src/assets/images/girl-customer-service-image.jpg"
+        }
+    },
     components: {
         BlogArticleCard
     }
