@@ -32,11 +32,11 @@
                         <span class="mx-2 opacity-50 fs-5">/</span>
 
                         <span class="">
-                            <span class="opacity-75">in</span>
+                            <span class="opacity-75">in </span>
                             <span class="color-black"> {{ category }}</span>
                         </span>
                         <span class="mx-2 opacity-50 fs-5">/</span>
-                        <span class=""><span class="opacity-75">by</span>
+                        <span class=""><span class="opacity-75">by </span>
                             <span class="color-primary">Admin</span>
 
                         </span>
