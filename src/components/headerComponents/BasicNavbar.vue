@@ -68,7 +68,7 @@ export default {
         {
           tag: "home",
           isActive: true,
-          url: "",
+          url: "home",
           label: "Home"
         },
         {
@@ -80,7 +80,7 @@ export default {
         {
           tag: "about",
           isActive: false,
-          url: "",
+          url: "about",
           label: "About us"
         },
         {
