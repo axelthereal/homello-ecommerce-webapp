@@ -118,12 +118,12 @@
       <div class="container bg-color-secondary p-4">
         <div class="row row-cols-1 row-cols-lg-2 align-items-stretch">
           <div class="col mx-0">
-            <MediumImageBanner class="w-100 mx-0" banner-title="Apparels Collection"
+            <MediumImageBanner class="w-100 mx-0 preload-rs s-anim" banner-title="Apparels Collection"
               banner-description="Homello Furniture" banner-image="src/assets/images/sli-h1.webp" />
           </div>
           <div class="col mx-0">
-            <MediumImageBanner class="w-100 mx-0" banner-title="Chair Collection" banner-description="Homello Furniture"
-              banner-image="src/assets/images/slide-2.png" />
+            <MediumImageBanner class="w-100 mx-0 preload-rs s-anim" banner-title="Chair Collection"
+              banner-description="Homello Furniture" banner-image="src/assets/images/slide-2.png" />
           </div>
         </div>
       </div>
@@ -135,23 +135,23 @@
       <div class="container px-4 py-5">
         <div class="row g-4 py-2 row-cols-1 row-cols-lg-4">
 
-          <div class="feature col p-5 color-primary" align="center">
+          <div class="feature preload-rs s-anim col p-5 color-primary" align="center">
             <img class="icon-img" src="../assets/images/icon-1-delivery.png" alt="" srcset="">
             <p class="fs-5 mt-2 fw-semibold">FREE DELIVERY</p>
             <span class="fw-semibold color-black">Free delivery for all products</span>
           </div>
-          <div class="feature col p-5 color-primary" align="center">
+          <div class="feature preload-rs s-anim col p-5 color-primary" align="center">
             <img class="icon-img" src="../assets/images/icon-1-save-the-world.png" alt="" srcset="">
             <p class="fs-5 mt-2 fw-semibold">ECOFRIENDLY</p>
             <span class="fw-semibold color-black">Ecofriendly and premium furnitures</span>
           </div>
-          <div class="feature col p-5 color-primary" align="center">
+          <div class="feature preload-rs s-anim col p-5 color-primary" align="center">
             <img class="icon-img" src="../assets/images/icon-1-return-on-investment.png" alt="" srcset="">
             <p class="fs-5 mt-2 fw-semibold">MONEY RETURN</p>
             <span class="fw-semibold color-black">Money return for all registred clients</span>
           </div>
 
-          <div class="feature col p-5 color-primary" align="center">
+          <div class="feature preload-rs s-anim col p-5 color-primary" align="center">
             <img class="icon-img" src="../assets/images/icon-1-support.png" alt="" srcset="">
             <p class="fs-5 mt-2 fw-semibold">SUPPORT 24/7</p>
             <span class="fw-semibold color-black">Available customer support</span>
@@ -159,7 +159,7 @@
         </div>
         <span class="d-block pb-2 border-1 border-secondary opacity-25 border-bottom col-11 mx-auto"></span>
         <div class="col-lg-9 mx-auto mt-5" align="center">
-          <p class="display-5 fw-semibold color-primary">
+          <p class="display-5 fw-semibold color-primary preload">
             There's something amazing about our environmentally friendly materials,
             and it's not just how amazing they look.</p>
         </div>
@@ -277,13 +277,17 @@
         </div>
         <div class="content row row-cols-1 row-cols-lg-4 align-items-stretch">
           <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
-            product-discount="" product-image="../../src/assets/images/product-4.png" class="col-6 col-lg-3 mx-auto" />
+            product-discount="" product-image="../../src/assets/images/product-4.png"
+            class="col-6 col-lg-3 mx-auto preload-rs s-anim" />
           <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
-            product-discount="" product-image="../../src/assets/images/product-5.png" class="col-6 col-lg-3  mx-auto" />
+            product-discount="" product-image="../../src/assets/images/product-5.png"
+            class="col-6 col-lg-3  mx-auto preload-rs s-anim" />
           <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
-            product-discount="" product-image="../../src/assets/images/product-6.png" class="col-6 col-lg-3  mx-auto" />
+            product-discount="" product-image="../../src/assets/images/product-6.png"
+            class="col-6 col-lg-3  mx-auto preload-rs s-anim" />
           <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
-            product-discount="" product-image="../../src/assets/images/product-7.png" class="col-6 col-lg-3  mx-auto" />
+            product-discount="" product-image="../../src/assets/images/product-7.png"
+            class="col-6 col-lg-3  mx-auto preload-rs s-anim" />
         </div>
       </div>
     </div>
@@ -295,7 +299,7 @@
       <div class="container">
         <MediumImageBanner banner-title="50% OFF Interior Collection"
           banner-description="Free shipping over 115$ for international orders"
-          banner-image="src/assets/images/sli-h1.webp" class="py-5 mx-auto" />
+          banner-image="src/assets/images/sli-h1.webp" class="py-5 mx-auto preload-rs s-anim" />
       </div>
     </div>
     <!-- */addBanner -->
@@ -310,20 +314,24 @@
         </div>
         <div class="content row row-cols-1 row-cols-lg-4 align-items-stretch">
           <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
-            product-discount="" product-image="../../src/assets/images/product-8.png" class="col-6 col-lg-3  mx-auto" />
+            product-discount="" product-image="../../src/assets/images/product-8.png"
+            class="col-6 col-lg-3  mx-auto preload-rs s-anim" />
           <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
-            product-discount="" product-image="../../src/assets/images/product-9.png" class="col-6 col-lg-3  mx-auto" />
+            product-discount="" product-image="../../src/assets/images/product-9.png"
+            class="col-6 col-lg-3  mx-auto preload-rs s-anim" />
           <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
-            product-discount="" product-image="../../src/assets/images/product-10.png" class="col-6 col-lg-3  mx-auto" />
+            product-discount="" product-image="../../src/assets/images/product-10.png"
+            class="col-6 col-lg-3  mx-auto preload-rs s-anim" />
           <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
-            product-discount="" product-image="../../src/assets/images/product-11.png" class="col-6 col-lg-3  mx-auto" />
+            product-discount="" product-image="../../src/assets/images/product-11.png"
+            class="col-6 col-lg-3  mx-auto preload-rs s-anim" />
         </div>
       </div>
     </div>
     <!-- */Latest-arrivals-Product-List -->
 
     <!-- Customers-Testimonials -->
-    <CustomersReviewsBanner />
+    <CustomersReviewsBanner class="preload-rs s-anim" />
     <!-- */Customers-diials -->
 
 
@@ -332,7 +340,7 @@
     <!-- */Blog-Articles -->
 
     <!-- Newsletter-banner -->
-    <NewsletterBanner />
+    <NewsletterBanner class="preload-rs" />
     <!-- */Newsletter-banner -->
 
 

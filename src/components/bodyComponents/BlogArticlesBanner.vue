@@ -12,7 +12,7 @@
                 </span>
             </div>
 
-            <div class="content row row-cols-1 row-cols-lg-4 align-items-stretch justify-content-evenly">
+            <div class="content row row-cols-1 row-cols-lg-4 align-items-stretch justify-content-evenly preload-l">
                 <!-- ProductItem-Cards -->
                 <BlogArticleCard :title="tmpTitle" :date="tmpDate" category="Tutorials" author="Admin" :img="tmpImg"
                     class="col-11 col-lg-3" />
