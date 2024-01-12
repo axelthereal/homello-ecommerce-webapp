@@ -261,9 +261,10 @@
     <!-- Trending Product List -->
     <div class="tranding-products-bx">
       <div class="container">
-        <div class="bx-header border-top py-4 mb-4 d-flex justify-content-between align-items-center">
+        <div class="bx-header border-top py-4 mb-4 d-flex justify-content-between flex-wrap align-items-center">
           <span class="fs-2 fw-semibold">Best selling</span>
-          <span class="banner-nav fs-6 fw-medium opacity-80 d-flex justify-content-between align-items-center">
+          <span
+            class="banner-nav fs-6 fw-medium opacity-80 d-flex justify-content-evenly mt-3 mt-lg-0 align-items-center flex-wrap">
             <a href="" class="link-primary"><span class="banner-nav-item active">All Products</span></a>
             <a href="" class="link-primary"><span class="banner-nav-item">Accessories</span></a>
             <a href="" class="link-primary"><span class="banner-nav-item">Chair</span></a>
@@ -274,13 +275,13 @@
         </div>
         <div class="content row row-cols-1 row-cols-lg-4 align-items-stretch">
           <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
-            product-discount="" product-image="../../src/assets/images/product-4.png" class="col-11 col-lg-3" />
+            product-discount="" product-image="../../src/assets/images/product-4.png" class="col-11 col-lg-3 mx-auto" />
           <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
-            product-discount="" product-image="../../src/assets/images/product-5.png" class="col-11 col-lg-3" />
+            product-discount="" product-image="../../src/assets/images/product-5.png" class="col-11 col-lg-3  mx-auto" />
           <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
-            product-discount="" product-image="../../src/assets/images/product-6.png" class="col-11 col-lg-3" />
+            product-discount="" product-image="../../src/assets/images/product-6.png" class="col-11 col-lg-3  mx-auto" />
           <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
-            product-discount="" product-image="../../src/assets/images/product-7.png" class="col-11 col-lg-3" />
+            product-discount="" product-image="../../src/assets/images/product-7.png" class="col-11 col-lg-3  mx-auto" />
         </div>
       </div>
     </div>
@@ -292,7 +293,7 @@
       <div class="container">
         <MediumImageBanner banner-title="50% OFF Interior Collection"
           banner-description="Free shipping over 115$ for international orders"
-          banner-image="src/assets/images/sli-h1.webp" class="py-5" />
+          banner-image="src/assets/images/sli-h1.webp" class="py-5 mx-auto" />
       </div>
     </div>
     <!-- */addBanner -->
