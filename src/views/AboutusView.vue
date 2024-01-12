@@ -35,35 +35,56 @@ import LinkButton from '../components/btnComponents/GlobalButtons/LinkButton.vue
     <!-- Features-header -->
     <section class="py-5 border-bottom" id="features">
         <div class="container px-5 my-5">
-            <div class="row gx-5">
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <span><i class="bi bi-collection"></i>
-                    </span>
-                    <h2 class="h4 fw-bolder">Featured title</h2>
-                    <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
-                        sentence.</p>
+            <div class="row justify-content-between align-items-center">
+                <!-- Container -->
+
+                <!-- text-bx -->
+                <div class="col-lg-6">
+                    <div class="header">
+                        <h1 class="h1 fw-bolder">Why Choose Us</h1>
+                        <p class="fw-normal lead mb-3">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
+                            velit.
+                            Aliquam
+                            vulputate
+                            velit imperdiet
+                            dolor tempor tristique.</p>
+                    </div>
+                    <div class="row gx-5">
+                        <div class="col-6 col-md-6 mb-5 mb-lg-0 my-4">
+                            <span><i class="bi bi-collection"></i>
+                            </span>
+                            <h2 class="h4 fw-bolder">Featured title</h2>
+                            <p>Paragraph of text beneath the heading to explain the heading.</p>
+                        </div>
+                        <div class="col-6 col-md-6 mb-5 mb-lg-0 my-4">
+                            <span><i class="bi bi-building"></i>
+                            </span>
+                            <h2 class="h4 fw-bolder">Featured title</h2>
+                            <p>Paragraph of text beneath the heading to explain the heading.</p>
+                        </div>
+                        <div class="col-6 col-md-6 mb-5 mb-lg-0 my-4">
+                            <span><i class="bi bi-toggles2"></i>
+                            </span>
+                            <h2 class="h4 fw-bolder">Featured title</h2>
+                            <p>Paragraph of text beneath the heading to explain the heading.</p>
+                        </div>
+                        <div class="col-6 col-md-6 mb-5 mb-lg-0 my-4">
+                            <span><i class="bi bi-toggles2"></i>
+                            </span>
+                            <h2 class="h4 fw-bolder">Featured title</h2>
+                            <p>Paragraph of text beneath the heading to explain the heading.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <span><i class="bi bi-building"></i>
-                    </span>
-                    <h2 class="h4 fw-bolder">Featured title</h2>
-                    <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
-                        sentence.</p>
+
+                <!-- img-bx -->
+                <div class="col-lg-6">
+                    <div class="img-wrap">
+                        <img src="images/why-choose-us-img.jpg" alt="Image" class="img-fluid">
+                    </div>
                 </div>
-                <div class="col-lg-4">
-                    <span><i class="bi bi-toggles2"></i>
-                    </span>
-                    <h2 class="h4 fw-bolder">Featured title</h2>
-                    <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
-                        sentence.</p>
-                </div>
-                <div class="col-lg-4">
-                    <span><i class="bi bi-toggles2"></i>
-                    </span>
-                    <h2 class="h4 fw-bolder">Featured title</h2>
-                    <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
-                        sentence.</p>
-                </div>
+
+                <!-- ..Container -->
             </div>
         </div>
     </section>
