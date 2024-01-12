@@ -371,7 +371,7 @@ export default {
   methods: {
     setPageTitle() {
       document.title = "Homello | Home";
-    },
+    }
   },
   components: {
     BasicNavbar,
