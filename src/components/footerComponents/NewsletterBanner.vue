@@ -9,7 +9,7 @@
             <div class="banner-bx bg-color-secondary p-5 row row-cols-1 row-cols-lg-2 align-items-center">
 
                 <div class="content col-11 col-lg-4">
-                    <h3>Our Newsletter</h3>
+                    <h3 class="fw-semibold">Our Newsletter</h3>
                     <p class="fs-5 opacity-80">Subscribe to our newsletter and get discount 50% off </p>
                 </div>
                 <div class="formbx col-11 col-lg-8">
