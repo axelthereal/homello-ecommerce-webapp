@@ -1,4 +1,7 @@
 // Main Animation Script File
+
+import { onMounted } from "vue";
+
   
   // Content Observers
    // AutoDelete Observer (Removes itself from element)
@@ -24,7 +27,7 @@
 
 
  // Get Elements and Add to Observer
- function toggleAnimationObservers(){
+ function toggleAnimationObservers(){ 
   // Animate_On_Load
    // Preload_Animations_Targets
      const preload = document.querySelectorAll(".preload");
@@ -36,8 +39,26 @@
      preload.forEach((element) => element.classList.contains('s-anim') ? switchObserver.observe(element) : defaultObserver.observe(element));
      preload_l.forEach((element) => element.classList.contains('s-anim') ? switchObserver.observe(element) : defaultObserver.observe(element));
      preload_r.forEach((element) => element.classList.contains('s-anim') ? switchObserver.observe(element) : defaultObserver.observe(element)); 
-     preload_rs.forEach((element) => element.classList.contains('s-anim') ? switchObserver.observe(element) : defaultObserver.observe(element)); 
-  
-    
+     preload_rs.forEach((element) => element.classList.contains('s-anim') ? switchObserver.observe(element) : defaultObserver.observe(element));  
    }
-   document.querySelector("#app").addEventListener("load", toggleAnimationObservers);
+
+// Wait App Loading
+const isAppLoaded = async selector => {
+    while(document.querySelector(selector) === null){
+       //iterate...
+       await new Promise(resolve => requestAnimationFrame(resolve))
+    }
+    return document.querySelector(selector);
+   };
+
+isAppLoaded("#App").then((selector) => {
+   toggleAnimationObservers();
+});
+
+
+
+
+ 
+
+   
+  

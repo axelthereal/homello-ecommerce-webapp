@@ -13,7 +13,7 @@
     aria-label="Offcanvas navbar large">
     <div class="container">
 
-      <a class="navbar-brand text-white" href="#">Homello</a>
+      <a class="navbar-brand text-white" href="#">Homello.</a>
 
       <!-- Navbar-toggler -->
       <button class="navbar-toggler border-0 fs-1 shadow-none" type="button" data-bs-toggle="offcanvas"
@@ -36,25 +36,19 @@
                   <a class="nav-link fs-5 visually-hidden" href=""><span class="icon"><i class="bi bi-cart"></i></span></a>
               -->
               <li class="nav-item">
-                <RouterLink :to="navlink.url" :class="`nav-link fs-6` + isIndexActive(navlink)" aria-current="page">{{
-                  navlink.label }}</RouterLink>
+                <a :class="`nav-link fs-6` + isIndexActive(navlink)" aria-current="page" :href="navlink.url">{{
+                  navlink.label }}</a>
               </li>
             </span>
             <li class="nav-item ms-lg-5">
-              <RouterLink to="" class="nav-link fs-5 visually-hidden">
-                <span class="icon"><i class="bi bi-cart"></i></span>
-              </RouterLink>
+              <a class="nav-link fs-5 visually-hidden" href=""><span class="icon"><i class="bi bi-cart"></i></span></a>
             </li>
             <li class="nav-item p-0">
-              <RouterLink to="" class="nav-link fs-5">
-                <span class="icon"><i class="bi bi-heart"></i></span>
-              </RouterLink>
+              <a class="nav-link fs-5" href=""><span class="icon"><i class="bi bi-heart"></i></span></a>
             </li>
 
             <li class="nav-item p-0 me-lg-3">
-              <RouterLink to="" class="nav-link fs-4">
-                <span class="icon"><i class="bi bi-cart"></i></span>
-              </RouterLink>
+              <a class="nav-link fs-4" href=""><span class="icon"><i class="bi bi-cart"></i></span></a>
             </li>
 
             <LinkButton btn-theme="light-btn" btn-label="Login / Register" btn-url="" btn-icon="person" outlined="true"
