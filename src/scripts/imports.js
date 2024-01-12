@@ -3,4 +3,5 @@ import "../assets/bootstrap/css/bootstrap.min.css";
 import "../assets/bootstrap/js/bootstrap.bundle.min.js";
 import "../assets/bootstrap-icons/bootstrap-icons.css";
 import "../assets/css/main.css";
+import "../assets/css/animations.css";
 /* Main import file... */

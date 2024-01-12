@@ -92,15 +92,17 @@
         <div class="bannercontent text-white row row-cols-1 row-cols-lg-2 align-items-stretch gap-5">
 
           <div class="content col-11 col-lg-5 px-lg-0">
-            <h1 class="display-3 fw-semibold">Modern & Unique Home Furnitures.</h1>
-            <p class="lead opacity-75">Fill your home with furniture that brings you
-              comfort as soon as you walk in the door..</p>
-            <LinkButton btn-theme="secondary-btn" btn-label="Explore Now" btn-url="" btn-icon="arrow-right"
-              outlined="false" class="btn-lg mt-3" />
+            <div class="preload-r w-100">
+              <h1 class="display-3 fw-semibold">Modern & Unique Home Furnitures.</h1>
+              <p class="lead opacity-75">Fill your home with furniture that brings you
+                comfort as soon as you walk in the door..</p>
+              <LinkButton btn-theme="secondary-btn" btn-label="Explore Now" btn-url="" btn-icon="arrow-right"
+                outlined="false" class="btn-lg mt-3" />
+            </div>
           </div>
 
           <!-- Banner-Image -->
-          <div class="banner-image col-11 col-lg-6 px-lg-0">
+          <div class="banner-image col-11 col-lg-6 px-lg-0 preload-l">
             <img src="../assets/images/couch.png" class="main-banner-img mx-auto" alt="">
           </div>
 
