@@ -2,7 +2,7 @@
 
 <template>
     <!-- NewsLetter Component -->
-    <div class="newletter-banner my-5 py-5">
+    <div class="newletter-banner my-5 py-5 preload-rs">
 
         <!-- Container -->
         <div class="container">
@@ -33,5 +33,9 @@
 <script>
 export default {
     name: "NewsletterBanner",
+    data() {
+        return {
+        }
+    }
 }
 </script>

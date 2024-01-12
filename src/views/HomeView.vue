@@ -340,26 +340,26 @@
     <!-- */Blog-Articles -->
 
     <!-- Newsletter-banner -->
-    <NewsletterBanner class="preload-rs" />
+    <NewsletterBanner />
     <!-- */Newsletter-banner -->
 
 
 
     <!-- Footer -->
-    <GlobalFooter class="mt-5" data="none" />
+    <GlobalFooter data="none" />
     <!-- */Footer -->
   </main>
   <!-- */Main  -->
 </template>
 
 <script>
-import BasicNavbar from '../components/headerComponents/BasicNavbar.vue';
 import LinkButton from '../components/btnComponents/GlobalButtons/LinkButton.vue';
-import BlogArticlesBanner from '../components/bodyComponents/BlogArticlesBanner.vue';
+import BasicNavbar from '../components/headerComponents/BasicNavbar.vue';
 import CustomersReviewsBanner from '../components/bodyComponents/CustomersReviewsBanner.vue';
-import NewsletterBanner from '../components/footerComponents/NewsletterBanner.vue';
 import MediumImageBanner from '../components/bodyComponents/MediumImageBanner.vue';
 import ProductItemCard from '../components/productsComponent/ProductItemCard.vue';
+import BlogArticlesBanner from '../components/bodyComponents/BlogArticlesBanner.vue';
+import NewsletterBanner from '../components/footerComponents/NewsletterBanner.vue';
 import GlobalFooter from '../components/footerComponents/GlobalFooter.vue';
 
 export default {
