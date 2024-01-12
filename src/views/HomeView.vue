@@ -63,6 +63,10 @@
 .banner-nav .banner-nav-item.active {
   opacity: 0.6;
 }
+
+.products-bx .products-list {
+  overflow: hidden !important;
+}
 </style>
 
 <template>
@@ -159,13 +163,13 @@
         <div class="row row-cols-1 row-cols-lg-2 align-items-center">
 
           <!-- Banner-Description -->
-          <div class="banner-desc col-12 col-lg-4">
+          <div class="banner-desc col-12 col-lg-4 mb-lg-0 mb-5">
             <h3 class="fs-2 fw-semibold">New in our store</h3>
             <p class="fs-4">Discover some of our newest premium furnitures, at the cheapest rates possible </p>
 
             <!-- LinkButton -->
             <LinkButton btn-theme="secondary-btn" btn-label="Discover Now" btn-url="" btn-icon="arrow-right"
-              outlined="false" class="btn-lg mt-3" />
+              outlined="false" class="btn-lg my-3" />
           </div>
           <!-- */Banner-Description -->
 

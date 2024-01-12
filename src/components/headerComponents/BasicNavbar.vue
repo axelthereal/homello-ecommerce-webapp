@@ -1,8 +1,9 @@
 <style scoped>
 /* navbar-brand (Logo) */
 .navbar-brand {
-  font-size: 26px;
+  font-size: 25px;
   font-weight: bold;
+  letter-spacing: 1px;
 }
 </style>
 
@@ -12,7 +13,7 @@
     aria-label="Offcanvas navbar large">
     <div class="container">
 
-      <a class="navbar-brand fw-semibold text-white" href="#"><span class="bi bi-house"></span> Homello</a>
+      <a class="navbar-brand text-white" href="#">Homello</a>
 
       <!-- Navbar-toggler -->
       <button class="navbar-toggler border-0 fs-1 shadow-none" type="button" data-bs-toggle="offcanvas"
