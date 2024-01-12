@@ -49,8 +49,6 @@
   font-size: 20px;
 }
 
-
-
 .newproducts-banner .carousel-item {
   padding-left: 50px;
   padding-right: 50px;
@@ -64,10 +62,21 @@
   opacity: 0.6;
 }
 
-.products-bx .products-list {
-  overflow: hidden !important;
+
+/* Products-carousel */
+@media only screen and (max-width:992px) {
+  .products-bx .products-list div {
+    width: 50% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .products-bx .products-list div:last-child {
+    display: none !important;
+  }
 }
 </style>
+
 
 <template>
   <!-- Navbar -->
@@ -163,7 +172,7 @@
         <div class="row row-cols-1 row-cols-lg-2 align-items-center">
 
           <!-- Banner-Description -->
-          <div class="banner-desc col-12 col-lg-4 mb-lg-0 mb-5">
+          <div class="banner-desc col-12 col-lg-4 ps-lg-0 mb-lg-0 mb-5">
             <h3 class="fs-2 fw-semibold">New in our store</h3>
             <p class="fs-4">Discover some of our newest premium furnitures, at the cheapest rates possible </p>
 
@@ -175,9 +184,10 @@
 
           <!-- Products-Box -->
           <div class="products-bx col-12 col-lg-8">
-            <div id="newProductsCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div id="newProductsCarousel" class="carousel slide container" data-bs-ride="carousel">
 
-              <div class="carousel-inner">
+              <!-- Carousel-Inner -->
+              <div class="carousel-inner w-100">
                 <!-- ProductItem-Carousel -->
                 <div class="carousel-item active">
                   <div class="products-list row row-cols-1 row-cols-lg-3 d-flex justify-content align-items-stretch">
@@ -223,6 +233,7 @@
                 </div>
 
               </div>
+              <!-- ../Carousel-Inner -->
 
               <span class="carousel-btn carousel-control-prev" type="button" data-bs-target="#newProductsCarousel"
                 data-bs-slide="prev">
@@ -310,7 +321,7 @@
 
     <!-- Customers-Testimonials -->
     <CustomersReviewsBanner />
-    <!-- */Customers-Testimonials -->
+    <!-- */Customers-diials -->
 
 
     <!-- Blog-Articles -->
@@ -349,7 +360,7 @@ export default {
   methods: {
     setPageTitle() {
       document.title = "Homello | Home";
-    }
+    },
   },
   components: {
     BasicNavbar,
