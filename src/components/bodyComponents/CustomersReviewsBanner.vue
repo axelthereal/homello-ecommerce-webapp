@@ -12,7 +12,7 @@ button.round-carousel-btn {
     <div class="reviews-banner py-4 my-4">
 
         <div class="container bg-color-secondary p-4 my-5 rounded rounded-1">
-            <div class="row row-cols-1 row-cols-lg-2 py-4 ps-lg-4 justify-content-between align-items-center mx-0">
+            <div class="row row-cols-1 row-cols-lg-2 py-4 ps-lg-4 justify-content-evenly align-items-center mx-0">
                 <div class="banner-desc col-11 col-lg-5">
                     <h2 class="color-primary">What they say about us</h2>
                     <p class="fs-5 color-black opacity-75">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -36,26 +36,26 @@ button.round-carousel-btn {
                         <div class="carousel-inner px-0 mx-0 mt-3 mt-lg-0">
                             <div class="carousel-item">
 
-                                <div class="p-3 mx-0">
+                                <div class="p-3 p-lg-5 mx-0">
                                     <ReviewsComponent rev-name="Axel Tokam" rev-location="Cameroon, Yaounde"
                                         rev-img="../../src/assets/images/person-1.png" :rev-text="tempComment"
-                                        class="w-75" />
+                                        class="w-80" />
                                 </div>
                             </div>
                             <div class="carousel-item">
 
-                                <div class="p-3 mx-0">
+                                <div class="p-3 p-lg-5 mx-0">
                                     <ReviewsComponent rev-name="Maria Lopez" rev-location="America, Mexico"
                                         rev-img="../../src/assets/images/person-1.png" :rev-text="tempComment"
-                                        class="w-75" />
+                                        class="w-80" />
                                 </div>
                             </div>
                             <div class="carousel-item active">
 
-                                <div class="p-3 mx-0">
+                                <div class="p-3 p-lg-5 mx-0">
                                     <ReviewsComponent rev-name="Ronisia" rev-location="France, Paris"
                                         rev-img="../../src/assets/images/person-1.png" :rev-text="tempComment"
-                                        class="w-75" />
+                                        class="w-80" />
                                 </div>
                             </div>
                         </div>
