@@ -30,20 +30,31 @@
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end align-items-sm-start align-items-lg-center flex-grow-1 pe-3">
             <span v-for="navlink in navLinksList">
-              <li class="nav-item">
+              <!-- 
                 <a :class="`nav-link fs-6` + isIndexActive(navlink)" aria-current="page" :href="navlink.url">{{
                   navlink.label }}</a>
+                  <a class="nav-link fs-5 visually-hidden" href=""><span class="icon"><i class="bi bi-cart"></i></span></a>
+              -->
+              <li class="nav-item">
+                <RouterLink :to="navlink.url" :class="`nav-link fs-6` + isIndexActive(navlink)" aria-current="page">{{
+                  navlink.label }}</RouterLink>
               </li>
             </span>
             <li class="nav-item ms-lg-5">
-              <a class="nav-link fs-5 visually-hidden" href=""><span class="icon"><i class="bi bi-cart"></i></span></a>
+              <RouterLink to="" class="nav-link fs-5 visually-hidden">
+                <span class="icon"><i class="bi bi-cart"></i></span>
+              </RouterLink>
             </li>
             <li class="nav-item p-0">
-              <a class="nav-link fs-5" href=""><span class="icon"><i class="bi bi-heart"></i></span></a>
+              <RouterLink to="" class="nav-link fs-5">
+                <span class="icon"><i class="bi bi-heart"></i></span>
+              </RouterLink>
             </li>
 
             <li class="nav-item p-0 me-lg-3">
-              <a class="nav-link fs-4" href=""><span class="icon"><i class="bi bi-cart"></i></span></a>
+              <RouterLink to="" class="nav-link fs-4">
+                <span class="icon"><i class="bi bi-cart"></i></span>
+              </RouterLink>
             </li>
 
             <LinkButton btn-theme="light-btn" btn-label="Login / Register" btn-url="" btn-icon="person" outlined="true"
@@ -72,10 +83,10 @@ export default {
           label: "Home"
         },
         {
-          tag: "furnitures",
+          tag: "shop",
           isActive: false,
-          url: "",
-          label: "Furnitures"
+          url: "shop",
+          label: "Shop"
         },
         {
           tag: "about",

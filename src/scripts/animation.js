@@ -24,19 +24,20 @@
 
 
  // Get Elements and Add to Observer
-window.addEventListener("load", () => {
-// Animate_On_Load
- // Preload_Animations_Targets
-   const preload = document.querySelectorAll(".preload");
-   const preload_l = document.querySelectorAll(".preload-l");
-   const preload_r = document.querySelectorAll(".preload-r");
-   const preload_rs = document.querySelectorAll(".preload-rs");
-
-   // Loop over the elements and add to Observer
-   preload.forEach((element) => element.classList.contains('s-anim') ? switchObserver.observe(element) : defaultObserver.observe(element));
-   preload_l.forEach((element) => element.classList.contains('s-anim') ? switchObserver.observe(element) : defaultObserver.observe(element));
-   preload_r.forEach((element) => element.classList.contains('s-anim') ? switchObserver.observe(element) : defaultObserver.observe(element)); 
-   preload_rs.forEach((element) => element.classList.contains('s-anim') ? switchObserver.observe(element) : defaultObserver.observe(element)); 
-
+ function toggleAnimationObservers(){
+  // Animate_On_Load
+   // Preload_Animations_Targets
+     const preload = document.querySelectorAll(".preload");
+     const preload_l = document.querySelectorAll(".preload-l");
+     const preload_r = document.querySelectorAll(".preload-r");
+     const preload_rs = document.querySelectorAll(".preload-rs");
   
- });
+     // Loop over the elements and add to Observer
+     preload.forEach((element) => element.classList.contains('s-anim') ? switchObserver.observe(element) : defaultObserver.observe(element));
+     preload_l.forEach((element) => element.classList.contains('s-anim') ? switchObserver.observe(element) : defaultObserver.observe(element));
+     preload_r.forEach((element) => element.classList.contains('s-anim') ? switchObserver.observe(element) : defaultObserver.observe(element)); 
+     preload_rs.forEach((element) => element.classList.contains('s-anim') ? switchObserver.observe(element) : defaultObserver.observe(element)); 
+  
+    
+   }
+   document.querySelector("#app").addEventListener("load", toggleAnimationObservers);

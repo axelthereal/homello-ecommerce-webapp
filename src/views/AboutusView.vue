@@ -1,9 +1,14 @@
 <script setup>
+import BasicNavbar from '../components/headerComponents/BasicNavbar.vue';
 </script>
 
 <style scoped></style>
 
-<template></template>
+<template>
+    <!-- Navbar -->
+    <BasicNavbar active="about" />
+    <!-- */Navbar -->
+</template>
 
 <script>
 export default {
