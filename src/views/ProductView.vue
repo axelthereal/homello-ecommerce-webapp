@@ -161,6 +161,50 @@ import GlobalFooter from '../components/footerComponents/GlobalFooter.vue';
     </div>
     <!-- ...Related-products -->
 
+    <!-- Customers-Testimonials -->
+    <CustomersReviewsBanner class="preload-rs s-anim" />
+    <!-- */Customers-diials -->
+
+    <!-- Related-Products -->
+    <div class="tranding-products-bx py-4 my-4">
+        <div class="container my-4 py-4">
+            <div class="bx-header border-top py-4 mb-4 d-flex justify-content-between flex-wrap align-items-center">
+                <span class="fs-2 fw-bold">Popular in shop</span>
+                <span
+                    class="banner-nav fs-6 fw-medium opacity-80 d-flex justify-content-evenly mt-3 mt-lg-0 align-items-center flex-wrap">
+                </span>
+            </div>
+            <div class="content row row-cols-2 row-cols-lg-5 d-flex justify-content-between align-items-stretch">
+                <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
+                    product-discount="" product-image="../../src/assets/images/product-4.png"
+                    class="col-6 col-lg-2 mx-lg-0 mx-0" />
+                <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
+                    product-discount="" product-image="../../src/assets/images/product-5.png"
+                    class="col-6 col-lg-2 mx-lg-0 mx-0" />
+                <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
+                    product-discount="" product-image="../../src/assets/images/product-6.png"
+                    class="col-6 col-lg-2 mx-lg-0 mx-0" />
+                <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
+                    product-discount="" product-image="../../src/assets/images/product-7.png"
+                    class="col-6 col-lg-2 mx-lg-0 mx-0" />
+                <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
+                    product-discount="" product-image="../../src/assets/images/product-5.png"
+                    class="col-6 col-lg-2 mx-lg-0 mx-0" />
+            </div>
+        </div>
+    </div>
+    <!-- ...Related-products -->
+
+    <!-- Newsletter-banner -->
+    <NewsletterBanner />
+    <!-- */Newsletter-banner -->
+
+
+
+    <!-- Footer -->
+    <GlobalFooter data="none" />
+    <!-- */Footer -->
+
 
     <!--  -->
 </template>
