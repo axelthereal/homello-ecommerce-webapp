@@ -367,16 +367,16 @@ import GlobalFooter from '../components/footerComponents/GlobalFooter.vue';
                 <div class="content row row-cols-1 row-cols-lg-4 align-items-stretch">
                     <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
                         product-discount="" product-image="../../src/assets/images/product-4.png"
-                        class="col-6 col-lg-3 preload-rs x-auto " />
+                        class="col-6 col-lg-3 preload-rs mx-auto" />
                     <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
                         product-discount="" product-image="../../src/assets/images/product-5.png"
-                        class="col-6 col-lg-3 preload-rs mx-auto " />
+                        class="col-6 col-lg-3 preload-rs mx-auto" />
                     <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
                         product-discount="" product-image="../../src/assets/images/product-6.png"
-                        class="col-6 col-lg-3 preload-rs mx-auto " />
+                        class="col-6 col-lg-3 preload-rs mx-auto" />
                     <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
                         product-discount="" product-image="../../src/assets/images/product-7.png"
-                        class="col-6 col-lg-3 preload-rs mx-auto " />
+                        class="col-6 col-lg-3 preload-rs mx-auto" />
                 </div>
             </div>
         </div>
