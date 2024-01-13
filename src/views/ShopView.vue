@@ -83,30 +83,49 @@ import LinkButton from '../components/btnComponents/GlobalButtons/LinkButton.vue
                         </div>
                     </div>
 
-                    <div class="carousel-item">
+                    <div class="carousel-item w-100">
 
-                        <div class="container">
-                            <div class="carousel-caption text-start">
-                                <h1>Example headline. 2</h1>
-                                <p class="opacity-75">Some representative placeholder content for the first slide of the
-                                    carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                        <div class="container col-lg-9 carousel-content d-flex justify-content-evenly align-items-stretch">
+                            <div class="carousel-textbx text-black text-start d-flex flex-column align-items-start
+                                justify-content-center col-lg-6 gap-4">
+                                <h1 class="display-4 fw-semibold">Eco Solar Prowered Room Lamp</h1>
+
+                                <!-- LinkButton -->
+                                <LinkButton btn-theme="dark-btn" btn-label="Discover Product Now" btn-url=""
+                                    btn-icon="arrow-right" outlined="true" class="btn-lg fw-semibold ps-0" />
+
+                            </div>
+                            <div class="carousel-img  col-lg-6 d-flex flex-column align-items-start
+                                justify-content-center">
+                                <img src="../assets/images/product-10.png" class="img" alt="" />
                             </div>
                         </div>
+
+
                     </div>
 
-                    <div class="carousel-item">
+                    <div class="carousel-item w-100">
 
-                        <div class="container">
-                            <div class="carousel-caption text-start">
-                                <h1>Example headline. 3</h1>
-                                <p class="opacity-75">Some representative placeholder content for the first slide of the
-                                    carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                        <div class="container col-lg-9 carousel-content d-flex justify-content-evenly align-items-stretch">
+                            <div class="carousel-textbx text-black text-start d-flex flex-column align-items-start
+                                justify-content-center col-lg-6 gap-4">
+                                <h1 class="display-4 fw-semibold">Eco Solar Prowered Room Lamp</h1>
+
+                                <!-- LinkButton -->
+                                <LinkButton btn-theme="dark-btn" btn-label="Discover Product Now" btn-url=""
+                                    btn-icon="arrow-right" outlined="true" class="btn-lg fw-semibold ps-0" />
+
+                            </div>
+                            <div class="carousel-img  col-lg-6 d-flex flex-column align-items-start
+                                justify-content-center">
+                                <img src="../assets/images/product-10.png" class="img" alt="" />
                             </div>
                         </div>
+
+
                     </div>
                 </div>
+
                 <button class="carousel-control carousel-control-prev" type="button" data-bs-target="#mainbanner"
                     data-bs-slide="prev">
                     <span class="bi bi-chevron-left" aria-hidden="true"></span>
