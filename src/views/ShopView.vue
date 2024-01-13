@@ -1,8 +1,14 @@
 <script setup>
 import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue";
+import LinkButton from '../components/btnComponents/GlobalButtons/LinkButton.vue';
 </script>
 
 <style scoped>
+.navbar,
+.mainbanner {
+    background-color: #f1f1f1 !important;
+}
+
 #mainbanner .carousel-indicators .btn-indicator {
     width: 15px;
     height: 15px;
@@ -31,6 +37,11 @@ import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue";
     font-size: 40px;
     display: block;
 }
+
+.carousel-item .btn-lg {
+    border: 0px solid transparent !important;
+    font-size: 18px !important;
+}
 </style>
 
 <template>
@@ -43,7 +54,7 @@ import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue";
 
         <!-- Main-Lg-Banner -->
         <div class="mainbanner">
-            <div id="mainbanner" class="carousel slide mb-6 pointer-event mt-4" data-bs-ride="carousel">
+            <div id="mainbanner" class="carousel slide mb-6 pointer-event" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <span type="button" data-bs-target="#mainbanner" data-bs-slide-to="0" class="active btn-indicator"
                         aria-label="Slide 1" aria-current="true"></span>
@@ -55,15 +66,18 @@ import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue";
                 <div class="carousel-inner">
 
                     <div class="carousel-item active w-100">
-                        <div class="container carousel-content d-flex justify-content-evenly align-items-stretch">
+                        <div class="container col-lg-9 carousel-content d-flex justify-content-evenly align-items-stretch">
                             <div class="carousel-textbx text-black text-start d-flex flex-column align-items-start
-                                justify-content-center col-lg-6">
-                                <h1>Example headline. 1</h1>
-                                <p class="opacity-75">Some representative placeholder content for the first slide of the
-                                    carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                                justify-content-center col-lg-6 gap-4">
+                                <h1 class="display-4 fw-semibold">Eco Solar Prowered Room Lamp</h1>
+
+                                <!-- LinkButton -->
+                                <LinkButton btn-theme="dark-btn" btn-label="Discover Product Now" btn-url=""
+                                    btn-icon="arrow-right" outlined="true" class="btn-lg fw-semibold ps-0" />
+
                             </div>
-                            <div class="carousel-img  col-lg-6">
+                            <div class="carousel-img  col-lg-6 d-flex flex-column align-items-start
+                                justify-content-center">
                                 <img src="../assets/images/product-10.png" class="img" alt="" />
                             </div>
                         </div>
