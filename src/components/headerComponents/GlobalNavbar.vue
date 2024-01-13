@@ -6,7 +6,7 @@
     letter-spacing: 1px;
 }
 
-header .nav {
+header .navbar {
     background-color: #f1f1f1 !important;
     color: #0a0a0a !important;
 }
