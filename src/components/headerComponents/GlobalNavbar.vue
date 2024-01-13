@@ -51,7 +51,7 @@ header .navbar {
                 </button>
 
                 <div class="navbar-collapse d-lg-flex collapse" id="navbarsExample11" style="">
-                    <a href="" class="navbar-brand fw-bold fs-2 col-lg-3 me-0 brand-lg">Homello</a>
+                    <a href="" class="navbar-brand fw-bold fs-2 col-lg-3 me-0 brand-lg">Homello.</a>
                     <ul
                         class="navbar-nav col-lg-6 justify-content-lg-center align-items-sm-start align-items-lg-center flex-grow-1 gap-2">
                         <span v-for="navlink in navLinksList">
