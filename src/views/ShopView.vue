@@ -2,6 +2,7 @@
 import LinkButton from '../components/btnComponents/GlobalButtons/LinkButton.vue';
 import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue";
 import MediumImageBanner from '../components/bodyComponents/MediumImageBanner.vue';
+import ProductItemCard from '../components/productsComponent/ProductItemCard.vue';
 </script>
 
 <style scoped>
@@ -18,9 +19,6 @@ import MediumImageBanner from '../components/bodyComponents/MediumImageBanner.vu
     background-color: #265a5a;
 }
 
-#mainbanner .carousel-textbx {}
-
-#mainbanner .carousel-img {}
 
 #mainbanner .carousel-img .img {
     max-width: 100%;
@@ -39,7 +37,8 @@ import MediumImageBanner from '../components/bodyComponents/MediumImageBanner.vu
     display: block;
 }
 
-.carousel-item .btn-lg {
+.carousel-item .btn-lg,
+.btnLight {
     border: 0px solid transparent !important;
     font-size: 18px !important;
 }
@@ -67,6 +66,46 @@ import MediumImageBanner from '../components/bodyComponents/MediumImageBanner.vu
     -ms-transform: translate(15%, 38%);
     transform: translate(15%, 38%);
     z-index: 1;
+}
+
+.newproducts-banner .carousel-item {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.newproducts-banner .carousel-control-prev,
+.newproducts-banner .carousel-control-next {
+    max-width: 40px !important;
+}
+
+.newproducts-banner .carousel-btn .btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50% !important;
+    font-size: 20px;
+}
+
+.newproducts-banner .carousel-control-prev .btn {
+    position: absolute !important;
+    left: -19% !important;
+}
+
+.newproducts-banner .carousel-control-next .btn {
+    position: absolute !important;
+    right: -19% !important;
+}
+
+/* Products-carousel */
+@media only screen and (max-width:992px) {
+    .products-bx .products-list div {
+        width: 50% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .products-bx .products-list div:last-child {
+        display: none !important;
+    }
 }
 </style>
 
@@ -190,6 +229,112 @@ import MediumImageBanner from '../components/bodyComponents/MediumImageBanner.vu
         <!-- */Double - Images-Banner -->
         <!-- ...Double-Product-Image-Banner -->
 
+
+        <!-- New-Products Banner-display -->
+        <div class="newproducts-banner my-4 py-4">
+            <div class="container px-4 py-5 my-5">
+                <div class="row row-cols-1 row-cols-lg-2 align-items-center">
+
+                    <!-- Banner-Description -->
+                    <div class="banner-desc col-12 col-lg-4 ps-lg-0 mb-lg-0 mb-5">
+                        <h3 class="fs-2 fw-semibold">New in our store</h3>
+                        <p class="fs-4">Discover some of our newest premium furnitures, at the cheapest rates possible </p>
+
+                        <!-- LinkButton -->
+                        <LinkButton btn-theme="dark-btn" btn-label="Discover Product Now" btn-url="" btn-icon="arrow-right"
+                            outlined="true" class="btn-lg btnLight fw-semibold ps-0" />
+                    </div>
+                    <!-- */Banner-Description -->
+
+                    <!-- Products-Box -->
+                    <div class="products-bx col-12 col-lg-8 px-0">
+                        <div id="newProductsCarousel" class="carousel slide container mx-0 p-0" data-bs-ride="carousel">
+
+                            <!-- Carousel-Inner -->
+                            <div class="carousel-inner mx-0 w-100">
+                                <!-- ProductItem-Carousel -->
+                                <div class="carousel-item active">
+                                    <div
+                                        class="products-list row row-cols-1 row-cols-lg-3 d-flex justify-content  align-items-stretch">
+
+                                        <ProductItemCard product-title="Ergonomic Chair" product-category="Homello"
+                                            product-price="45.87" product-discount=""
+                                            product-image="../../src/assets/images/product-3.png"
+                                            class="col-11 col-lg-4 d-block" />
+                                        <ProductItemCard product-title="Nordic Chair" product-category="Homello"
+                                            product-price="67.00" product-discount=""
+                                            product-image="../../src/assets/images/product-1.png"
+                                            class="col-11 col-lg-4 d-block" />
+                                        <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello"
+                                            product-price="73.23" product-discount=""
+                                            product-image="../../src/assets/images/product-2.png"
+                                            class="col-11 col-lg-4 d-block" />
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div
+                                        class="products-list row row-cols-1 row-cols-lg-3 d-flex justify-content align-items-stretch">
+                                        <ProductItemCard product-title="Ergonomic Chair" product-category="Homello"
+                                            product-price="45.87" product-discount=""
+                                            product-image="../../src/assets/images/product-3.png"
+                                            class="col-11 col-lg-4 d-block" />
+                                        <ProductItemCard product-title="Nordic Chair" product-category="Homello"
+                                            product-price="67.00" product-discount=""
+                                            product-image="../../src/assets/images/product-1.png"
+                                            class="col-11 col-lg-4 d-block" />
+                                        <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello"
+                                            product-price="73.23" product-discount=""
+                                            product-image="../../src/assets/images/product-2.png"
+                                            class="col-11 col-lg-4 d-block" />
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div
+                                        class="products-list row row-cols-1 row-cols-lg-3 d-flex justify-content align-items-stretch">
+                                        <ProductItemCard product-title="Ergonomic Chair" product-category="Homello"
+                                            product-price="45.87" product-discount=""
+                                            product-image="../../src/assets/images/product-3.png"
+                                            class="col-11 col-lg-4 d-block" />
+                                        <ProductItemCard product-title="Nordic Chair" product-category="Homello"
+                                            product-price="67.00" product-discount=""
+                                            product-image="../../src/assets/images/product-1.png"
+                                            class="col-11 col-lg-4 d-block" />
+                                        <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello"
+                                            product-price="73.23" product-discount=""
+                                            product-image="../../src/assets/images/product-2.png"
+                                            class="col-11 col-lg-4 d-block" />
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- ../Carousel-Inner -->
+
+                            <span class="carousel-btn opacity-100 carousel-control-prev" type="button"
+                                data-bs-target="#newProductsCarousel" data-bs-slide="prev">
+                                <span
+                                    class="btn text-white bg-color-primary d-flex justify-content-center align-items-center">
+                                    <span class="bi bi-arrow-left" aria-hidden="true"></span>
+                                </span>
+                            </span>
+                            <span class="carousel-btn opacity-100 carousel-control-next" type="button"
+                                data-bs-target="#newProductsCarousel" data-bs-slide="next">
+                                <span
+                                    class="btn text-white bg-color-primary d-flex justify-content-center align-items-center">
+                                    <span class="bi bi-arrow-right" aria-hidden="true"></span>
+                                </span>
+                            </span>
+
+                        </div>
+                    </div>
+                    <!-- */Products-Box -->
+
+
+                </div>
+            </div>
+        </div>
+        <!-- ...endProductSlider -->
 
 
     </main>
