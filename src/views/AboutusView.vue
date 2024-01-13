@@ -17,7 +17,8 @@ import LinkButton from '../components/btnComponents/GlobalButtons/LinkButton.vue
      vertical-align: middle;
  }
 
- #features .col-lg-6 {
+ #features .col-lg-6,
+ #sidebanner .col-lg-6 {
      position: relative !important;
  }
 
@@ -31,20 +32,34 @@ import LinkButton from '../components/btnComponents/GlobalButtons/LinkButton.vue
      width: 50%;
  }
 
- #features .grid-sm img {
+ #sidebanner .grid-sm {
+     position: absolute;
+     z-index: 1 !important;
+     -webkit-transform: translate(20%, -55%);
+     -ms-transform: translate(20%, -55%);
+     transform: translate(20%, -55%);
+     overflow: hidden;
+     width: 45%;
+     right: 0px !important;
+ }
+
+ #features .grid-sm img,
+ #sidebanner .grid-sm img {
      width: 100%;
      max-width: 100%;
      height: 100%;
      object-fit: cover;
  }
 
- #features .grid-lg {
+ #features .grid-lg,
+ #sidebanner .grid-lg {
      z-index: 1 !important;
      overflow: hidden;
      width: 100%;
  }
 
- #features .grid-lg img {
+ #features .grid-lg img,
+ #sidebanner .grid-lg img {
      max-width: 100%;
      width: 100%;
      height: 100%;
@@ -57,21 +72,38 @@ import LinkButton from '../components/btnComponents/GlobalButtons/LinkButton.vue
 
  #features .icon::after {
      top: 0px;
-     width: 38px;
-     height: 38px;
+     width: 35px;
+     height: 35px;
      content: "";
-     opacity: 0.4;
+     opacity: 0.3;
      border-radius: 50% !important;
      position: absolute;
      background-color: #357979;
      display: block;
-     -webkit-transform: translate(50%, 50%);
-     -ms-transform: translate(50%, 50%);
-     transform: translate(50%, 50%);
+     -webkit-transform: translate(35%, 25%);
+     -ms-transform: translate(35%, 25%);
+     transform: translate(35%, 25%);
      z-index: -1;
  }
 
- .img-wrap::before {
+
+
+ #sidebanner .img-wrap::before {
+     z-index: -1 !important;
+     position: absolute;
+     content: "";
+     width: 255px;
+     height: 217px;
+     background-image: url("../assets/images/dots-yellow.svg");
+     background-repeat: no-repeat;
+     background-size: contain;
+     -webkit-transform: translate(-15%, -40%);
+     -ms-transform: translate(-15%, -40%);
+     transform: translate(-15%, -40%);
+     left: 0px !important;
+ }
+
+ #features .img-wrap::before {
      position: absolute;
      content: "";
      width: 255px;
@@ -92,6 +124,26 @@ import LinkButton from '../components/btnComponents/GlobalButtons/LinkButton.vue
  ::before {
      box-sizing: border-box;
  }
+
+ #team .text-u a {
+     padding-bottom: 2px;
+     border-bottom: 2px solid #1b1a21;
+ }
+
+ #team .text-u a .bi {
+     display: none;
+     opacity: 0;
+     transition: 0.2s ease-in;
+ }
+
+ #team .text-u a:hover .bi {
+     opacity: 1;
+     display: initial;
+ }
+
+ #team .text-u a:hover {
+     border-bottom: 3px solid #1b1a21;
+ }
 </style>
 
 <template>
@@ -101,7 +153,7 @@ import LinkButton from '../components/btnComponents/GlobalButtons/LinkButton.vue
 
     <!-- Header-Banner -->
     <header class="py-5 bg-color-primary text-white">
-        <div class="container px-0 mt-5">
+        <div class="container px-0 mt-5 py-5 my-5">
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-xxl-8">
                     <div class="text-center my-5">
@@ -122,13 +174,13 @@ import LinkButton from '../components/btnComponents/GlobalButtons/LinkButton.vue
     <!-- ../Header-Banner -->
 
     <!-- Features-header -->
-    <section class="py-5" id="features">
-        <div class="container px-5 my-5">
+    <section class="py-5 my-5" id="features">
+        <div class="container px-4 pb-5 mb-5 mt-3">
             <div class="row justify-content-between align-items-center">
                 <!-- Container -->
 
                 <!-- text-bx -->
-                <div class="col-lg-5">
+                <div class="col-lg-5 ps-0 ms-0">
                     <div class="header">
                         <h1 class="h1 fw-bolder">Why Choose Us</h1>
                         <p class="fw-normal lead mb-3">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
@@ -175,8 +227,6 @@ import LinkButton from '../components/btnComponents/GlobalButtons/LinkButton.vue
                         <div class="img-grid grid-sm">
                             <img src="../assets/images/img-grid-6.jpg" alt="Image" class="img-fluid">
                         </div>
-
-
                     </div>
                 </div>
 
@@ -185,6 +235,90 @@ import LinkButton from '../components/btnComponents/GlobalButtons/LinkButton.vue
         </div>
     </section>
     <!-- ..Features-header -->
+
+
+    <!-- Lg-Side-Img-Banner -->
+    <section class="py-5 my-5" id="sidebanner">
+        <div class="container px-5 py-5 my-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 me-lg-5">
+                    <div class="img-wrap">
+                        <div class="img-grid grid-lg mx-auto">
+                            <img src="../assets/images/img-grid-1.jpg" alt="Image" class="img-fluid">
+                        </div>
+                        <div class="img-grid grid-sm mx-auto">
+                            <img src="../assets/images/img-grid-2.jpg" alt="Image" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 mt-5 mt-lg-0 pt-5 pt-lg-0">
+                    <h2 class="fw-bolder">Our founding</h2>
+                    <p class="lead fw-normal text-muted mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                        est, ut esse a labore aliquam beatae expedita. Blanditiis impedit numquam libero molestiae et fugit
+                        cupiditate, quibusdam expedita, maiores eaque quisquam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ../Lg-Side-Img-Banner -->
+
+
+    <!-- Team-member-banner -->
+    <br>
+    <section class="mt-5 py-5 bg-light" id="team">
+        <div class="container px-5 my-5 py-5">
+            <div class="text-center">
+                <h2 class="fw-bolder">Our Team</h2>
+                <p class="lead fw-normal text-muted mb-5">Dedicated to quality and your success</p>
+            </div>
+            <div class="row gx-5 row-cols-1 row-cols-sm-2 row-cols-xl-4 justify-content-center">
+                <div class="col mb-5 mb-5 mb-xl-0">
+                    <div class="text-center">
+                        <img class="img-fluid rounded-circle mb-4 px-4" src="../assets/images/person-1.png" alt="...">
+                        <h5 class="fw-bolder">Ibbie Eckart</h5>
+                        <span class="d-block position mb-4 text-black-50">CEO, Founder, Atty.</span>
+                        <p class="mb-0 fw-semibold text-u"><a href="#" class="more dark">View Profile <span
+                                    class="bi bi-arrow-right ms-2"></span></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col mb-5 mb-5 mb-xl-0">
+                    <div class="text-center">
+                        <img class="img-fluid rounded-circle mb-4 px-4" src="../assets/images/person_2.jpg" alt="...">
+                        <h5 class="fw-bolder">Arden Vasek</h5>
+                        <span class="d-block position mb-4 text-black-50">CEO, Founder, Atty.</span>
+                        <p class="mb-0 fw-semibold text-u"><a href="#" class="more dark">View Profile <span
+                                    class="bi bi-arrow-right ms-2"></span></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="text-center">
+                        <img class="img-fluid rounded-circle mb-4 px-4" src="../assets/images/person_4.jpg" alt="...">
+                        <h5 class="fw-bolder">Malvina Cilla</h5>
+                        <span class="d-block position mb-4 text-black-50">CEO, Founder, Atty.</span>
+                        <p class="mb-0 fw-semibold text-u"><a href="#" class="more dark">View Profile <span
+                                    class="bi bi-arrow-right ms-2"></span></a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col mb-5 mb-5 mb-sm-0">
+                    <div class="text-center">
+                        <img class="img-fluid rounded-circle mb-4 px-4" src="../assets/images/person_3.jpg" alt="...">
+                        <h5 class="fw-bolder">Toribio Nerthus</h5>
+                        <span class="d-block position mb-4 text-black-50">CEO, Founder, Atty.</span>
+                        <p class="mb-0 fw-semibold text-u"><a href="#" class="more dark">View Profile <span
+                                    class="bi bi-arrow-right ms-2"></span></a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Team-member-banner -->
 
 
     <!---->
