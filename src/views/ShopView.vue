@@ -3,6 +3,9 @@ import LinkButton from '../components/btnComponents/GlobalButtons/LinkButton.vue
 import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue";
 import MediumImageBanner from '../components/bodyComponents/MediumImageBanner.vue';
 import ProductItemCard from '../components/productsComponent/ProductItemCard.vue';
+import BlogArticlesBanner from '../components/bodyComponents/BlogArticlesBanner.vue';
+import NewsletterBanner from '../components/footerComponents/NewsletterBanner.vue';
+import GlobalFooter from '../components/footerComponents/GlobalFooter.vue';
 </script>
 
 <style scoped>
@@ -106,6 +109,14 @@ import ProductItemCard from '../components/productsComponent/ProductItemCard.vue
     .products-bx .products-list div:last-child {
         display: none !important;
     }
+}
+
+.banner-nav .banner-nav-item {
+    padding: 0px 15px 0px 15px;
+}
+
+.banner-nav .banner-nav-item.active {
+    opacity: 0.6;
 }
 </style>
 
@@ -336,6 +347,90 @@ import ProductItemCard from '../components/productsComponent/ProductItemCard.vue
         </div>
         <!-- ...endProductSlider -->
 
+
+        <!-- Trending Product List -->
+        <div class="tranding-products-bx">
+            <div class="container">
+                <div class="bx-header border-top py-4 mb-4 d-flex justify-content-between flex-wrap align-items-center">
+                    <span class="fs-2 fw-semibold">Best selling</span>
+                    <span
+                        class="banner-nav fs-6 fw-medium opacity-80 d-flex justify-content-evenly mt-3 mt-lg-0 align-items-center flex-wrap">
+                        <a href="" class="link-primary"><span class="banner-nav-item active">All Products</span></a>
+                        <a href="" class="link-primary"><span class="banner-nav-item">Accessories</span></a>
+                        <a href="" class="link-primary"><span class="banner-nav-item">Chair</span></a>
+                        <a href="" class="link-primary"><span class="banner-nav-item">Decoration</span></a>
+                        <a href="" class="link-primary"><span class="banner-nav-item">Furniture</span></a>
+                        <a href="" class="link-primary"><span class="banner-nav-item">Tables</span></a>
+                    </span>
+                </div>
+                <div class="content row row-cols-1 row-cols-lg-4 align-items-stretch">
+                    <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
+                        product-discount="" product-image="../../src/assets/images/product-4.png"
+                        class="col-6 col-lg-3 mx-auto " />
+                    <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
+                        product-discount="" product-image="../../src/assets/images/product-5.png"
+                        class="col-6 col-lg-3  mx-auto " />
+                    <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
+                        product-discount="" product-image="../../src/assets/images/product-6.png"
+                        class="col-6 col-lg-3  mx-auto " />
+                    <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
+                        product-discount="" product-image="../../src/assets/images/product-7.png"
+                        class="col-6 col-lg-3  mx-auto " />
+                </div>
+            </div>
+        </div>
+        <!-- */Trending-Product-List -->
+
+
+        <!-- addBanner -->
+        <div class="addBanner my-5 py-5">
+            <div class="container">
+                <MediumImageBanner banner-title="50% OFF Interior Collection"
+                    banner-description="Free shipping over 115$ for international orders"
+                    banner-image="src/assets/images/sli-h1.webp" class="py-5 mx-auto " />
+            </div>
+        </div>
+        <!-- */addBanner -->
+
+
+
+        <!-- Latest arrivals Product List -->
+        <div class="tranding-products-bx">
+            <div class="container">
+                <div class="bx-header border-top py-4 mb-4 d-flex justify-content-between align-items-center">
+                    <span class="fs-2 fw-semibold">Latest Arrivals</span>
+                </div>
+                <div class="content row row-cols-1 row-cols-lg-4 align-items-stretch">
+                    <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
+                        product-discount="" product-image="../../src/assets/images/product-8.png"
+                        class="col-6 col-lg-3  mx-auto " />
+                    <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
+                        product-discount="" product-image="../../src/assets/images/product-9.png"
+                        class="col-6 col-lg-3  mx-auto " />
+                    <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
+                        product-discount="" product-image="../../src/assets/images/product-10.png"
+                        class="col-6 col-lg-3  mx-auto " />
+                    <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
+                        product-discount="" product-image="../../src/assets/images/product-11.png"
+                        class="col-6 col-lg-3  mx-auto " />
+                </div>
+            </div>
+        </div>
+        <!-- */Latest-arrivals-Product-List -->
+
+        <!-- Blog-Articles -->
+        <BlogArticlesBanner />
+        <!-- */Blog-Articles -->
+
+        <!-- Newsletter-banner -->
+        <NewsletterBanner />
+        <!-- */Newsletter-banner -->
+
+
+
+        <!-- Footer -->
+        <GlobalFooter data="none" />
+        <!-- */Footer -->
 
     </main>
     <!-- ..Main -->
