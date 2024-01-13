@@ -174,7 +174,6 @@ import MediumImageBanner from '../components/bodyComponents/MediumImageBanner.vu
         <!-- Double-Product-Image-Banner -->
         <!-- Double - Images-Banner -->
         <div class="middle-image-banner">
-            <br>
             <div class="container p-4">
                 <div class="row row-cols-1 row-cols-lg-2 align-items-stretch">
                     <div class="col mx-0">
