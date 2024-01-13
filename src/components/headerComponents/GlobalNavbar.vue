@@ -41,7 +41,7 @@ header .nav {
 <template>
     <!-- Global-nav -->
     <header>
-        <nav class="navbar navbar-expand-lg bg-default navlight" aria-label="Thirteenth navbar example">
+        <nav class="navbar navbar-expand-lg navbar-default bg-default navlight" aria-label="Gloabl navbar">
             <div class="container">
                 <a href="" class="navbar-brand brand-sm fw-bold fs-2 me-0">Homello.</a>
                 <button class=" navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
