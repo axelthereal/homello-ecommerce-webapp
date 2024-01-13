@@ -86,7 +86,7 @@ a:after {
 .nav-primary .navbar-toggler .icon {
   color: var(--colr-light) !important;
 }
-.navbar a.nav-link {
+.navbar:not(.navlight) a.nav-link {
   color: var(--colr-light) !important;
   font-size: 1em;
   margin-inline: 5px !important;
