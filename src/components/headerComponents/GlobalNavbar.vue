@@ -53,10 +53,10 @@ header .navbar {
                 <div class="navbar-collapse d-lg-flex collapse" id="navbarsExample11" style="">
                     <a href="" class="navbar-brand fw-bold fs-2 col-lg-3 me-0 brand-lg">Homello.</a>
                     <ul
-                        class="navbar-nav col-lg-6 justify-content-lg-center align-items-sm-start align-items-lg-center flex-grow-1 gap-2">
+                        class="navbar-nav col-lg-6 justify-content-lg-center align-items-sm-start align-items-lg-center flex-grow-1 gap-lg-3 gap-2">
                         <span v-for="navlink in navLinksList">
                             <li class="nav-item">
-                                <a :class="`nav-link lead fw-normal ` + isIndexActive(navlink)" aria-current="page"
+                                <a :class="`nav-link lead fw-semibold ` + isIndexActive(navlink)" aria-current="page"
                                     :href="navlink.url">{{
                                         navlink.label }}</a>
                             </li>
@@ -119,7 +119,7 @@ export default {
                     tag: "about",
                     isActive: false,
                     url: "about",
-                    label: "About us"
+                    label: "About"
                 },
                 {
                     tag: "Blog",
@@ -131,7 +131,7 @@ export default {
                     tag: "contact",
                     isActive: false,
                     url: "",
-                    label: "Contact us"
+                    label: "Contact"
                 }
             ]
         }
