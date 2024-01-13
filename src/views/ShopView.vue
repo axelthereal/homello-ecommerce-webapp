@@ -1,6 +1,7 @@
 <script setup>
-import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue";
 import LinkButton from '../components/btnComponents/GlobalButtons/LinkButton.vue';
+import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue";
+import MediumImageBanner from '../components/bodyComponents/MediumImageBanner.vue';
 </script>
 
 <style scoped>
@@ -169,6 +170,26 @@ import LinkButton from '../components/btnComponents/GlobalButtons/LinkButton.vue
             </div>
         </div>
         <!-- ..Main-Lg-Banner -->
+
+        <!-- Double-Product-Image-Banner -->
+        <!-- Double - Images-Banner -->
+        <div class="middle-image-banner">
+            <br>
+            <div class="container p-4">
+                <div class="row row-cols-1 row-cols-lg-2 align-items-stretch">
+                    <div class="col mx-0">
+                        <MediumImageBanner class="w-100 mx-0" banner-title="Apparels Collection"
+                            banner-description="Homello Furniture" banner-image="src/assets/images/sli-h1.webp" />
+                    </div>
+                    <div class="col mx-0">
+                        <MediumImageBanner class="w-100 mx-0" banner-title="Chair Collection"
+                            banner-description="Homello Furniture" banner-image="src/assets/images/slide-3.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- */Double - Images-Banner -->
+        <!-- ...Double-Product-Image-Banner -->
 
 
 
