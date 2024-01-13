@@ -158,7 +158,7 @@ import GlobalFooter from '../components/footerComponents/GlobalFooter.vue';
     <header class="py-5 bg-color-primary text-white">
         <div class="container px-0 mt-5 py-5 my-5">
             <div class="row justify-content-center">
-                <div class="col-lg-8 col-xxl-8">
+                <div class="col-lg-8 col-xxl-8 preload-rs">
                     <div class="text-center my-5">
                         <h1 class="fw-bolder mb-3">
                             Our mission is to make highquality home and office
@@ -183,7 +183,7 @@ import GlobalFooter from '../components/footerComponents/GlobalFooter.vue';
                 <!-- Container -->
 
                 <!-- text-bx -->
-                <div class="col-lg-5 ps-0 ms-0">
+                <div class="col-lg-5 ps-0 ms-0 preload-rs s-anim">
                     <div class="header">
                         <h1 class="h1 fw-bolder">Why Choose Us</h1>
                         <p class="fw-normal lead mb-3">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
@@ -222,9 +222,9 @@ import GlobalFooter from '../components/footerComponents/GlobalFooter.vue';
                 </div>
 
                 <!-- img-bx -->
-                <div class="col-lg-6 mt-5 mt-lg-0">
+                <div class="col-lg-6 mt-5 mt-lg-0 preload-rs s-anim">
                     <div class="img-wrap">
-                        <div class="img-grid grid-lg">
+                        <div class="img-grid grid-lg ">
                             <img src="../assets/images/image01.jpg" alt="Image" class="img-fluid">
                         </div>
                         <div class="img-grid grid-sm">
@@ -246,7 +246,7 @@ import GlobalFooter from '../components/footerComponents/GlobalFooter.vue';
             <div class="row gx-5 align-items-center">
                 <div class="col-lg-6 me-lg-5">
                     <div class="img-wrap">
-                        <div class="img-grid grid-lg mx-auto">
+                        <div class="img-grid grid-lg mx-auto preload-rs s-anim">
                             <img src="../assets/images/img-grid-1.jpg" alt="Image" class="img-fluid">
                         </div>
                         <div class="img-grid grid-sm mx-auto">
@@ -255,7 +255,7 @@ import GlobalFooter from '../components/footerComponents/GlobalFooter.vue';
                     </div>
                 </div>
 
-                <div class="col-lg-5 mt-5 mt-lg-0 pt-5 pt-lg-0">
+                <div class="col-lg-5 mt-5 mt-lg-0 pt-5 pt-lg-0 preload-rs s-anim">
                     <h2 class="fw-bolder">Our founding</h2>
                     <p class="lead fw-normal text-muted mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
                         est, ut esse a labore aliquam beatae expedita. Blanditiis impedit numquam libero molestiae et fugit
@@ -276,7 +276,7 @@ import GlobalFooter from '../components/footerComponents/GlobalFooter.vue';
                 <p class="lead fw-normal text-muted mb-5">Dedicated to quality and your success</p>
             </div>
             <div class="row gx-5 row-cols-1 row-cols-sm-2 row-cols-xl-4 justify-content-center">
-                <div class="col mb-5 mb-5 mb-xl-0">
+                <div class="col mb-5 mb-xl-0 preload-rs s-anim">
                     <div class="text-center">
                         <img class="img-fluid rounded-circle mb-4 px-4" src="../assets/images/person-1.png" alt="...">
                         <h5 class="fw-bolder">Ibbie Eckart</h5>
@@ -286,7 +286,7 @@ import GlobalFooter from '../components/footerComponents/GlobalFooter.vue';
                         </p>
                     </div>
                 </div>
-                <div class="col mb-5 mb-5 mb-xl-0">
+                <div class="col mb-5 mb-xl-0 preload-rs s-anim">
                     <div class="text-center">
                         <img class="img-fluid rounded-circle mb-4 px-4" src="../assets/images/person_2.jpg" alt="...">
                         <h5 class="fw-bolder">Arden Vasek</h5>
@@ -296,7 +296,7 @@ import GlobalFooter from '../components/footerComponents/GlobalFooter.vue';
                         </p>
                     </div>
                 </div>
-                <div class="col mb-5">
+                <div class="col mb-5 mx-xl-0">
                     <div class="text-center">
                         <img class="img-fluid rounded-circle mb-4 px-4" src="../assets/images/person_4.jpg" alt="...">
                         <h5 class="fw-bolder">Malvina Cilla</h5>
@@ -307,7 +307,7 @@ import GlobalFooter from '../components/footerComponents/GlobalFooter.vue';
                     </div>
                 </div>
 
-                <div class="col mb-5 mb-5 mb-sm-0">
+                <div class="col mb-5 mb-xl-0 preload-rs s-anim">
                     <div class="text-center">
                         <img class="img-fluid rounded-circle mb-4 px-4" src="../assets/images/person_3.jpg" alt="...">
                         <h5 class="fw-bolder">Toribio Nerthus</h5>
@@ -323,6 +323,21 @@ import GlobalFooter from '../components/footerComponents/GlobalFooter.vue';
     </section>
     <!-- Team-member-banner -->
 
+    <!-- Customers-Testimonials -->
+    <CustomersReviewsBanner class="preload-rs s-anim" />
+    <!-- */Customers-diials -->
+
+
+
+    <!-- Newsletter-banner -->
+    <NewsletterBanner />
+    <!-- */Newsletter-banner -->
+
+
+
+    <!-- Footer -->
+    <GlobalFooter data="none" />
+    <!-- */Footer -->
 
     <!---->
 </template>
