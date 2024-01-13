@@ -1,6 +1,9 @@
 <script setup>
 import BasicNavbar from '../components/headerComponents/BasicNavbar.vue';
 import LinkButton from '../components/btnComponents/GlobalButtons/LinkButton.vue';
+import CustomersReviewsBanner from '../components/bodyComponents/CustomersReviewsBanner.vue';
+import NewsletterBanner from '../components/footerComponents/NewsletterBanner.vue';
+import GlobalFooter from '../components/footerComponents/GlobalFooter.vue';
 </script>
 
 <style scoped> .img-wrap img {
