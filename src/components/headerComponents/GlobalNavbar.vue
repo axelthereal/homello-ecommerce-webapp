@@ -124,13 +124,13 @@ export default {
                 {
                     tag: "Blog",
                     isActive: false,
-                    url: "",
+                    url: "blog",
                     label: "Blog"
                 },
                 {
                     tag: "contact",
                     isActive: false,
-                    url: "",
+                    url: "contact",
                     label: "Contact"
                 }
             ]

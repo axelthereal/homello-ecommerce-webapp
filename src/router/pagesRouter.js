@@ -1,8 +1,9 @@
-import { createRouter, createWebHistory } from "vue-router"
-import HomeView from "../views/HomeView.vue"
-import AboutusView from "../views/AboutusView.vue"
+import { createRouter, createWebHistory } from "vue-router";
+import HomeView from "../views/HomeView.vue";
+import AboutusView from "../views/AboutusView.vue";
 import ShopView from "../views/ShopView.vue";
 import ProductView from "../views/ProductView.vue";
+import BlogView from "../views/BlogView.vue";
 
 /* Create router... */
 const router = createRouter({
@@ -33,6 +34,11 @@ const router = createRouter({
       name: "product",
       component: ProductView,
     },
+    {
+      path: "/blog",
+      name: "blog",
+      component: BlogView,
+    }
   ],
 });
 
