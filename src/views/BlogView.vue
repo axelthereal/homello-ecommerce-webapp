@@ -1,6 +1,7 @@
 <script setup>
 // import_required_components
 import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue";
+import GlobalFooter from '../components/footerComponents/GlobalFooter.vue';
 import BlogArticleCard from '../components/bodyComponents//BlogArticleCard.vue';
 </script>
 
@@ -76,7 +77,7 @@ import BlogArticleCard from '../components/bodyComponents//BlogArticleCard.vue';
             <div class="container py-4">
                 <div class="row py-lg-5">
                     <div class="col-lg-6 col-md-8 mx-auto">
-                        <h1 class="fw-bold display-3 text-white">Our Blog</h1>
+                        <h1 class="fw-bold display-3 text-white">Our Blog.</h1>
                     </div>
                 </div>
             </div>
@@ -106,6 +107,10 @@ import BlogArticleCard from '../components/bodyComponents//BlogArticleCard.vue';
         <!-- ..ArticlesListBanner -->
 
 
+
+        <!-- Footer -->
+        <GlobalFooter data="none" />
+        <!-- */Footer -->
     </main>
 
 
