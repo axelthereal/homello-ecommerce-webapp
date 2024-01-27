@@ -5,21 +5,63 @@ import GlobalFooter from '../components/footerComponents/GlobalFooter.vue';
 </script>
 
 
-<style scoped>
-/* Contactview_Style */
-.navbar,
-.mainbanner {
-    background-color: #f1f1f1 !important;
-}
+<style scoped> /* Contactview_Style */
+ .navbar,
+ .mainbanner {
+     background-color: #f1f1f1 !important;
+ }
 
-.feature {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: 3rem;
-    width: 3rem;
-    font-size: 1.5rem;
-}
+ .feature {
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     height: 3rem;
+     width: 3rem;
+     font-size: 1.5rem;
+ }
+
+ .bg-banner {
+     position: relative;
+     overflow: hidden;
+ }
+
+ .bg-banner .banner-img {
+     top: 0;
+     left: 0;
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     z-index: -1 !important;
+ }
+
+ .bg-banner .banner-img img {
+     width: 100%;
+     height: 100%;
+     max-width: 100%;
+     object-fit: cover;
+     object-position: center;
+ }
+
+
+ .bg-banner .banner-blur {
+     top: 0;
+     left: 0;
+     background: #04150f;
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     opacity: 0.5;
+     z-index: -1 !important;
+ }
+
+ .album .col {
+     max-width: 350px !important;
+     overflow: hidden !important;
+ }
+
+ .album .col:hover .card-title {
+     display: none !important;
+ }
 </style>
 
 <template>
@@ -28,6 +70,22 @@ import GlobalFooter from '../components/footerComponents/GlobalFooter.vue';
     <!-- ..Header -->
 
     <main>
+        <!-- MainBanner -->
+        <section class="bg-banner py-5 text-center">
+            <div class="banner-img">
+                <img src="../assets/images/image04.jpg" alt="" srcset="">
+            </div>
+            <div class="banner-blur"></div>
+            <div class="container py-4">
+                <div class="row py-lg-5">
+                    <div class="col-lg-6 col-md-8 mx-auto">
+                        <h1 class="fw-bold display-3 text-white">Contact us.</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ../MainBanner -->
+
         <section class="py-5">
             <div class="container px-5">
                 <!-- Contact form-->
