@@ -56,21 +56,34 @@ import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue";
     <GlobalNavbar />
     <!-- ..Header -->
 
-    <!-- MainBanner -->
-    <section class="bg-banner py-5 text-center">
-        <div class="banner-img">
-            <img src="../assets/images/image05.jpg" alt="" srcset="">
-        </div>
-        <div class="banner-blur"></div>
-        <div class="container py-4">
-            <div class="row py-lg-5">
-                <div class="col-lg-6 col-md-8 mx-auto">
-                    <h1 class="fw-bold display-3 text-white">Our Blog</h1>
+    <main>
+        <!-- MainBanner -->
+        <section class="bg-banner py-5 text-center">
+            <div class="banner-img">
+                <img src="../assets/images/image05.jpg" alt="" srcset="">
+            </div>
+            <div class="banner-blur"></div>
+            <div class="container py-4">
+                <div class="row py-lg-5">
+                    <div class="col-lg-6 col-md-8 mx-auto">
+                        <h1 class="fw-bold display-3 text-white">Our Blog</h1>
+                    </div>
                 </div>
             </div>
+        </section>
+        <!-- ../MainBanner -->
+
+        <!-- ArticlesListBanner -->
+        <div class="album py-5 bg-body-tertiary">
+            <div class="container"></div>
         </div>
-    </section>
-    <!-- ../MainBanner -->
+        <!-- ..ArticlesListBanner -->
+
+
+    </main>
+
+
+
 
 
 
