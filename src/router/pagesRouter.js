@@ -4,7 +4,7 @@ import AboutusView from "../views/AboutusView.vue";
 import ShopView from "../views/ShopView.vue";
 import ProductView from "../views/ProductView.vue";
 import BlogView from "../views/BlogView.vue";
-import ContactView from "../views/BlogView.vue";
+import ContactView from "../views/ContactView.vue";
 
 /* Create router... */
 const router = createRouter({

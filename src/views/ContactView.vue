@@ -13,12 +13,17 @@ import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue";
 </style>
 
 <template>
-    <!-- -->
     <!-- Header -->
     <GlobalNavbar />
     <!-- ..Header -->
 
-    <!-- -->
+    <main>
+
+
+    </main>
+
+
+    <!-- app -->
 </template> 
 
 
