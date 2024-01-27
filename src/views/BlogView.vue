@@ -1,6 +1,7 @@
 <script setup>
 // import_required_components
 import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue";
+import BlogArticleCard from '../components/bodyComponents//BlogArticleCard.vue';
 </script>
 
 
@@ -47,6 +48,15 @@ import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue";
     opacity: 0.5;
     z-index: -1 !important;
 }
+
+.album .col {
+    max-width: 350px !important;
+    overflow: hidden !important;
+}
+
+.album .col:hover .card-title {
+    display: none !important;
+}
 </style>
 
 <template>
@@ -74,8 +84,24 @@ import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue";
         <!-- ../MainBanner -->
 
         <!-- ArticlesListBanner -->
-        <div class="album py-5 bg-body-tertiary">
-            <div class="container"></div>
+        <div class="album py-5 my-5">
+            <div class="container col-lg-9">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <!-- Row... -->
+
+
+                    <div class="articleslist" v-for="a in 9">
+                        <!-- ProductItem-Cards -->
+                        <div class="col py-3">
+                            <BlogArticleCard :title="article.tmpTitle" :date="article.tmpDate" category="Tutorials"
+                                author="Admin" :img="article.tmpImg" class="col-11 col-lg-3" />
+                        </div>
+                    </div>
+
+
+                    <!-- ..Row... -->
+                </div>
+            </div>
         </div>
         <!-- ..ArticlesListBanner -->
 
@@ -93,6 +119,15 @@ import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue";
 
 <script>
 export default {
-    name: "BlogView"
+    name: "BlogView",
+    data() {
+        return {
+            article: {
+                tmpTitle: "This card has supporting text below as a natural lead-in to additional content",
+                tmpDate: "Jan 04, 2024",
+                tmpImg: "../../src/assets/images/girl-customer-service-image.jpg"
+            }
+        }
+    }
 }
 </script>
