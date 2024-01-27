@@ -17,7 +17,7 @@ footer {
         <div class="container py-5 pb-0">
             <div class="row">
                 <div class="col-12 col-md">
-                    <span class="logo logo-brand">Homello</span>
+                    <span class="logo logo-brand">Homello.</span>
                     <small class="d-block mb-3 text-body-secondary">© 2017–2024</small>
                 </div>
 
