@@ -1,6 +1,7 @@
 <script setup>
 // import_required_components
 import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue";
+import NewsletterBanner from '../components/footerComponents/NewsletterBanner.vue';
 import GlobalFooter from '../components/footerComponents/GlobalFooter.vue';
 import BlogArticleCard from '../components/bodyComponents//BlogArticleCard.vue';
 </script>
@@ -106,6 +107,12 @@ import BlogArticleCard from '../components/bodyComponents//BlogArticleCard.vue';
         </div>
         <!-- ..ArticlesListBanner -->
 
+
+        <!-- Newsletter-banner -->
+        <div class="container col-lg-9">
+            <NewsletterBanner />
+        </div>
+        <!-- */Newsletter-banner -->
 
 
         <!-- Footer -->
