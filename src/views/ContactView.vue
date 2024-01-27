@@ -5,7 +5,7 @@ import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue";
 
 
 <style scoped>
-/* Blog_Style */
+/* Contactview_Style */
 .navbar,
 .mainbanner {
     background-color: #f1f1f1 !important;
@@ -18,14 +18,13 @@ import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue";
     <GlobalNavbar />
     <!-- ..Header -->
 
-
-
     <!-- -->
 </template> 
 
 
 <script>
 export default {
-    name: "BlogView"
+    name: "COntactView"
 }
-</script>
+</script>    
+    

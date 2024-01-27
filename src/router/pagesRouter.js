@@ -4,6 +4,7 @@ import AboutusView from "../views/AboutusView.vue";
 import ShopView from "../views/ShopView.vue";
 import ProductView from "../views/ProductView.vue";
 import BlogView from "../views/BlogView.vue";
+import ContactView from "../views/BlogView.vue";
 
 /* Create router... */
 const router = createRouter({
@@ -28,7 +29,8 @@ const router = createRouter({
       path: "/shop",
       name: "shop",
       component: ShopView,
-    },,
+    },
+    ,
     {
       path: "/product",
       name: "product",
@@ -38,7 +40,12 @@ const router = createRouter({
       path: "/blog",
       name: "blog",
       component: BlogView,
-    }
+    },
+    {
+      path: "/contact",
+      name: "contact",
+      component: ContactView,
+    },
   ],
 });
 
