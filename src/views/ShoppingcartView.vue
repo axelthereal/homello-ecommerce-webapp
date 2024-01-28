@@ -72,11 +72,11 @@ import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue
             <!-- Body-cotent-footer -->
             <div class="content-footer mt-5 pt-3">
 
-                <div class="row">
+                <div class="row d-flex justify-content-between ">
                     <!-- CART-FOOTER -->
 
                     <!-- Cart-btns -->
-                    <div class="cart-btn">
+                    <div class="cart-btn col-lg-5">
                         <div
                             class="btns-bx d-flex justify-content-center gap-2 align-items-center w-100 cart-bx-content my-3 my-lg-1">
                             <button
@@ -89,7 +89,8 @@ import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue
                             <LinkButton btn-theme="dark-btn" btn-label="Continue Shopping" btn-url="" btn-icon="cart-check"
                                 outlined="false" class="py-2 btn-lg my-3 w-100" />
                         </div>
-                        <div class="coupon cart-bx-content my-3 my-lg-1">
+
+                        <div class="coupon cart-bx-content my-3 my-lg-1 pt-2 pt-lg-5">
                             <div class="header">
                                 <h3 class="fw-bold   opacity-80 ">Coupon</h3>
                                 <span class="lead fw-normal opacity-75">Enter your coupon code if you have one.</span>
@@ -111,7 +112,7 @@ import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue
 
 
                     <!-- Cart-Info -->
-                    <div class="cart-total">
+                    <div class="cart-total col-lg-6">
                         <h2 class="fw-bold display-6 opacity-80 mb-3 border-bottom">Cart Total</h2>
                         <div class="py-1 d-flex gap-2 w-100 justify-content-between">
                             <span class="label me-5 fw-semibold">
