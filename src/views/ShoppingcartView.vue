@@ -40,28 +40,59 @@ import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue";
             </div>
             <!-- ...Title::: -->
 
-            <!-- Product-Item -->
-            <div class="product-item row text-center border-bottom d-flex align-items-stretch justify-content-between">
-                <div class="col-sm-2 fw-semibold p-3 themed-grid-col d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/product-3.png" class="w-100" alt="Product-img">
-                </div>
-                <div class="col-sm-2 fw-semibold p-3 themed-grid-col d-flex justify-content-center align-items-center">
-                    Chair-product</div>
-                <div class="col-sm-2 fw-semibold p-3 themed-grid-col d-flex justify-content-center align-items-center">15$
-                </div>
-                <div class="col-sm-2 fw-semibold p-3 themed-grid-col d-flex justify-content-center align-items-center">
-                    <div class="d-flex justify-content-between align-items-stretch gap-1">
-                        <input type="text" name="" class="form-control" value="1" id="">
-                        <button class="btn btn-light border" type="button"><span class="bi bi-plus-lg"></span></button>
+            <div v-for="item in 3">
+                <!-- Product-Item -->
+                <div class="product-item row text-center border-bottom d-flex align-items-stretch justify-content-between">
+                    <div class="col-sm-2 fw-semibold p-3 themed-grid-col d-flex justify-content-center align-items-center">
+                        <img src="../assets/images/product-3.png" class="w-50" alt="Product-img">
+                    </div>
+                    <div class="col-sm-2 fw-semibold p-3 themed-grid-col d-flex justify-content-center align-items-center">
+                        Chair-product {{ item }}</div>
+                    <div class="col-sm-2 fw-semibold p-3 themed-grid-col d-flex justify-content-center align-items-center">
+                        15$
+                    </div>
+                    <div class="col-sm-2 fw-semibold p-3 themed-grid-col d-flex justify-content-center align-items-center">
+                        <div class="d-flex justify-content-between align-items-stretch gap-1">
+                            <input type="text" name="" class="form-control" value="1" id="">
+                            <button class="btn btn-light border" type="button"><span class="bi bi-plus-lg"></span></button>
+                            <button class="btn btn-light border" type="button"><span class="bi bi-dash-lg"></span></button>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 fw-semibold p-3 themed-grid-col d-flex justify-content-center align-items-center">
+                        45$
+                    </div>
+                    <div class="col-sm-2 fw-semibold p-3 themed-grid-col d-flex justify-content-center align-items-center">
+                        <span class="cursor-p bi bi-trash3 fs-4"></span>
                     </div>
                 </div>
-                <div class="col-sm-2 fw-semibold p-3 themed-grid-col d-flex justify-content-center align-items-center">45$
-                </div>
-                <div class="col-sm-2 fw-semibold p-3 themed-grid-col d-flex justify-content-center align-items-center">
-                    <span class="cursor-p bi bi-trash3 fs-4"></span>
-                </div>
+                <!-- ...Product-Item -->
             </div>
-            <!-- ...Product-Item -->
+
+            <!-- Body-cotent-footer -->
+            <div class="content-footer mt-5 pt-3">
+
+                <!-- Cart-Info -->
+                <div class="cart-total">
+                    <h2 class="fw-bold display-6 opacity-80 mb-3 border-bottom">Cart Total</h2>
+                    <div class="py-1 d-flex gap-2 w-100 justify-content-between">
+                        <span class="label me-5 fw-semibold">
+                            No. Products
+                        </span>
+                        <span class="label fw-bold text-nowrap">8</span>
+                    </div>
+                    <div class="py-1 d-flex gap-2 w-100 justify-content-between">
+                        <span class="label me-5 fw-semibold">
+                            Total Price
+                        </span>
+                        <span class="label fw-bold text-nowrap">175.25$</span>
+                    </div>
+
+                </div>
+                <!-- -->
+
+
+            </div>
+            <!-- ..BodyContent-footer -->
 
 
 
