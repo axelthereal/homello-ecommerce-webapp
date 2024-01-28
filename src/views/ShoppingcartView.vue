@@ -30,7 +30,7 @@ import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue";
         <!-- Products-List -->
         <div class="container col-lg-10 col-sm-11 my-5 py-5">
             <!-- Title::: -->
-            <div class="row my-3 text-center py-1 border-bottom border-black">
+            <div class="row mt-3 text-center py-1 border-bottom border-black">
                 <div class="col-sm-2 fw-semibold p-3 themed-grid-col">Image</div>
                 <div class="col-sm-2 fw-semibold p-3 themed-grid-col">Product</div>
                 <div class="col-sm-2 fw-semibold p-3 themed-grid-col">Price</div>
@@ -41,13 +41,25 @@ import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue";
             <!-- ...Title::: -->
 
             <!-- Product-Item -->
-            <div class="product-item row my-1 text-center border-bottom">
-                <div class="col-sm-2 fw-semibold p-3 themed-grid-col">Image</div>
-                <div class="col-sm-2 fw-semibold p-3 themed-grid-col">Product</div>
-                <div class="col-sm-2 fw-semibold p-3 themed-grid-col">Price</div>
-                <div class="col-sm-2 fw-semibold p-3 themed-grid-col">Quantity</div>
-                <div class="col-sm-2 fw-semibold p-3 themed-grid-col">Total</div>
-                <div class="col-sm-2 fw-semibold p-3 themed-grid-col">Delete</div>
+            <div class="product-item row text-center border-bottom d-flex align-items-stretch justify-content-between">
+                <div class="col-sm-2 fw-semibold p-3 themed-grid-col d-flex justify-content-center align-items-center">
+                    <img src="../assets/images/product-3.png" class="w-100" alt="Product-img">
+                </div>
+                <div class="col-sm-2 fw-semibold p-3 themed-grid-col d-flex justify-content-center align-items-center">
+                    Chair-product</div>
+                <div class="col-sm-2 fw-semibold p-3 themed-grid-col d-flex justify-content-center align-items-center">15$
+                </div>
+                <div class="col-sm-2 fw-semibold p-3 themed-grid-col d-flex justify-content-center align-items-center">
+                    <div class="d-flex justify-content-between align-items-stretch gap-1">
+                        <input type="text" name="" class="form-control" value="1" id="">
+                        <button class="btn btn-light border" type="button"><span class="bi bi-plus-lg"></span></button>
+                    </div>
+                </div>
+                <div class="col-sm-2 fw-semibold p-3 themed-grid-col d-flex justify-content-center align-items-center">45$
+                </div>
+                <div class="col-sm-2 fw-semibold p-3 themed-grid-col d-flex justify-content-center align-items-center">
+                    <span class="cursor-p bi bi-trash3 fs-4"></span>
+                </div>
             </div>
             <!-- ...Product-Item -->
 
