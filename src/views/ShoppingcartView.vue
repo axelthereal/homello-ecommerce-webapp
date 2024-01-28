@@ -6,4 +6,7 @@
 <template></template>
 
 <script>
+export default {
+    name: "ShoppingcartView"
+}
 </script>

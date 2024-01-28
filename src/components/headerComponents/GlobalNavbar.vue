@@ -72,13 +72,13 @@ header .navbar {
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href=""><span class="icon"><i class="bi bi-heart"></i></span>
+                                <a class="nav-link" href="favorites"><span class="icon"><i class="bi bi-heart"></i></span>
                                     <span class="label ms-2">Liked list</span>
                                 </a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href=""><span class="icon"><i class="bi bi-cart"></i></span>
+                                <a class="nav-link" href="cart"><span class="icon"><i class="bi bi-cart"></i></span>
                                     <span class="label ms-2">Cart</span>
                                 </a>
                             </li>
@@ -122,7 +122,7 @@ export default {
                     label: "About"
                 },
                 {
-                    tag: "Blog",
+                    tag: "blog",
                     isActive: false,
                     url: "blog",
                     label: "Blog"
@@ -132,6 +132,12 @@ export default {
                     isActive: false,
                     url: "contact",
                     label: "Contact"
+                },
+                {
+                    tag: "cart",
+                    isActive: false,
+                    url: "cart",
+                    label: "cart"
                 }
             ]
         }

@@ -41,14 +41,15 @@
               </li>
             </span>
             <li class="nav-item ms-lg-5">
-              <a class="nav-link fs-5 visually-hidden" href=""><span class="icon"><i class="bi bi-cart"></i></span></a>
+              <a class="nav-link fs-5 visually-hidden" href="cart"><span class="icon"><i
+                    class="bi bi-cart"></i></span></a>
             </li>
             <li class="nav-item p-0">
-              <a class="nav-link fs-5" href=""><span class="icon"><i class="bi bi-heart"></i></span></a>
+              <a class="nav-link fs-5" href="favorite"><span class="icon"><i class="bi bi-heart"></i></span></a>
             </li>
 
             <li class="nav-item p-0 me-lg-3">
-              <a class="nav-link fs-4" href=""><span class="icon"><i class="bi bi-cart"></i></span></a>
+              <a class="nav-link fs-4" href="cart"><span class="icon"><i class="bi bi-cart"></i></span></a>
             </li>
 
             <LinkButton btn-theme="light-btn" btn-label="Login / Register" btn-url="" btn-icon="person" outlined="true"
