@@ -132,12 +132,6 @@ export default {
                     isActive: false,
                     url: "contact",
                     label: "Contact"
-                },
-                {
-                    tag: "cart",
-                    isActive: false,
-                    url: "cart",
-                    label: "cart"
                 }
             ]
         }
