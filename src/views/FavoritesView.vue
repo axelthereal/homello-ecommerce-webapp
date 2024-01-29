@@ -42,7 +42,7 @@ import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue
         </div>
         <!-- ...Title::: -->
 
-        <div v-for="item in 3">
+        <div v-for="item in 2">
             <!-- Product-Item -->
             <div class="product-item row text-center border-bottom d-flex align-items-stretch justify-content-between">
                 <div class="col-sm-2 fw-semibold p-3 themed-grid-col d-flex justify-content-center align-items-center">
@@ -64,7 +64,13 @@ import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue
                     45$
                 </div>
                 <div class="col-sm-2 fw-semibold p-3 themed-grid-col d-flex justify-content-center align-items-center">
-                    <span class="cursor-p bi bi-trash3 fs-4"></span>
+
+                    <button class="btn btn-light border rounded rounded-0 me-1" type="button"><span
+                            class="cursor-p bi bi-trash3 "></span></button>
+                    <button class="btn btn-light border rounded rounded-0 ms-1" type="button"><span
+                            class="bi bi-plus-lg"></span>
+                        <span>Add to
+                            cart</span></button>
                 </div>
             </div>
             <!-- ...Product-Item -->
@@ -84,7 +90,7 @@ import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue
                             class="rounded rounded-0 py-2 fw-semibold my-3
                         btn btn-light border border-1 bg-body-tertiary d-flex justify-content-center gap-2 align-items-center w-100"
                             type="button">
-                            <span class="me-2">Clear Cart</span>
+                            <span class="me-2">Delete All Favorites</span>
                             <span class="bi bi-trash3"></span>
                         </button>
                         <LinkButton btn-theme="dark-btn" btn-label="Continue Shopping" btn-url="" btn-icon="cart-check"
