@@ -38,7 +38,7 @@ import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue
             <div class="col-sm-2 fw-semibold p-3 themed-grid-col">Price</div>
             <div class="col-sm-2 fw-semibold p-3 themed-grid-col">Quantity</div>
             <div class="col-sm-2 fw-semibold p-3 themed-grid-col">Total</div>
-            <div class="col-sm-2 fw-semibold p-3 themed-grid-col">Delete</div>
+            <div class="col-sm-2 fw-semibold p-3 themed-grid-col">Options</div>
         </div>
         <!-- ...Title::: -->
 
