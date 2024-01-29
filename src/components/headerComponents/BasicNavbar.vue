@@ -36,7 +36,7 @@
                   <a class="nav-link fs-5 visually-hidden" href=""><span class="icon"><i class="bi bi-cart"></i></span></a>
               -->
               <li class="nav-item">
-                <a :class="`nav-link fs-6` + isIndexActive(navlink)" aria-current="page" :href="navlink.url">{{
+                <a :class="`nav-link fs-6` + isIndexActive(navlink)" aria-current="page" :href="`/` + navlink.url">{{
                   navlink.label }}</a>
               </li>
             </span>
@@ -45,11 +45,11 @@
                     class="bi bi-cart"></i></span></a>
             </li>
             <li class="nav-item p-0">
-              <a class="nav-link fs-5" href="favorite"><span class="icon"><i class="bi bi-heart"></i></span></a>
+              <a class="nav-link fs-5" href="/favoriteS"><span class="icon"><i class="bi bi-heart"></i></span></a>
             </li>
 
             <li class="nav-item p-0 me-lg-3">
-              <a class="nav-link fs-4" href="cart"><span class="icon"><i class="bi bi-cart"></i></span></a>
+              <a class="nav-link fs-4" href="/cart"><span class="icon"><i class="bi bi-cart"></i></span></a>
             </li>
 
             <LinkButton btn-theme="light-btn" btn-label="Login / Register" btn-url="" btn-icon="person" outlined="true"
