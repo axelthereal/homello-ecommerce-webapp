@@ -112,27 +112,7 @@ import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue
                 <!-- ...Cart-btns -->
 
 
-                <!-- Cart-Info -->
-                <div class="cart-total col-lg-6">
-                    <h2 class="fw-bold display-6 opacity-80 mb-3 border-bottom">Cart Total</h2>
-                    <div class="py-1 d-flex gap-2 w-100 justify-content-between">
-                        <span class="label me-5 fw-semibold">
-                            No. Products
-                        </span>
-                        <span class="label fw-bold text-nowrap">8</span>
-                    </div>
-                    <div class="py-1 d-flex gap-2 w-100 justify-content-between">
-                        <span class="label me-5 fw-semibold">
-                            Total Price
-                        </span>
-                        <span class="label fw-bold text-nowrap">175.25$</span>
-                    </div>
-
-                    <LinkButton btn-theme="dark-btn" btn-label="Proceed To Checkout" btn-url="" btn-icon="arrow-right"
-                        outlined="false" class="btn-lg mt-3 w-100" />
-
-                </div>
-                <!-- cart-info -->
+                 
 
                 <!-- ...CART-FOOTER -->
             </div>
