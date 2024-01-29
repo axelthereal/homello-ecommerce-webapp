@@ -91,28 +91,12 @@ import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue
                             outlined="false" class="py-2 btn-lg my-3 w-100" />
                     </div>
 
-                    <div class="coupon cart-bx-content my-3 my-lg-1 pt-2 pt-lg-5">
-                        <div class="header">
-                            <h3 class="fw-bold   opacity-80 ">Coupon</h3>
-                            <span class="lead fw-normal opacity-75">Enter your coupon code if you have one.</span>
-                        </div>
-                        <div class="form d-flex justify-content-center gap-2 align-items-center w-100">
-                            <input type="text"
-                                class="rounded rounded-0 py-2 fw-semibold my-3
-                        form-control border border-1 border-tertiary  d-flex justify-content-center gap-2 align-items-center w-100"
-                                placeholder="Coupon Code">
-                            <button class="rounded rounded-0 py-2 fw-semibold my-3
-                        btn btn-dark border border-1  d-flex justify-content-center gap-2 align-items-center w-100"
-                                type="button">
-                                Apply Coupon
-                            </button>
-                        </div>
-                    </div>
+
                 </div>
                 <!-- ...Cart-btns -->
 
 
-                 
+
 
                 <!-- ...CART-FOOTER -->
             </div>
