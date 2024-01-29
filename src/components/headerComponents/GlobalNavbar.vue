@@ -57,7 +57,7 @@ header .navbar {
                         <span v-for="navlink in navLinksList">
                             <li class="nav-item">
                                 <a :class="`nav-link lead fw-semibold ` + isIndexActive(navlink)" aria-current="page"
-                                    :href="navlink.url">{{
+                                    :href="`/` + navlink.url">{{
                                         navlink.label }}</a>
                             </li>
                         </span>
@@ -66,19 +66,19 @@ header .navbar {
                         <ul
                             class="navbar-nav d-flex col-12 justify-content-lg-center align-items-sm-start align-items-lg-center flex-grow-1 gap-1">
                             <li class="nav-item">
-                                <a class="nav-link" href=""><span class="icon"><i class="bi bi-search"></i></span>
+                                <a class="nav-link" href="/search"><span class="icon"><i class="bi bi-search"></i></span>
                                     <span class="label ms-2">Search</span>
                                 </a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="favorites"><span class="icon"><i class="bi bi-heart"></i></span>
+                                <a class="nav-link" href="/favorites"><span class="icon"><i class="bi bi-heart"></i></span>
                                     <span class="label ms-2">Liked list</span>
                                 </a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="cart"><span class="icon"><i class="bi bi-cart"></i></span>
+                                <a class="nav-link" href="/cart"><span class="icon"><i class="bi bi-cart"></i></span>
                                     <span class="label ms-2">Cart</span>
                                 </a>
                             </li>
