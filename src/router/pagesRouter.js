@@ -53,6 +53,11 @@ const router = createRouter({
       name: "cart",
       component: ShoppingcartView,
     },
+    {
+      path: "/favorites",
+      name: "favorites",
+      component: FavoritesView,
+    },
   ],
 });
 
