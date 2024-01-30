@@ -89,8 +89,8 @@ button:active {
                 <span class="w-100 d-flex line my-1 rounded rounded-3"></span>
             </div>
 
-            <LinkButton btn-theme="dark-btn" btn-label="Login to your account" btn-url="" btn-icon="person" outlined="false"
-                class="py-2 btn-lg my-3 w-100" />
+            <LinkButton btn-theme="dark-btn" btn-label="Login to your account" btn-url="/login" btn-icon="person"
+                outlined="false" class="py-2 btn-lg my-3 w-100" />
 
         </div>
     </main>
