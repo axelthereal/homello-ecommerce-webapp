@@ -200,37 +200,37 @@ import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue
                 <!-- ...Profile-Settings-Item --profileimg -->
 
 
-                 <!-- Profile-Settings-Item --profileimg -->
-                 <div class="settings-item accordion-item password-item mt-3">
+                <!-- Profile-Settings-Item --deleteprof -->
+                <div class="settings-item accordion-item password-item mt-3">
                     <div
                         class="itemcontent d-flex justify-content-between align-items-center py-2 mt-2 border-bottom accordion-header px-1 mb-0 gap-3">
                         <div class="item-desc">
-                            <h5 class="fw-bold">Change your profile image</h5>
+                            <h5 class="fw-bold">Delete your Account</h5>
                             <span class="d-block fw-normal text-body-secondary">
-                                Click to modify the profile image on your shopping account.</span>
+                                Click to delete your homello account.</span>
                         </div>
                         <button
-                            class="collapsed item-btn btn btn-success bg-success-subtle text-success-emphasis rounded rounded-1 d-flex justify-content-between align-items-center gap-2"
-                            data-bs-toggle="collapse" data-bs-target="#editUserImg" aria-expanded="false"
-                            aria-controls="editUserImg" type="button"><span>Modify</span> <span
-                                class="bi bi-pencil-square"></span></button>
+                            class="collapsed item-btn btn btn-danger bg-danger-subtle text-danger-emphasis rounded rounded-1 d-flex justify-content-between align-items-center gap-2"
+                            data-bs-toggle="collapse" data-bs-target="#delUser" aria-expanded="false"
+                            aria-controls="delUser" type="button"><span>Delete</span> <span
+                                class="bi bi-trash3"></span></button>
                     </div>
-                    <div class="item-form accordion-collapse collapse px-3 py-2 bg-light mt-0" id="editUserImg"
+                    <div class="item-form accordion-collapse collapse px-3 py-2 bg-light mt-0" id="delUser"
                         data-bs-parent="#settingsItems">
-                        <span class="d-block fs-5 fw-bold">Edit Form</span>
-                        <span class="d-block fw-normal text-body-secondary">Click to upload and save your new profile
-                            image.</span>
+                        <span class="d-block fs-5 fw-bold">Confirm Account Deletion</span>
+                        <span class="d-block fw-normal text-body-secondary">Please keep in mind that this action cant be
+                            undone and all your account information will be lost.</span>
                         <div class="form">
-                            <input type="file" name="nimg" id="nimg"
+                            <input type="password" name="confpass" id="confpass"
                                 class="form-control border border-1 rounded rounded-0 my-2"
-                                placeholder="select a new profile image">
+                                placeholder="Enter your password to confirm">
                             <button
-                                class="btn btn-success bg-success-subtle btn-sm text-success-emphasis rounded rounded-1 px-2"
-                                type="button">Save now</button>
+                                class="btn btn-danger bg-danger-subtle btn-sm text-danger-emphasis rounded rounded-1 px-2"
+                                type="button">Delete now now</button>
                         </div>
                     </div>
                 </div>
-                <!-- ...Profile-Settings-Item --profileimg -->
+                <!-- ...Profile-Settings-Item --deleteprof -->
 
             </div>
         </div>
