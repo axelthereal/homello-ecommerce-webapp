@@ -31,6 +31,10 @@ button:active {
     background-color: #214e4e !important;
 }
 
+.btndark:active {
+    background-color: #1a1a1a !important;
+}
+
 .line {
     height: 2px;
     background-color: #e8ecf0;
@@ -90,7 +94,7 @@ button:active {
             </div>
 
             <LinkButton btn-theme="dark-btn" btn-label="Login to your account" btn-url="/login" btn-icon="person"
-                outlined="false" class="py-2 btn-lg my-3 w-100" />
+                outlined="false" class="py-2 btndark btn-lg my-3 w-100" />
 
         </div>
     </main>
