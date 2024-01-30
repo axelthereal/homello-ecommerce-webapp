@@ -21,7 +21,7 @@ import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue
 }
 
 .btn.bg-success-subtle:active {
-    background-color: #6ecba3 !important;
+    background-color: #b4e6d0 !important;
 }
 </style>
 
@@ -73,7 +73,7 @@ import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue
                             <input type="text" name="nusername" id="nusername"
                                 class="form-control border border-1 rounded rounded-0 my-2"
                                 placeholder="Enter a new username...">
-                            <button class="btn btn-success bg-success-subtle text-success-emphasis rounded rounded-1"
+                            <button class="btn btn-success bg-success-subtle text-success-emphasis rounded rounded-1 px-4"
                                 type="button">Save</button>
                         </div>
                     </div>
