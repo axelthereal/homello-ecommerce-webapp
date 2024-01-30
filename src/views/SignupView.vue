@@ -1,6 +1,7 @@
 <script setup>
 // import_required_components
-import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue"; 
+import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue";
+import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue"; 
 </script>
 
 <style scoped>
@@ -43,7 +44,7 @@ button:active {
 
     <!-- MainBanner -->
     <main class="form-signin w-100 m-auto pt-5">
-        <div class="formbx col-lg-4 col-10 mx-auto p-lg-5 container mt-5">
+        <div class="formbx col-lg-4 col-10 mx-auto p-lg-5 container mt-lg-0 mt-4">
             <form class="w-100 form">
 
                 <h1 class="display-6 mb-1 fw-bold d-flex align-items-center justify-content-center">Create a new account
@@ -87,6 +88,9 @@ button:active {
                 <span class="lead fw-semibold">OR</span>
                 <span class="w-100 d-flex line my-1 rounded rounded-3"></span>
             </div>
+
+            <LinkButton btn-theme="dark-btn" btn-label="Login to your account" btn-url="" btn-icon="person" outlined="false"
+                class="py-2 btn-lg my-3 w-100" />
 
         </div>
     </main>
