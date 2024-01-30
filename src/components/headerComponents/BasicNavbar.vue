@@ -52,8 +52,8 @@
               <a class="nav-link fs-4" href="/cart"><span class="icon"><i class="bi bi-cart"></i></span></a>
             </li>
 
-            <LinkButton btn-theme="light-btn" btn-label="Login / Register" btn-url="" btn-icon="person" outlined="true"
-              class="nav-link" />
+            <LinkButton btn-theme="light-btn" btn-label="Login / Register" btn-url="/register" btn-icon="person"
+              outlined="true" class="nav-link" />
           </ul>
         </div>
       </div>
