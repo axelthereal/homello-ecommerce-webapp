@@ -68,6 +68,10 @@ button:active {
                     type="submit">Login</button>
             </form>
 
+            <p class="mt-3 text-body-tertiary fw-medium">Password forgotten
+                ? <a href=""><span class="text-success opacity-100 "><ins>click here</ins></span></a>.
+            </p>
+
             <div class="formbtns mt-3 pt-3 d-flex justify-content-evenly align-items-center gap-4">
                 <span class="w-100 d-flex line my-1 rounded rounded-3"></span>
                 <span class="lead fw-semibold">OR</span>
