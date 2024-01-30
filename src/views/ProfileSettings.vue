@@ -226,7 +226,7 @@ import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue
                                 placeholder="Enter your password to confirm">
                             <button
                                 class="btn btn-danger bg-danger-subtle btn-sm text-danger-emphasis rounded rounded-1 px-2"
-                                type="button">Delete now now</button>
+                                type="button">Delete now now !</button>
                         </div>
                     </div>
                 </div>
