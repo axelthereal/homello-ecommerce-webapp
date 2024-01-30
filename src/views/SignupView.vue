@@ -3,7 +3,9 @@
 
 <style scoped></style>
 
-<template></template>
+<template>
+    <h1>Hello world</h1>
+</template>
 
 <script>
 export default {

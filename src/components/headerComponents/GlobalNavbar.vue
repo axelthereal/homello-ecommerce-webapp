@@ -84,7 +84,7 @@ header .navbar {
                             </li>
 
                             <LinkButton btn-theme="ms-lg-4 px-2 primary-btn opacity-100" btn-label="Login / Register"
-                                btn-url="" btn-icon="person" outlined="false" class="nav-link" />
+                                btn-url="/register" btn-icon="person" outlined="false" class="nav-link" />
                         </ul>
                     </div>
                 </div>
