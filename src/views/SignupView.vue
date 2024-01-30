@@ -1,7 +1,12 @@
 <script setup>
 </script>
 
-<style scoped></style>
+<style scoped>
+.navbar,
+.mainbanner {
+    background-color: #fff !important;
+}
+</style>
 
 <template>
     <h1>Hello world</h1>
