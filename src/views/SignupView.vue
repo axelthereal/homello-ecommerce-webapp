@@ -4,9 +4,9 @@ import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue";
 </script>
 
 <style scoped>
-.navbar,
+nav,
 .mainbanner {
-    background-color: #fff !important;
+    background-color: #ffffff !important;
 }
 </style>
 
@@ -14,6 +14,10 @@ import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue";
     <!-- Header -->
     <GlobalNavbar />
     <!-- ..Header -->
+
+    <!-- MainBanner -->
+
+    <!-- ../MainBanner -->
 </template>
 
 <script>
