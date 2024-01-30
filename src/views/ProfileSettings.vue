@@ -32,7 +32,21 @@ import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue
 
 
         <!-- profile-settings -->
-        <div class="container col-lg-10 col-sm-11 my-5 py-5">
+        <div class="container col-lg-5 col-sm-12 my-5 py-5">
+            <!-- Profile-Settings-Item -->
+            <div class="settings-item">
+                <div class="itemcontent d-flex justify-content-between align-items-center py-2 my-2 border-bottom">
+                    <div class="item-desc">
+                        <h4 class="fw-bold">Modify your username</h4>
+                        <span class="d-block fw-normal text-body-secondary">
+                            Click to modify the username diplayed on your profile and all product purchases invoices.</span>
+                    </div>
+                    <button class="item-btn btn btn-success bg-success-subtle text-success-emphasis rounded rounded-1"
+                        type="button">Modify <span class="ms-1 bi bi-pencil-square"></span></button>
+                </div>
+
+            </div>
+            <!-- ...Profile-Settings-Item -->
         </div>
         <!-- profile-settings -->
 
