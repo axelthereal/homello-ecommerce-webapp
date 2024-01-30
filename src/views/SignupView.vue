@@ -1,4 +1,6 @@
 <script setup>
+// import_required_components
+import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue"; 
 </script>
 
 <style scoped>
@@ -9,7 +11,9 @@
 </style>
 
 <template>
-    <h1>Hello world</h1>
+    <!-- Header -->
+    <GlobalNavbar />
+    <!-- ..Header -->
 </template>
 
 <script>
