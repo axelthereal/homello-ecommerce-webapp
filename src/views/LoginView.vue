@@ -29,6 +29,10 @@ button:active {
     height: 2px;
     background-color: #e8ecf0;
 }
+
+.btndark:active {
+    background-color: #1a1a1a !important;
+}
 </style>
 
 <template>
