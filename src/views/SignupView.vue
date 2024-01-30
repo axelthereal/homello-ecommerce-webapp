@@ -8,6 +8,21 @@ nav,
 .mainbanner {
     background-color: #ffffff !important;
 }
+
+input.form-control:focus {
+    border: 1px solid #0b9768 !important;
+}
+
+input.form-check-input:checked {
+    background-color: #0b9768 !important;
+    border: 1px solid #0b9768 !important;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0) !important;
+}
+
+input.form-check-input {
+    cursor: pointer;
+    box-shadow: none !important;
+}
 </style>
 
 <template>
