@@ -78,7 +78,7 @@ button:active {
                 <span class="w-100 d-flex line my-1 rounded rounded-3"></span>
             </div>
 
-            <LinkButton btn-theme="dark-btn" btn-label="Create an account" btn-url="/login" btn-icon="person-plus"
+            <LinkButton btn-theme="dark-btn" btn-label="Create an account" btn-url="/register" btn-icon="person-plus"
                 outlined="false" class="py-2 btn-lg my-3 w-100" />
         </div>
     </main>
