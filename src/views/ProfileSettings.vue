@@ -199,6 +199,39 @@ import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue
                 </div>
                 <!-- ...Profile-Settings-Item --profileimg -->
 
+
+                 <!-- Profile-Settings-Item --profileimg -->
+                 <div class="settings-item accordion-item password-item mt-3">
+                    <div
+                        class="itemcontent d-flex justify-content-between align-items-center py-2 mt-2 border-bottom accordion-header px-1 mb-0 gap-3">
+                        <div class="item-desc">
+                            <h5 class="fw-bold">Change your profile image</h5>
+                            <span class="d-block fw-normal text-body-secondary">
+                                Click to modify the profile image on your shopping account.</span>
+                        </div>
+                        <button
+                            class="collapsed item-btn btn btn-success bg-success-subtle text-success-emphasis rounded rounded-1 d-flex justify-content-between align-items-center gap-2"
+                            data-bs-toggle="collapse" data-bs-target="#editUserImg" aria-expanded="false"
+                            aria-controls="editUserImg" type="button"><span>Modify</span> <span
+                                class="bi bi-pencil-square"></span></button>
+                    </div>
+                    <div class="item-form accordion-collapse collapse px-3 py-2 bg-light mt-0" id="editUserImg"
+                        data-bs-parent="#settingsItems">
+                        <span class="d-block fs-5 fw-bold">Edit Form</span>
+                        <span class="d-block fw-normal text-body-secondary">Click to upload and save your new profile
+                            image.</span>
+                        <div class="form">
+                            <input type="file" name="nimg" id="nimg"
+                                class="form-control border border-1 rounded rounded-0 my-2"
+                                placeholder="select a new profile image">
+                            <button
+                                class="btn btn-success bg-success-subtle btn-sm text-success-emphasis rounded rounded-1 px-2"
+                                type="button">Save now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- ...Profile-Settings-Item --profileimg -->
+
             </div>
         </div>
         <!-- profile-settings -->
