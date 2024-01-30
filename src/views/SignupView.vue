@@ -23,6 +23,10 @@ input.form-check-input {
     cursor: pointer;
     box-shadow: none !important;
 }
+
+button:active {
+    background-color: #214e4e !important;
+}
 </style>
 
 <template>
@@ -61,7 +65,7 @@ input.form-check-input {
                 </label>
             </div>
             <button
-                class="btn btn-light bg-color-primary w-100 py-2 text-white fs-5 d-flex align-items-center justify-content-center rounded-0"
+                class="btn btn-light primary-btn w-100 py-2 text-white d-flex align-items-center justify-content-center rounded-0"
                 type="submit">Sign
                 in</button>
             <p class="mt-5 mb-3 text-body-secondary">© 2017–2023</p>
