@@ -15,6 +15,14 @@ import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue
     border: none !important;
     border-radius: 0px !important;
 }
+
+.btn.bg-success-subtle:hover {
+    background-color: #b5cec3 !important;
+}
+
+.btn.bg-success-subtle:active {
+    background-color: #6ecba3 !important;
+}
 </style>
 
 <template>
@@ -44,7 +52,7 @@ import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue
                 <!-- Profile-Settings-Item --username -->
                 <div class="settings-item accordion-item username-item">
                     <div
-                        class="itemcontent d-flex justify-content-between align-items-center py-2 my-2 border-bottom accordion-header px-1">
+                        class="itemcontent d-flex justify-content-between align-items-center py-2 mt-2 border-bottom accordion-header px-1 mb-0">
                         <div class="item-desc">
                             <h4 class="fw-bold">Modify your username</h4>
                             <span class="d-block fw-normal text-body-secondary">
@@ -57,9 +65,17 @@ import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue
                             aria-controls="editUserName" type="button"><span>Modify</span> <span
                                 class="bi bi-pencil-square"></span></button>
                     </div>
-                    <div class="item-form accordion-collapse collapse p-1" id="editUserName"
+                    <div class="item-form accordion-collapse collapse px-3 py-2 bg-light mt-0" id="editUserName"
                         data-bs-parent="#settingsItems">
-                        <h1>Edit is here !!!</h1>
+                        <span class="d-block fs-5 fw-bold">Edit Form</span>
+                        <span class="d-block fw-normal text-body-secondary">Enter your new username and click save.</span>
+                        <div class="form">
+                            <input type="text" name="nusername" id="nusername"
+                                class="form-control border border-1 rounded rounded-0 my-2"
+                                placeholder="Enter a new username...">
+                            <button class="btn btn-success bg-success-subtle text-success-emphasis rounded rounded-1"
+                                type="button">Save</button>
+                        </div>
                     </div>
                 </div>
                 <!-- ...Profile-Settings-Item --username -->
