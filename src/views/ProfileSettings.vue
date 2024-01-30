@@ -109,7 +109,7 @@ import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue
                         </div>
                     </div>
                 </div>
-                <!-- ...Profile-Settings-Item --username -->
+                <!-- ...Profile-Settings-Item --email -->
 
             </div>
         </div>
