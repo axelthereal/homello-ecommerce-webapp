@@ -52,9 +52,9 @@ import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue
                 <!-- Profile-Settings-Item --username -->
                 <div class="settings-item accordion-item username-item">
                     <div
-                        class="itemcontent d-flex justify-content-between align-items-center py-2 mt-2 border-bottom accordion-header px-1 mb-0">
+                        class="itemcontent d-flex justify-content-between align-items-center py-2 mt-2 border-bottom accordion-header px-1 mb-0 gap-3">
                         <div class="item-desc">
-                            <h4 class="fw-bold">Modify your username</h4>
+                            <h5 class="fw-bold">Modify your username</h5>
                             <span class="d-block fw-normal text-body-secondary">
                                 Click to modify the username diplayed on your profile and all product purchases
                                 invoices.</span>
@@ -73,8 +73,9 @@ import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue
                             <input type="text" name="nusername" id="nusername"
                                 class="form-control border border-1 rounded rounded-0 my-2"
                                 placeholder="Enter a new username...">
-                            <button class="btn btn-success bg-success-subtle text-success-emphasis rounded rounded-1 px-4"
-                                type="button">Save</button>
+                            <button
+                                class="btn btn-success bg-success-subtle btn-sm text-success-emphasis rounded rounded-1 px-2"
+                                type="button">Save now</button>
                         </div>
                     </div>
                 </div>
@@ -83,29 +84,28 @@ import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue
                 <!-- Profile-Settings-Item --email -->
                 <div class="settings-item accordion-item email-item">
                     <div
-                        class="itemcontent d-flex justify-content-between align-items-center py-2 mt-2 border-bottom accordion-header px-1 mb-0">
+                        class="itemcontent d-flex justify-content-between align-items-center py-2 mt-2 border-bottom accordion-header px-1 mb-0 gap-3">
                         <div class="item-desc">
-                            <h4 class="fw-bold">Modify your username</h4>
+                            <h5 class="fw-bold">Edit your email address</h5>
                             <span class="d-block fw-normal text-body-secondary">
-                                Click to modify the username diplayed on your profile and all product purchases
-                                invoices.</span>
+                                Click to modify your email address and add a new one to your account.</span>
                         </div>
                         <button
                             class="collapsed item-btn btn btn-success bg-success-subtle text-success-emphasis rounded rounded-1 d-flex justify-content-between align-items-center gap-2"
-                            data-bs-toggle="collapse" data-bs-target="#editUserName" aria-expanded="false"
-                            aria-controls="editUserName" type="button"><span>Modify</span> <span
+                            data-bs-toggle="collapse" data-bs-target="#editUserMail" aria-expanded="false"
+                            aria-controls="editUserMail" type="button"><span>Modify</span> <span
                                 class="bi bi-pencil-square"></span></button>
                     </div>
-                    <div class="item-form accordion-collapse collapse px-3 py-2 bg-light mt-0" id="editUserName"
+                    <div class="item-form accordion-collapse collapse px-3 py-2 bg-light mt-0" id="editUserMail"
                         data-bs-parent="#settingsItems">
                         <span class="d-block fs-5 fw-bold">Edit Form</span>
-                        <span class="d-block fw-normal text-body-secondary">Enter your new username and click save.</span>
+                        <span class="d-block fw-normal text-body-secondary">Enter a new email address and click save.</span>
                         <div class="form">
-                            <input type="text" name="nusername" id="nusername"
-                                class="form-control border border-1 rounded rounded-0 my-2"
-                                placeholder="Enter a new username...">
-                            <button class="btn btn-success bg-success-subtle text-success-emphasis rounded rounded-1 px-4"
-                                type="button">Save</button>
+                            <input type="text" name="nmail" id="nmail"
+                                class="form-control border border-1 rounded rounded-0 my-2" placeholder="username@mail.com">
+                            <button
+                                class="btn btn-success bg-success-subtle btn-sm text-success-emphasis rounded rounded-1 px-2"
+                                type="button">Save now</button>
                         </div>
                     </div>
                 </div>
