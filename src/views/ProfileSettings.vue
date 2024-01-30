@@ -9,6 +9,12 @@ import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue
 .mainbanner {
     background-color: #f1f1f1 !important;
 }
+
+.accordion-collapse,
+.accordion-item {
+    border: none !important;
+    border-radius: 0px !important;
+}
 </style>
 
 <template>
@@ -33,20 +39,33 @@ import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue
 
         <!-- profile-settings -->
         <div class="container col-lg-5 col-sm-12 my-5 py-5">
-            <!-- Profile-Settings-Item -->
-            <div class="settings-item">
-                <div class="itemcontent d-flex justify-content-between align-items-center py-2 my-2 border-bottom">
-                    <div class="item-desc">
-                        <h4 class="fw-bold">Modify your username</h4>
-                        <span class="d-block fw-normal text-body-secondary">
-                            Click to modify the username diplayed on your profile and all product purchases invoices.</span>
+            <div class="settings-items accordion" id="settingsItems">
+
+                <!-- Profile-Settings-Item --username -->
+                <div class="settings-item accordion-item username-item">
+                    <div
+                        class="itemcontent d-flex justify-content-between align-items-center py-2 my-2 border-bottom accordion-header px-1">
+                        <div class="item-desc">
+                            <h4 class="fw-bold">Modify your username</h4>
+                            <span class="d-block fw-normal text-body-secondary">
+                                Click to modify the username diplayed on your profile and all product purchases
+                                invoices.</span>
+                        </div>
+                        <button
+                            class="collapsed item-btn btn btn-success bg-success-subtle text-success-emphasis rounded rounded-1 d-flex justify-content-between align-items-center gap-2"
+                            data-bs-toggle="collapse" data-bs-target="#editUserName" aria-expanded="false"
+                            aria-controls="editUserName" type="button"><span>Modify</span> <span
+                                class="bi bi-pencil-square"></span></button>
                     </div>
-                    <button class="item-btn btn btn-success bg-success-subtle text-success-emphasis rounded rounded-1"
-                        type="button">Modify <span class="ms-1 bi bi-pencil-square"></span></button>
+                    <div class="item-form accordion-collapse collapse p-1" id="editUserName"
+                        data-bs-parent="#settingsItems">
+                        <h1>Edit is here !!!</h1>
+                    </div>
                 </div>
+                <!-- ...Profile-Settings-Item --username -->
+
 
             </div>
-            <!-- ...Profile-Settings-Item -->
         </div>
         <!-- profile-settings -->
 
