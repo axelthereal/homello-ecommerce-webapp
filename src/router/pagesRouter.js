@@ -8,6 +8,7 @@ import ContactView from "../views/ContactView.vue";
 import ShoppingcartView from "../views/ShoppingcartView.vue";
 import FavoritesView from "../views/FavoritesView.vue";
 import SignupView from "../views/SignupView.vue";
+import LoginView from "../views/LoginView.vue";
 
 /* Create router... */
 const router = createRouter({
