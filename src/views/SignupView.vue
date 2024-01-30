@@ -20,9 +20,14 @@ nav,
         <form class="form-bx col-lg-4 col-10 mx-auto p-lg-5 container mt-5">
 
             <h1 class="display-6 mb-1 fw-bold d-flex align-items-center justify-content-center">Create a new account</h1>
-            <p class="w-80 mx-auto d-flex align-items-center justify-content-center opacity-50" align="center">Sign up to
+            <p class="w-80 mb-4 mx-auto d-flex align-items-center justify-content-center opacity-50" align="center">Sign up
+                to
                 start shopping securely
                 and get access to the best quality home & office products !</p>
+            <div class="form-floating my-3">
+                <input type="text" class="form-control rounded rounded-0" id="floatingName" placeholder="ex: elunmusk">
+                <label for="floatingName" class="text-muted">User Name</label>
+            </div>
 
             <div class="form-floating my-3">
                 <input type="email" class="form-control rounded rounded-0" id="floatingEmail"
