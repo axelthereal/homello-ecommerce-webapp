@@ -52,6 +52,13 @@ import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue
         <!-- profile-settings -->
         <div class="container col-lg-5 col-sm-12 my-5 py-5">
             <div class="settings-items accordion" id="settingsItems">
+                <div class="header mb-3 px-1 py-1">
+                    <h5 class="fw-bold opacity-80 text-black-emphasis">Account Settings</h5>
+                    <p class="fw-medium text-body-tertiary">
+                        Modify personal informations linked to your homello shopping
+                        account
+                    </p>
+                </div>
 
                 <!-- Profile-Settings-Item --username -->
                 <div class="settings-item accordion-item username-item">
@@ -151,6 +158,49 @@ import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue
                 </div>
                 <!-- ...Profile-Settings-Item --password -->
 
+
+                <div class="header mb-3 mt-5 px-1 pt-3">
+                    <h5 class="fw-bold opacity-80 text-black-emphasis">Profile Settings</h5>
+                    <p class="fw-medium text-body-tertiary">
+                        Modify the profile linked to your homello account
+                    </p>
+                </div>
+
+
+                <!-- Profile-Settings-Item --profileimg -->
+                <div class="settings-item accordion-item password-item mt-3">
+                    <div
+                        class="itemcontent d-flex justify-content-between align-items-center py-2 mt-2 border-bottom accordion-header px-1 mb-0 gap-3">
+                        <div class="item-desc">
+                            <h5 class="fw-bold">Change your profile image</h5>
+                            <span class="d-block fw-normal text-body-secondary">
+                                Click to modify your password and add a new one to your account.</span>
+                        </div>
+                        <button
+                            class="collapsed item-btn btn btn-success bg-success-subtle text-success-emphasis rounded rounded-1 d-flex justify-content-between align-items-center gap-2"
+                            data-bs-toggle="collapse" data-bs-target="#editUserPass" aria-expanded="false"
+                            aria-controls="editUserPass" type="button"><span>Modify</span> <span
+                                class="bi bi-pencil-square"></span></button>
+                    </div>
+                    <div class="item-form accordion-collapse collapse px-3 py-2 bg-light mt-0" id="editUserPass"
+                        data-bs-parent="#settingsItems">
+                        <span class="d-block fs-5 fw-bold">Edit Form</span>
+                        <span class="d-block fw-normal text-body-secondary">Enter your new password and click to
+                            save.</span>
+                        <div class="form">
+                            <input type="password" name="npass" id="npass"
+                                class="form-control border border-1 rounded rounded-0 my-2" placeholder="Password">
+
+                            <input type="password" name="confpass" id="confpass"
+                                class="form-control border border-1 rounded rounded-0 my-2"
+                                placeholder="Confirm New Password">
+                            <button
+                                class="btn btn-success bg-success-subtle btn-sm text-success-emphasis rounded rounded-1 px-2"
+                                type="button">Save now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- ...Profile-Settings-Item --profileimg -->
 
             </div>
         </div>
