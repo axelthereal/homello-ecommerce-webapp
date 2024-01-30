@@ -83,7 +83,7 @@ button:active {
             </div>
 
             <LinkButton btn-theme="dark-btn" btn-label="Create an account" btn-url="/register" btn-icon="person-plus"
-                outlined="false" class="py-2 btn-lg my-3 w-100" />
+                outlined="false" class="py-2 btndark btn-lg my-3 w-100" />
         </div>
     </main>
     <!-- ../MainBanner -->
