@@ -119,6 +119,14 @@ import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue
 
 <script>
 export default {
-    name: "FavoritesView"
+    name: "FavoritesView",
+    methods: {
+        setPageTitle() {
+            document.title = "Homello | Favorites";
+        }
+    },
+    beforeMount() {
+        this.setPageTitle()
+    }
 }
 </script>
