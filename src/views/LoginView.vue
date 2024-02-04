@@ -97,8 +97,8 @@ button:active {
 </template>
 
 <script>
-import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue";
-import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue";
+import GlobalNavbar from "@/components/headerComponents/GlobalNavbar.vue";
+import LinkButton from "@/components/btnComponents/GlobalButtons/LinkButton.vue";
 
 export default {
     name: "LoginView",
