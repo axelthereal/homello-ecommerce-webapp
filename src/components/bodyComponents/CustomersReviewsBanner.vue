@@ -38,7 +38,7 @@ button.round-carousel-btn {
 
                                 <div class="p-3 p-lg-5 mx-0">
                                     <ReviewsComponent rev-name="Axel Tokam" rev-location="Cameroon, Yaounde"
-                                        rev-img="../../src/assets/images/person-1.png" :rev-text="tempComment"
+                                        rev-img="@/../src/assets/images/person-1.png" :rev-text="tempComment"
                                         class="w-80" />
                                 </div>
                             </div>
@@ -46,7 +46,7 @@ button.round-carousel-btn {
 
                                 <div class="p-3 p-lg-5 mx-0">
                                     <ReviewsComponent rev-name="Maria Lopez" rev-location="America, Mexico"
-                                        rev-img="../../src/assets/images/person-1.png" :rev-text="tempComment"
+                                        rev-img="@/../src/assets/images/person-1.png" :rev-text="tempComment"
                                         class="w-80" />
                                 </div>
                             </div>
@@ -54,7 +54,7 @@ button.round-carousel-btn {
 
                                 <div class="p-3 p-lg-5 mx-0">
                                     <ReviewsComponent rev-name="Ronisia" rev-location="France, Paris"
-                                        rev-img="../../src/assets/images/person-1.png" :rev-text="tempComment"
+                                        rev-img="@/../src/assets/images/person-1.png" :rev-text="tempComment"
                                         class="w-80" />
                                 </div>
                             </div>
