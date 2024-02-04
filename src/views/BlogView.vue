@@ -140,6 +140,14 @@ export default {
                 tmpImg: "../../src/assets/images/girl-customer-service-image.jpg"
             }
         }
+    },
+    methods: {
+        setPageTitle() {
+            document.title = "Homello | Blog";
+        }
+    },
+    beforeMount() {
+        this.setPageTitle()
     }
 }
 </script>
