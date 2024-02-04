@@ -73,7 +73,9 @@ button:active {
             </form>
 
             <p class="mt-3 text-body-tertiary fw-medium">Password forgotten
-                ? <a href=""><span class="text-success opacity-100 "><ins>click here</ins></span></a>.
+                ?
+                <RouterLink to="/recover"><span class="text-success opacity-100 "><ins>click here</ins></span></RouterLink>
+                .
             </p>
 
             <div class="formbtns mt-3 pt-3 d-flex justify-content-evenly align-items-center gap-4">
