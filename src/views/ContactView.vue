@@ -1,7 +1,7 @@
 <script setup>
 // import_required_components
-import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue";
-import GlobalFooter from '../components/footerComponents/GlobalFooter.vue';
+import GlobalNavbar from "@/components/headerComponents/GlobalNavbar.vue";
+import GlobalFooter from "@/components/footerComponents/GlobalFooter.vue";
 </script>
 
 
@@ -73,7 +73,7 @@ import GlobalFooter from '../components/footerComponents/GlobalFooter.vue';
         <!-- MainBanner -->
         <section class="bg-banner py-5 text-center">
             <div class="banner-img">
-                <img src="../assets/images/image04.jpg" alt="" srcset="">
+                <img src="@/assets/images/image04.jpg" alt="" srcset="">
             </div>
             <div class="banner-blur"></div>
             <div class="container py-4">
