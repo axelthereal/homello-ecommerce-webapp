@@ -15,13 +15,13 @@
             <div class="content row row-cols-1 row-cols-lg-4  align-items-stretch justify-content-evenly">
                 <!-- ProductItem-Cards -->
                 <BlogArticleCard :title="tmpTitle" :date="tmpDate" category="Tutorials" author="Admin"
-                    img="@/../src/assets/cloud/article-img-01.jpg" class="col-11 d-block col-lg-3" />
+                    img="/assets/cloud/article-img-01.jpg" class="col-11 d-block col-lg-3" />
                 <BlogArticleCard :title="tmpTitle" :date="tmpDate" category="Tutorials" author="Admin"
-                    img="@/../src/assets/cloud/article-img-02.jpg" class="col-11 d-block col-lg-3" />
+                    img="/assets/cloud/article-img-02.jpg" class="col-11 d-block col-lg-3" />
                 <BlogArticleCard :title="tmpTitle" :date="tmpDate" category="Tutorials" author="Admin"
-                    img="@/../src/assets/cloud/article-img-03.jpg" class="col-11 d-block col-lg-3" />
+                    img="/assets/cloud/article-img-03.jpg" class="col-11 d-block col-lg-3" />
                 <BlogArticleCard :title="tmpTitle" :date="tmpDate" category="Tutorials" author="Admin"
-                    img="@/../src/assets/cloud/article-img-01.jpg" class="col-11 d-block col-lg-3" />
+                    img="/assets/cloud/article-img-01.jpg" class="col-11 d-block col-lg-3" />
                 <!-- */ProductItem-Cards -->
             </div>
         </div>
