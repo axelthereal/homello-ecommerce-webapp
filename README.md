@@ -8,27 +8,27 @@ Homello is an open-source home furniture e-commerce web app built with Vue.js.
 
 [![License](https://img.shields.io/badge/License-Open%20Modification-green.svg)](https://opensource.org/licenses/OpenModification)
 
-Homello aims to provide a seamless and user-friendly experience for browsing and purchasing home furniture. The project focuses on creating a secure platform for users to discover, explore, and shop for high-quality home and office furnishings and decorations.
+Homello aims to provide a seamless and user-friendly experience for browsing and purchasing home and offices furnitures. The project focuses on creating a secure platform for users to discover, explore, and shop for high-quality home and office furnishings and decorations.
 
 ## Tech Stack
 
 - **Node.js:**
-  ![Node.js Logo](https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg)
+  <img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg" width="100">
 
 - **Vue.js:**
-  ![Vue.js Logo](https://vuejs.org/images/logo.png)
+  <img src="https://vuejs.org/images/logo.png" width="100">
 
 - **HTML:**
-  ![HTML Logo](https://www.w3.org/html/logo/downloads/HTML5_1Color_Black.svg)
+  <img src="https://www.w3.org/html/logo/downloads/HTML5_1Color_Black.svg" width="100">
 
 - **CSS:**
-  ![CSS Logo](https://raw.githubusercontent.com/voodootikigod/logo.js/master/js.png)
+  <img src="https://raw.githubusercontent.com/voodootikigod/logo.js/master/js.png" width="100">
 
 - **JavaScript:**
-  ![JavaScript Logo](https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg)
+  <img src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg" width="100">
 
 - **Bootstrap:**
-  ![Bootstrap Logo](https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-black.svg)
+  <img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-black.svg" width="100">
 
 ## Features
 
