@@ -157,7 +157,7 @@ import GlobalFooter from '@/components/footerComponents/GlobalFooter.vue';
                             </div>
                             <div class="carousel-img preload-rs s-anim col-lg-6 d-flex flex-column align-items-start
                                 justify-content-center">
-                                <img src="@/assets/images/product-10.png" class="img img-fluid" alt="" />
+                                <img src="/assets/images/product-10.png" class="img img-fluid" alt="" />
                             </div>
                         </div>
                     </div>
@@ -177,7 +177,7 @@ import GlobalFooter from '@/components/footerComponents/GlobalFooter.vue';
                             </div>
                             <div class="carousel-img preload-rs s-anim col-lg-6 d-flex flex-column align-items-start
                                 justify-content-center">
-                                <img src="@/assets/images/product-7.png" class="img" alt="" />
+                                <img src="/assets/images/product-7.png" class="img" alt="" />
                             </div>
                         </div>
 
@@ -199,7 +199,7 @@ import GlobalFooter from '@/components/footerComponents/GlobalFooter.vue';
                             </div>
                             <div class="carousel-img preload-rs s-anim col-lg-6 d-flex flex-column align-items-start
                                 justify-content-center">
-                                <img src="@/assets/images/product-9.png" class="img" alt="" />
+                                <img src="/assets/images/product-9.png" class="img" alt="" />
                             </div>
                         </div>
 
@@ -228,11 +228,11 @@ import GlobalFooter from '@/components/footerComponents/GlobalFooter.vue';
                 <div class="row row-cols-1 row-cols-lg-2 align-items-stretch">
                     <div class="col mx-0 preload-rs ">
                         <MediumImageBanner class="w-100 mx-0" banner-title="Apparels Collection"
-                            banner-description="Homello Furniture" banner-image="src/assets/images/sli-h1.webp" />
+                            banner-description="Homello Furniture" banner-image="/assets/images/sli-h1.webp" />
                     </div>
                     <div class="col mx-0 preload-rs ">
                         <MediumImageBanner class="w-100 mx-0" banner-title="Chair Collection"
-                            banner-description="Homello Furniture" banner-image="src/assets/images/slide-3.png" />
+                            banner-description="Homello Furniture" banner-image="/assets/images/slide-3.png" />
                     </div>
                 </div>
             </div>
@@ -270,16 +270,13 @@ import GlobalFooter from '@/components/footerComponents/GlobalFooter.vue';
 
                                         <ProductItemCard product-title="Ergonomic Chair" product-category="Homello"
                                             product-price="45.87" product-discount=""
-                                            product-image="@/../src/assets/images/product-3.png"
-                                            class="col-11 col-lg-4 d-block" />
+                                            product-image="/assets/images/product-3.png" class="col-11 col-lg-4 d-block" />
                                         <ProductItemCard product-title="Nordic Chair" product-category="Homello"
                                             product-price="67.00" product-discount=""
-                                            product-image="@/../src/assets/images/product-1.png"
-                                            class="col-11 col-lg-4 d-block" />
+                                            product-image="/assets/images/product-1.png" class="col-11 col-lg-4 d-block" />
                                         <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello"
                                             product-price="73.23" product-discount=""
-                                            product-image="@/../src/assets/images/product-2.png"
-                                            class="col-11 col-lg-4 d-block" />
+                                            product-image="/assets/images/product-2.png" class="col-11 col-lg-4 d-block" />
                                     </div>
                                 </div>
 
@@ -288,16 +285,13 @@ import GlobalFooter from '@/components/footerComponents/GlobalFooter.vue';
                                         class="products-list row row-cols-1 row-cols-lg-3 d-flex justify-content align-items-stretch">
                                         <ProductItemCard product-title="Ergonomic Chair" product-category="Homello"
                                             product-price="45.87" product-discount=""
-                                            product-image="@/../src/assets/images/product-3.png"
-                                            class="col-11 col-lg-4 d-block" />
+                                            product-image="/assets/images/product-3.png" class="col-11 col-lg-4 d-block" />
                                         <ProductItemCard product-title="Nordic Chair" product-category="Homello"
                                             product-price="67.00" product-discount=""
-                                            product-image="@/../src/assets/images/product-1.png"
-                                            class="col-11 col-lg-4 d-block" />
+                                            product-image="/assets/images/product-1.png" class="col-11 col-lg-4 d-block" />
                                         <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello"
                                             product-price="73.23" product-discount=""
-                                            product-image="@/../src/assets/images/product-2.png"
-                                            class="col-11 col-lg-4 d-block" />
+                                            product-image="/assets/images/product-2.png" class="col-11 col-lg-4 d-block" />
                                     </div>
                                 </div>
 
@@ -306,16 +300,13 @@ import GlobalFooter from '@/components/footerComponents/GlobalFooter.vue';
                                         class="products-list row row-cols-1 row-cols-lg-3 d-flex justify-content align-items-stretch">
                                         <ProductItemCard product-title="Ergonomic Chair" product-category="Homello"
                                             product-price="45.87" product-discount=""
-                                            product-image="@/../src/assets/images/product-3.png"
-                                            class="col-11 col-lg-4 d-block" />
+                                            product-image="/assets/images/product-3.png" class="col-11 col-lg-4 d-block" />
                                         <ProductItemCard product-title="Nordic Chair" product-category="Homello"
                                             product-price="67.00" product-discount=""
-                                            product-image="@/../src/assets/images/product-1.png"
-                                            class="col-11 col-lg-4 d-block" />
+                                            product-image="/assets/images/product-1.png" class="col-11 col-lg-4 d-block" />
                                         <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello"
                                             product-price="73.23" product-discount=""
-                                            product-image="@/../src/assets/images/product-2.png"
-                                            class="col-11 col-lg-4 d-block" />
+                                            product-image="/assets/images/product-2.png" class="col-11 col-lg-4 d-block" />
                                     </div>
                                 </div>
 
@@ -366,16 +357,16 @@ import GlobalFooter from '@/components/footerComponents/GlobalFooter.vue';
                 </div>
                 <div class="content row row-cols-1 row-cols-lg-4 align-items-stretch">
                     <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
-                        product-discount="" product-image="@/../src/assets/images/product-4.png"
+                        product-discount="" product-image="/assets/images/product-4.png"
                         class="col-6 col-lg-3 preload-rs mx-auto" />
                     <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
-                        product-discount="" product-image="@/../src/assets/images/product-5.png"
+                        product-discount="" product-image="/assets/images/product-5.png"
                         class="col-6 col-lg-3 preload-rs mx-auto" />
                     <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
-                        product-discount="" product-image="@/../src/assets/images/product-6.png"
+                        product-discount="" product-image="/assets/images/product-6.png"
                         class="col-6 col-lg-3 preload-rs mx-auto" />
                     <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
-                        product-discount="" product-image="@/../src/assets/images/product-7.png"
+                        product-discount="" product-image="/assets/images/product-7.png"
                         class="col-6 col-lg-3 preload-rs mx-auto" />
                 </div>
             </div>
@@ -388,7 +379,7 @@ import GlobalFooter from '@/components/footerComponents/GlobalFooter.vue';
             <div class="container">
                 <MediumImageBanner banner-title="50% OFF Interior Collection"
                     banner-description="Free shipping over 115$ for international orders"
-                    banner-image="src/assets/images/sli-h1.webp" class="py-5 mx-auto preload-rs" />
+                    banner-image="/assets/images/sli-h1.webp" class="py-5 mx-auto preload-rs" />
             </div>
         </div>
         <!-- */addBanner -->
@@ -403,16 +394,16 @@ import GlobalFooter from '@/components/footerComponents/GlobalFooter.vue';
                 </div>
                 <div class="content row row-cols-1 row-cols-lg-4 align-items-stretch">
                     <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
-                        product-discount="" product-image="@/../src/assets/images/product-8.png"
+                        product-discount="" product-image="/assets/images/product-8.png"
                         class="col-6 col-lg-3 preload-rs mx-auto " />
                     <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
-                        product-discount="" product-image="@/../src/assets/images/product-9.png"
+                        product-discount="" product-image="/assets/images/product-9.png"
                         class="col-6 col-lg-3 preload-rs mx-auto " />
                     <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
-                        product-discount="" product-image="@/../src/assets/images/product-10.png"
+                        product-discount="" product-image="/assets/images/product-10.png"
                         class="col-6 col-lg-3 preload-rs mx-auto " />
                     <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
-                        product-discount="" product-image="@/../src/assets/images/product-11.png"
+                        product-discount="" product-image="/assets/images/product-11.png"
                         class="col-6 col-lg-3 preload-rs mx-auto " />
                 </div>
             </div>
