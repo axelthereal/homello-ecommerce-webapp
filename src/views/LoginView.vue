@@ -45,7 +45,8 @@ button:active {
         <div class="formbx col-lg-4 col-10 mx-auto p-lg-5 container mt-lg-0 mt-4">
             <form class="w-100 form">
 
-                <h1 class="display-6 mb-1 fw-bold d-flex align-items-center justify-content-center">Welcome back !
+                <h1 class="display-6 mb-1 fw-bold d-flex align-items-center justify-content-center" align="center">Welcome
+                    back !
                 </h1>
                 <p class="w-80 mb-4 mx-auto d-flex align-items-center justify-content-center opacity-50" align="center">Sign
                     in to your account and start shopping </p>

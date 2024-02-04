@@ -48,10 +48,12 @@ button:active {
 
     <!-- MainBanner -->
     <main class="form-signin w-100 m-auto pt-5">
-        <div class="formbx col-lg-4 col-10 mx-auto p-lg-5 container mt-lg-0 mt-4">
+        <div class="formbx col-lg-4 col-sm-4 col-10 mx-auto p-lg-5 container mt-lg-0 mt-4">
             <form class="w-100 form">
 
-                <h1 class="display-6 mb-1 fw-bold d-flex align-items-center justify-content-center">Create a new account
+                <h1 class="display-6 mb-1 fw-bold d-flex align-items-center justify-content-center" align="center">Create a
+                    new
+                    account
                 </h1>
                 <p class="w-80 mb-4 mx-auto d-flex align-items-center justify-content-center opacity-50" align="center">Sign
                     up
