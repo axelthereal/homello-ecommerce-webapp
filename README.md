@@ -25,10 +25,14 @@
 
 ## **Screenshots and Videos**
 
-Check out some captures of the app in action!
+Check out some captures of the web app in action !
 
 ![Screenshot 1](app_captures/homello-project-video-002.png)
+
+**About Page:**
 ![Screenshot 3](app_captures/homello-project-video-006.png)
+
+**Shop Page:**
 ![Screenshot 2](app_captures/homello-project-video-004.png)
 
 [Watch Demo Video](app_captures/homello-project-video-001.mp4)
@@ -84,7 +88,7 @@ Contributions are welcomed, for further modifications, improvements, or any ques
 
 - **Email:** [dev.axeltokam@gmail.com](mailto:dev.axeltokam@gmail.com)
 - **Twitter:** [![Twitter](https://img.shields.io/badge/Twitter-%40axeltokam-blue)](https://twitter.com/axeltokam)
-- **LinkedIn:** [![LinkedIn](https://img.shields.io/badge/LinkedIn-Your%20Axel%20Tokam-blue)](https://www.linkedin.com/in/axeltokam/)
+- **LinkedIn:** [![LinkedIn](https://img.shields.io/badge/LinkedIn-Axel%20Tokam-green)](https://www.linkedin.com/in/axeltokam/)
 
 ## **License**
 
