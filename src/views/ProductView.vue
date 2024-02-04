@@ -212,6 +212,14 @@ import GlobalFooter from '../components/footerComponents/GlobalFooter.vue';
 
 <script>
 export default {
-    name: "ProductView"
+    name: "ProductView",
+    methods: {
+        setPageTitle() {
+            document.title = "Homello | Product Name";
+        }
+    },
+    beforeMount() {
+        this.setPageTitle()
+    }
 }
 </script>
