@@ -9,10 +9,11 @@ export default defineConfig({
   base: "/",
   resolve: {
     alias: {
-      "@": fileURLToPath(new URL("./src", import.meta.url)),
+      "@": fileURLToPath(new URL("src", import.meta.url)),
     },
   },
   build: {
-    outDir: "dist", // Output dir
+    outDir: "dist", //
+    assetsDir: "assets", //
   },
 });
