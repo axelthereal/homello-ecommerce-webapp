@@ -98,6 +98,14 @@ export default {
     components: {
         GlobalNavbar,
         LinkButton
+    },
+    methods: {
+        setPageTitle() {
+            document.title = "Homello | Login ";
+        }
+    },
+    beforeMount() {
+        this.setPageTitle()
     }
 }
 </script>

@@ -103,6 +103,14 @@ button:active {
 
 <script>
 export default {
-    name: "SignupView"
+    name: "SignupView",
+    methods: {
+        setPageTitle() {
+            document.title = "Homello | Register";
+        }
+    },
+    beforeMount() {
+        this.setPageTitle()
+    }
 }
 </script>
