@@ -40,7 +40,11 @@ button:active {
 }
 </style>
 
-<template></template>
+<template>
+    <!-- Header -->
+    <GlobalNavbar />
+    <!-- ..Header -->
+</template>
 
 <script>
 export default {
