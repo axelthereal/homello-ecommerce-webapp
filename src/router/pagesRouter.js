@@ -77,6 +77,11 @@ const router = createRouter({
       name: "settings",
       component: ProfileSettingsView,
     },
+    {
+      path: "/recover",
+      name: "recover",
+      component: RecoverAccountView,
+    },
   ],
 });
 
