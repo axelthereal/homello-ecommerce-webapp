@@ -37,7 +37,7 @@ export default {
         }
     },
     props: {
-        revImg: { type: String, default: "../../src/assets/images/person-1.png" },
+        revImg: { type: String, default: "@/../src/assets/images/person-1.png" },
         revName: { type: String, default: "Maria Homello" },
         revLocation: { type: String, default: "Country, Town" },
         revText: { type: String, default: "Customer review comes here..." }
