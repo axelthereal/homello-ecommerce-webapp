@@ -74,8 +74,10 @@ button:active {
 
             <p class="mt-3 text-body-tertiary fw-medium">Password forgotten
                 ?
-                <RouterLink to="/recover"><span class="text-success opacity-100 "><ins>click here</ins></span></RouterLink>
-                .
+                <router-link to="/recover">
+                    <span class="text-success opacity-100 "><ins>click here</ins></span>
+                </router-link>.
+
             </p>
 
             <div class="formbtns mt-3 pt-3 d-flex justify-content-evenly align-items-center gap-4">
