@@ -97,7 +97,7 @@ button:active {
 </template>
 
 <script>
-import GlobalNavbar from "../components/headerComponents/globalnavbar.vue";
+import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue";
 import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue";
 
 export default {
