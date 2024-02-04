@@ -1,21 +1,27 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HomeView from "../views/HomeView.vue";
-import AboutusView from "../views/AboutusView.vue";
-import ShopView from "../views/ShopView.vue";
-import ProductView from "../views/ProductView.vue";
-import BlogView from "../views/BlogView.vue";
-import ContactView from "../views/ContactView.vue";
-import ShoppingcartView from "../views/ShoppingcartView.vue";
-import FavoritesView from "../views/FavoritesView.vue";
-import SignupView from "../views/SignupView.vue";
-import LoginView from "../views/LoginView.vue";
-import RecoverAccountView from "../views/RecoverAccountView.vue";
-import ProfileSettingsView from "../views/ProfileSettings.vue";
+import HomeView from "@/views/HomeView.vue";
+import AboutusView from "@/views/AboutusView.vue";
+import ShopView from "@/views/ShopView.vue";
+import ProductView from "@/views/ProductView.vue";
+import BlogView from "@/views/BlogView.vue";
+import ContactView from "@/views/ContactView.vue";
+import ShoppingcartView from "@/views/ShoppingcartView.vue";
+import FavoritesView from "@/views/FavoritesView.vue";
+import SignupView from "@/views/SignupView.vue";
+import LoginView from "@/views/LoginView.vue";
+import RecoverAccountView from "@/views/RecoverAccountView.vue";
+import ProfileSettingsView from "@/views/ProfileSettings.vue";
+import Temp from "@/views/Temp.vue";
 
 /* Create router... */
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
+    {
+      path: "/temp",
+      name: "temp",
+      component: Temp,
+    },
     {
       path: "/",
       name: "default",
