@@ -51,40 +51,21 @@ button:active {
         <div class="formbx col-lg-4 col-10 mx-auto p-lg-5 container mt-lg-0 mt-4">
             <form class="w-100 form">
 
-                <h1 class="display-6 mb-1 fw-bold d-flex align-items-center justify-content-center">Create a new account
+                <h1 class="display-6 mb-1 fw-bold d-flex align-items-center justify-content-center">Recover your account
                 </h1>
-                <p class="w-80 mb-4 mx-auto d-flex align-items-center justify-content-center opacity-50" align="center">Sign
-                    up
-                    to
-                    start shopping securely
-                    and get access to the best quality home & office products !</p>
-                <div class="form-floating my-3">
-                    <input type="text" class="form-control bg-light rounded rounded-0" id="floatingName"
-                        placeholder="ex: elunmusk">
-                    <label for="floatingName" class="text-muted">User Name</label>
-                </div>
+                <p class="w-80 mb-4 mx-auto d-flex align-items-center justify-content-center opacity-50" align="center">
+                    Enter the mail used to open your account, you'll receive a link to recover your account in less than an
+                    hour !</p>
 
                 <div class="form-floating my-3">
                     <input type="email" class="form-control bg-light rounded rounded-0" id="floatingEmail"
                         placeholder="name@example.com">
                     <label for="floatingEmail" class="text-muted">Email address</label>
                 </div>
-                <div class="form-floating my-3">
-                    <input type="password" class="form-control bg-light rounded rounded-0" id="floatingPassword"
-                        placeholder="Password">
-                    <label for="floatingPassword" class="text-muted">Password</label>
-                </div>
 
-                <div class="form-check text-start my-3">
-                    <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
-                    <label class="form-check-label" for="flexCheckDefault">
-                        Remember me
-                    </label>
-                </div>
                 <button
                     class="btn btn-light primary-btn w-100 py-2 text-white d-flex align-items-center justify-content-center rounded-0"
-                    type="submit">Sign
-                    in</button>
+                    type="submit">Get Recovering Link</button>
             </form>
 
             <div class="formbtns mt-3 pt-3 d-flex justify-content-evenly align-items-center gap-4">
