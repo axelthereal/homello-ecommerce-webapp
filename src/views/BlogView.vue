@@ -8,7 +8,7 @@ import BlogArticleCard from '../components/bodyComponents//BlogArticleCard.vue';
 
  
 <style scoped>
-/* Blog_Style */
+/* Blog_Styles */
 .navbar {
     background-color: #fff !important;
 }
