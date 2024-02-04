@@ -289,8 +289,8 @@
     <div class="addBanner my-5 py-5">
       <div class="container">
         <MediumImageBanner banner-title="50% OFF Interior Collection"
-          banner-description="Free shipping over 115$ for international orders"
-          banner-image="src/assets/images/sli-h1.webp" class="py-5 mx-auto preload-rs s-anim" />
+          banner-description="Free shipping over 115$ for international orders" banner-image="/assets/images/sli-h1.webp"
+          class="py-5 mx-auto preload-rs s-anim" />
       </div>
     </div>
     <!-- */addBanner -->
