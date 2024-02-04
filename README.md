@@ -83,8 +83,8 @@ Follow these steps to set up **Homello** locally:
 Contributions are welcomed, for further modifications, improvements, or any questions, feel free to reach out to me via email at :
 
 - **Email:** [dev.axeltokam@gmail.com](mailto:dev.axeltokam@gmail.com)
-- **Twitter:** [![Twitter](https://img.shields.io/badge/Twitter-%40YourTwitterHandle-blue)](https://twitter.com/axeltokam)
-- **LinkedIn:** [![LinkedIn](https://img.shields.io/badge/LinkedIn-Your%20LinkedIn%20Profile-blue)](https://www.linkedin.com/in/axeltokam/)
+- **Twitter:** [![Twitter](https://img.shields.io/badge/Twitter-%40axeltokam-blue)](https://twitter.com/axeltokam)
+- **LinkedIn:** [![LinkedIn](https://img.shields.io/badge/LinkedIn-Your%20Axel%20Tokam-blue)](https://www.linkedin.com/in/axeltokam/)
 
 ## **License**
 
