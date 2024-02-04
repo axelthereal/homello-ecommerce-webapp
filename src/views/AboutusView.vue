@@ -98,7 +98,7 @@ import GlobalFooter from '@/components/footerComponents/GlobalFooter.vue';
      content: "";
      width: 255px;
      height: 217px;
-     background-image: url("@/assets/images/dots-yellow.svg");
+     background-image: url("/assets/images/dots-yellow.svg");
      background-repeat: no-repeat;
      background-size: contain;
      -webkit-transform: translate(-15%, -40%);
@@ -112,7 +112,7 @@ import GlobalFooter from '@/components/footerComponents/GlobalFooter.vue';
      content: "";
      width: 255px;
      height: 217px;
-     background-image: url("@/assets/images/dots-light.svg");
+     background-image: url("/assets/images/dots-light.svg");
      background-repeat: no-repeat;
      background-size: contain;
      -webkit-transform: translate(25%, -25%);
@@ -226,10 +226,10 @@ import GlobalFooter from '@/components/footerComponents/GlobalFooter.vue';
                 <div class="col-lg-6 mt-5 mt-lg-0 preload-rs s-anim">
                     <div class="img-wrap">
                         <div class="img-grid grid-lg ">
-                            <img src="@/assets/images/image01.jpg" alt="Image" class="img-fluid">
+                            <img src="/assets/images/image01.jpg" alt="Image" class="img-fluid">
                         </div>
                         <div class="img-grid grid-sm">
-                            <img src="@/assets/images/img-grid-6.jpg" alt="Image" class="img-fluid">
+                            <img src="/assets/images/img-grid-6.jpg" alt="Image" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -248,10 +248,10 @@ import GlobalFooter from '@/components/footerComponents/GlobalFooter.vue';
                 <div class="col-lg-6 me-lg-5">
                     <div class="img-wrap">
                         <div class="img-grid grid-lg mx-auto preload-rs s-anim">
-                            <img src="@/assets/images/img-grid-1.jpg" alt="Image" class="img-fluid">
+                            <img src="/assets/images/img-grid-1.jpg" alt="Image" class="img-fluid">
                         </div>
                         <div class="img-grid grid-sm mx-auto">
-                            <img src="@/assets/images/img-grid-2.jpg" alt="Image" class="img-fluid">
+                            <img src="/assets/images/img-grid-2.jpg" alt="Image" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -279,7 +279,7 @@ import GlobalFooter from '@/components/footerComponents/GlobalFooter.vue';
             <div class="row gx-5 row-cols-1 row-cols-sm-2 row-cols-xl-4 justify-content-center">
                 <div class="col mb-5 mb-xl-0 preload-rs s-anim">
                     <div class="text-center">
-                        <img class="img-fluid rounded-circle mb-4 px-4" src="@/assets/images/person-1.png"
+                        <img class="img-fluid rounded-circle mb-4 px-4" src="/assets/images/person-1.png"
                             alt="Homello-img...">
                         <h5 class="fw-bolder">Ibbie Eckart</h5>
                         <span class="d-block position mb-4 text-black-50">CEO, Founder, Atty.</span>
@@ -290,7 +290,7 @@ import GlobalFooter from '@/components/footerComponents/GlobalFooter.vue';
                 </div>
                 <div class="col mb-5 mb-xl-0 preload-rs s-anim">
                     <div class="text-center">
-                        <img class="img-fluid rounded-circle mb-4 px-4" src="@/assets/images/person_2.jpg"
+                        <img class="img-fluid rounded-circle mb-4 px-4" src="/assets/images/person_2.jpg"
                             alt="Homello-img...">
                         <h5 class="fw-bolder">Arden Vasek</h5>
                         <span class="d-block position mb-4 text-black-50">CEO, Founder, Atty.</span>
@@ -301,7 +301,7 @@ import GlobalFooter from '@/components/footerComponents/GlobalFooter.vue';
                 </div>
                 <div class="col mb-5 mx-xl-0">
                     <div class="text-center">
-                        <img class="img-fluid rounded-circle mb-4 px-4" src="@/assets/images/person_4.jpg"
+                        <img class="img-fluid rounded-circle mb-4 px-4" src="/assets/images/person_4.jpg"
                             alt="Homello-img...">
                         <h5 class="fw-bolder">Malvina Cilla</h5>
                         <span class="d-block position mb-4 text-black-50">CEO, Founder, Atty.</span>
@@ -313,7 +313,7 @@ import GlobalFooter from '@/components/footerComponents/GlobalFooter.vue';
 
                 <div class="col mb-5 mb-xl-0 preload-rs s-anim">
                     <div class="text-center">
-                        <img class="img-fluid rounded-circle mb-4 px-4" src="@/assets/images/person_3.jpg"
+                        <img class="img-fluid rounded-circle mb-4 px-4" src="/assets/images/person_3.jpg"
                             alt="Homello-img...">
                         <h5 class="fw-bolder">Toribio Nerthus</h5>
                         <span class="d-block position mb-4 text-black-50">CEO, Founder, Atty.</span>
