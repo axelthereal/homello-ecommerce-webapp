@@ -23,7 +23,7 @@ button.round-carousel-btn {
                 </div>
 
                 <div class="reviews col-11 col-lg-7">
-                    <!-- CUSTOMERS-REVIEWS... -->
+                    <!-- ..CUSTOMERS-REVIEWS.. -->
                     <div id="myCarousel" class="carousel slide mb-6 pointer-event p-0 mx-0" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0"
