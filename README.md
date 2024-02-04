@@ -12,6 +12,7 @@ Homello aims to provide a seamless and user-friendly experience for browsing and
 
 ## Tech Stack
 
+ <p>
 - **Node.js:**
   <img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg" width="100">
 
@@ -28,7 +29,8 @@ Homello aims to provide a seamless and user-friendly experience for browsing and
   <img src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg" width="100">
 
 - **Bootstrap:**
-  <img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-black.svg" width="100">
+<img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-black.svg" width="100">
+</p>
 
 ## Features
 
