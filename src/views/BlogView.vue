@@ -1,9 +1,9 @@
 <script setup>
 // import_required_components
-import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue";
-import NewsletterBanner from '../components/footerComponents/NewsletterBanner.vue';
-import GlobalFooter from '../components/footerComponents/GlobalFooter.vue';
-import BlogArticleCard from '../components/bodyComponents//BlogArticleCard.vue';
+import GlobalNavbar from "@/components/headerComponents/GlobalNavbar.vue";
+import NewsletterBanner from "@/components/footerComponents/NewsletterBanner.vue";
+import GlobalFooter from "@/components/footerComponents/GlobalFooter.vue";
+import BlogArticleCard from "@/components/bodyComponents//BlogArticleCard.vue";
 </script>
 
  
@@ -72,7 +72,7 @@ import BlogArticleCard from '../components/bodyComponents//BlogArticleCard.vue';
         <!-- MainBanner -->
         <section class="bg-banner py-5 text-center">
             <div class="banner-img">
-                <img src="../assets/images/image05.jpg" alt="" srcset="">
+                <img src="@/assets/images/image05.jpg" alt="" srcset="">
             </div>
             <div class="banner-blur"></div>
             <div class="container py-4">
@@ -137,7 +137,7 @@ export default {
             article: {
                 tmpTitle: "This card has supporting text below as a natural lead-in to additional content",
                 tmpDate: "Jan 04, 2024",
-                tmpImg: "../../src/assets/images/girl-customer-service-image.jpg"
+                tmpImg: "@/../src/assets/images/girl-customer-service-image.jpg"
             }
         }
     },
