@@ -6,7 +6,7 @@ import vue from "@vitejs/plugin-vue";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  base: "/",
+  base: "",
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
@@ -14,6 +14,5 @@ export default defineConfig({
   },
   build: {
     outDir: "dist", // Adjust this to your desired output directory
-    assetsDir: "assets", // Adjust this to your desired assets directory
   },
 });
