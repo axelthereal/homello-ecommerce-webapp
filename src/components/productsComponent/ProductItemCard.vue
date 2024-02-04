@@ -119,7 +119,7 @@ export default {
     productCategory: { type: String, default: "Category" },
     productPrice: { type: String, default: "100" },
     productDiscount: { type: String, default: "" },
-    productImage: { type: String, default: "../../src/assets/images/product-3.png" }
+    productImage: { type: String, default: "@/../src/assets/images/product-3.png" }
   }
 }
 </script>

@@ -419,13 +419,13 @@ import GlobalFooter from '@/components/footerComponents/GlobalFooter.vue';
         </div>
         <!-- */Latest-arrivals-Product-List -->
 
+
+        <div class="mt-5 pt-5"></div>
+
+
         <!-- Blog-Articles -->
         <BlogArticlesBanner class="preload" />
         <!-- */Blog-Articles -->
-
-        <!-- Newsletter-banner -->
-        <NewsletterBanner class="preload-rs" />
-        <!-- */Newsletter-banner -->
 
 
 
