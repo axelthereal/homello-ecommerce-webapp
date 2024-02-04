@@ -11,17 +11,11 @@ import SignupView from "@/views/SignupView.vue";
 import LoginView from "@/views/LoginView.vue";
 import RecoverAccountView from "@/views/RecoverAccountView.vue";
 import ProfileSettingsView from "@/views/ProfileSettings.vue";
-import Temp from "@/views/Temp.vue";
 
 /* Create router... */
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    {
-      path: "/temp",
-      name: "temp",
-      component: Temp,
-    },
     {
       path: "/",
       name: "default",
@@ -42,7 +36,6 @@ const router = createRouter({
       name: "shop",
       component: ShopView,
     },
-    ,
     {
       path: "/product",
       name: "product",
