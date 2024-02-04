@@ -31,9 +31,7 @@
           <ul class="navbar-nav justify-content-end align-items-sm-start align-items-lg-center flex-grow-1 pe-3">
             <span v-for="navlink in navLinksList">
               <!-- 
-                <a :class="`nav-link fs-6` + isIndexActive(navlink)" aria-current="page" :href="navlink.url">{{
-                  navlink.label }}</a>
-                  <a class="nav-link fs-5 visually-hidden" href=""><span class="icon"><i class="bi bi-cart"></i></span></a>
+                 ...
               -->
               <li class="nav-item">
                 <a :class="`nav-link fs-6` + isIndexActive(navlink)" aria-current="page" :href="`/` + navlink.url">{{
