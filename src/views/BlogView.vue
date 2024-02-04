@@ -6,7 +6,7 @@ import GlobalFooter from '../components/footerComponents/GlobalFooter.vue';
 import BlogArticleCard from '../components/bodyComponents//BlogArticleCard.vue';
 </script>
 
-
+ 
 <style scoped>
 /* Blog_Style */
 .navbar {
