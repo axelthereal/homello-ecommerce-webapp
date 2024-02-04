@@ -56,6 +56,7 @@ export default {
     name: "BlogArticleCard",
     data() {
         return {
+
         }
     },
     props: {
