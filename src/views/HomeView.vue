@@ -119,11 +119,11 @@
         <div class="row row-cols-1 row-cols-lg-2 align-items-stretch">
           <div class="col mx-0">
             <MediumImageBanner class="w-100 mx-0 preload-rs s-anim" banner-title="Apparels Collection"
-              banner-description="Homello Furniture" banner-image="../../src/assets/images/sli-h1.webp" />
+              banner-description="Homello Furniture" banner-image="@/../src/assets/images/sli-h1.webp" />
           </div>
           <div class="col mx-0">
             <MediumImageBanner class="w-100 mx-0 preload-rs s-anim" banner-title="Chair Collection"
-              banner-description="Homello Furniture" banner-image="../../src/assets/images/slide-2.png" />
+              banner-description="Homello Furniture" banner-image="@/../src/assets/images/slide-2.png" />
           </div>
         </div>
       </div>
