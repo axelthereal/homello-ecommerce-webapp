@@ -151,6 +151,14 @@ import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue
 
 <script>
 export default {
-    name: "ShoppingcartView"
+    name: "ShoppingcartView",
+    methods: {
+        setPageTitle() {
+            document.title = "Homello | Shopping Cart";
+        }
+    },
+    beforeMount() {
+        this.setPageTitle()
+    }
 }
 </script>
