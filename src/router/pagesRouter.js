@@ -9,6 +9,7 @@ import ShoppingcartView from "../views/ShoppingcartView.vue";
 import FavoritesView from "../views/FavoritesView.vue";
 import SignupView from "../views/SignupView.vue";
 import LoginView from "../views/LoginView.vue";
+import RecoverAccountView from "../views/RecoverAccountView.vue";
 import ProfileSettingsView from "../views/ProfileSettings.vue";
 
 /* Create router... */
