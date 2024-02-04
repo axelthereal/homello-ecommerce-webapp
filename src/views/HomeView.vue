@@ -103,7 +103,7 @@
 
           <!-- Banner-Image -->
           <div class="banner-image col-11 col-lg-6 px-lg-0 preload-l">
-            <img src="../assets/images/couch.png" class="main-banner-img mx-auto" alt="">
+            <img src="@/assets/images/couch.png" class="main-banner-img mx-auto" alt="">
           </div>
 
         </div>
@@ -136,23 +136,23 @@
         <div class="row g-4 py-2 row-cols-1 row-cols-lg-4">
 
           <div class="feature preload-rs s-anim col p-5 color-primary" align="center">
-            <img class="icon-img" src="../assets/images/icon-1-delivery.png" alt="" srcset="">
+            <img class="icon-img" src="@/assets/images/icon-1-delivery.png" alt="" srcset="">
             <p class="fs-5 mt-2 fw-semibold">FREE DELIVERY</p>
             <span class="fw-semibold color-black">Free delivery for all products</span>
           </div>
           <div class="feature preload-rs s-anim col p-5 color-primary" align="center">
-            <img class="icon-img" src="../assets/images/icon-1-save-the-world.png" alt="" srcset="">
+            <img class="icon-img" src="@/assets/images/icon-1-save-the-world.png" alt="" srcset="">
             <p class="fs-5 mt-2 fw-semibold">ECOFRIENDLY</p>
             <span class="fw-semibold color-black">Ecofriendly and premium furnitures</span>
           </div>
           <div class="feature preload-rs s-anim col p-5 color-primary" align="center">
-            <img class="icon-img" src="../assets/images/icon-1-return-on-investment.png" alt="" srcset="">
+            <img class="icon-img" src="@/assets/images/icon-1-return-on-investment.png" alt="" srcset="">
             <p class="fs-5 mt-2 fw-semibold">MONEY RETURN</p>
             <span class="fw-semibold color-black">Money return for all registred clients</span>
           </div>
 
           <div class="feature preload-rs s-anim col p-5 color-primary" align="center">
-            <img class="icon-img" src="../assets/images/icon-1-support.png" alt="" srcset="">
+            <img class="icon-img" src="@/assets/images/icon-1-support.png" alt="" srcset="">
             <p class="fs-5 mt-2 fw-semibold">SUPPORT 24/7</p>
             <span class="fw-semibold color-black">Available customer support</span>
           </div>
@@ -195,13 +195,13 @@
                   <div class="products-list row row-cols-1 row-cols-lg-3 d-flex justify-content align-items-stretch">
 
                     <ProductItemCard product-title="Ergonomic Chair" product-category="Homello" product-price="45.87"
-                      product-discount="" product-image="../../src/assets/images/product-3.png"
+                      product-discount="" product-image="@/../src/assets/images/product-3.png"
                       class="col-11 col-lg-4 d-block" />
                     <ProductItemCard product-title="Nordic Chair" product-category="Homello" product-price="67.00"
-                      product-discount="" product-image="../../src/assets/images/product-1.png"
+                      product-discount="" product-image="@/../src/assets/images/product-1.png"
                       class="col-11 col-lg-4 d-block" />
                     <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
-                      product-discount="" product-image="../../src/assets/images/product-2.png"
+                      product-discount="" product-image="@/../src/assets/images/product-2.png"
                       class="col-11 col-lg-4 d-block" />
                   </div>
                 </div>
@@ -209,13 +209,13 @@
                 <div class="carousel-item">
                   <div class="products-list row row-cols-1 row-cols-lg-3 d-flex justify-content align-items-stretch">
                     <ProductItemCard product-title="Ergonomic Chair" product-category="Homello" product-price="45.87"
-                      product-discount="" product-image="../../src/assets/images/product-3.png"
+                      product-discount="" product-image="@/../src/assets/images/product-3.png"
                       class="col-11 col-lg-4 d-block" />
                     <ProductItemCard product-title="Nordic Chair" product-category="Homello" product-price="67.00"
-                      product-discount="" product-image="../../src/assets/images/product-1.png"
+                      product-discount="" product-image="@/../src/assets/images/product-1.png"
                       class="col-11 col-lg-4 d-block" />
                     <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
-                      product-discount="" product-image="../../src/assets/images/product-2.png"
+                      product-discount="" product-image="@/../src/assets/images/product-2.png"
                       class="col-11 col-lg-4 d-block" />
                   </div>
                 </div>
@@ -223,13 +223,13 @@
                 <div class="carousel-item">
                   <div class="products-list row row-cols-1 row-cols-lg-3 d-flex justify-content align-items-stretch">
                     <ProductItemCard product-title="Ergonomic Chair" product-category="Homello" product-price="45.87"
-                      product-discount="" product-image="../../src/assets/images/product-3.png"
+                      product-discount="" product-image="@/../src/assets/images/product-3.png"
                       class="col-11 col-lg-4 d-block" />
                     <ProductItemCard product-title="Nordic Chair" product-category="Homello" product-price="67.00"
-                      product-discount="" product-image="../../src/assets/images/product-1.png"
+                      product-discount="" product-image="@/../src/assets/images/product-1.png"
                       class="col-11 col-lg-4 d-block" />
                     <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
-                      product-discount="" product-image="../../src/assets/images/product-2.png"
+                      product-discount="" product-image="@/../src/assets/images/product-2.png"
                       class="col-11 col-lg-4 d-block" />
                   </div>
                 </div>
@@ -277,16 +277,16 @@
         </div>
         <div class="content row row-cols-1 row-cols-lg-4 align-items-stretch">
           <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
-            product-discount="" product-image="../../src/assets/images/product-4.png"
+            product-discount="" product-image="@/../src/assets/images/product-4.png"
             class="col-6 col-lg-3 mx-auto preload-rs s-anim" />
           <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
-            product-discount="" product-image="../../src/assets/images/product-5.png"
+            product-discount="" product-image="@/../src/assets/images/product-5.png"
             class="col-6 col-lg-3  mx-auto preload-rs s-anim" />
           <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
-            product-discount="" product-image="../../src/assets/images/product-6.png"
+            product-discount="" product-image="@/../src/assets/images/product-6.png"
             class="col-6 col-lg-3  mx-auto preload-rs s-anim" />
           <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
-            product-discount="" product-image="../../src/assets/images/product-7.png"
+            product-discount="" product-image="@/../src/assets/images/product-7.png"
             class="col-6 col-lg-3  mx-auto preload-rs s-anim" />
         </div>
       </div>
@@ -314,16 +314,16 @@
         </div>
         <div class="content row row-cols-1 row-cols-lg-4 align-items-stretch">
           <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
-            product-discount="" product-image="../../src/assets/images/product-8.png"
+            product-discount="" product-image="@/../src/assets/images/product-8.png"
             class="col-6 col-lg-3  mx-auto preload-rs s-anim" />
           <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
-            product-discount="" product-image="../../src/assets/images/product-9.png"
+            product-discount="" product-image="@/../src/assets/images/product-9.png"
             class="col-6 col-lg-3  mx-auto preload-rs s-anim" />
           <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
-            product-discount="" product-image="../../src/assets/images/product-10.png"
+            product-discount="" product-image="@/../src/assets/images/product-10.png"
             class="col-6 col-lg-3  mx-auto preload-rs s-anim" />
           <ProductItemCard product-title="Kruzo Aero Chair" product-category="Homello" product-price="73.23"
-            product-discount="" product-image="../../src/assets/images/product-11.png"
+            product-discount="" product-image="@/../src/assets/images/product-11.png"
             class="col-6 col-lg-3  mx-auto preload-rs s-anim" />
         </div>
       </div>
@@ -353,14 +353,14 @@
 </template>
 
 <script>
-import LinkButton from '../components/btnComponents/GlobalButtons/LinkButton.vue';
-import BasicNavbar from '../components/headerComponents/BasicNavbar.vue';
-import CustomersReviewsBanner from '../components/bodyComponents/CustomersReviewsBanner.vue';
-import MediumImageBanner from '../components/bodyComponents/MediumImageBanner.vue';
-import ProductItemCard from '../components/productsComponent/ProductItemCard.vue';
-import BlogArticlesBanner from '../components/bodyComponents/BlogArticlesBanner.vue';
-import NewsletterBanner from '../components/footerComponents/NewsletterBanner.vue';
-import GlobalFooter from '../components/footerComponents/GlobalFooter.vue';
+import LinkButton from '@/components/btnComponents/GlobalButtons/LinkButton.vue';
+import BasicNavbar from '@/components/headerComponents/BasicNavbar.vue';
+import CustomersReviewsBanner from '@/components/bodyComponents/CustomersReviewsBanner.vue';
+import MediumImageBanner from '@/components/bodyComponents/MediumImageBanner.vue';
+import ProductItemCard from '@/components/productsComponent/ProductItemCard.vue';
+import BlogArticlesBanner from '@/components/bodyComponents/BlogArticlesBanner.vue';
+import NewsletterBanner from '@/components/footerComponents/NewsletterBanner.vue';
+import GlobalFooter from '@/components/footerComponents/GlobalFooter.vue';
 
 export default {
   name: "HomeView",
