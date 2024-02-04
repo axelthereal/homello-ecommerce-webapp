@@ -14,14 +14,14 @@
 
             <div class="content row row-cols-1 row-cols-lg-4 align-items-stretch justify-content-evenly">
                 <!-- ProductItem-Cards -->
-                <BlogArticleCard :title="tmpTitle" :date="tmpDate" category="Tutorials" author="Admin" :img="tmpImg"
-                    class="col-11 col-lg-3" />
-                <BlogArticleCard :title="tmpTitle" :date="tmpDate" category="Tutorials" author="Admin" :img="tmpImg"
-                    class="col-11 col-lg-3" />
-                <BlogArticleCard :title="tmpTitle" :date="tmpDate" category="Tutorials" author="Admin" :img="tmpImg"
-                    class="col-11 col-lg-3" />
-                <BlogArticleCard :title="tmpTitle" :date="tmpDate" category="Tutorials" author="Admin" :img="tmpImg"
-                    class="col-11 col-lg-3" />
+                <BlogArticleCard :title="tmpTitle" :date="tmpDate" category="Tutorials" author="Admin"
+                    img="../../src/assets/cloud/article-img-01.jpg" class="col-11 col-lg-3" />
+                <BlogArticleCard :title="tmpTitle" :date="tmpDate" category="Tutorials" author="Admin"
+                    img="../../src/assets/cloud/article-img-02.jpg" class="col-11 col-lg-3" />
+                <BlogArticleCard :title="tmpTitle" :date="tmpDate" category="Tutorials" author="Admin"
+                    img="../../src/assets/cloud/article-img-03.jpg" class="col-11 col-lg-3" />
+                <BlogArticleCard :title="tmpTitle" :date="tmpDate" category="Tutorials" author="Admin"
+                    img="../../src/assets/cloud/article-img-04.jpg" class="col-11 col-lg-3" />
                 <!-- */ProductItem-Cards -->
             </div>
         </div>
@@ -39,7 +39,6 @@ export default {
         return {
             tmpTitle: "This card has supporting text below as a natural lead-in to additional content",
             tmpDate: "Jan 04, 2024",
-            tmpImg: "../../src/assets/images/girl-customer-service-image.jpg"
         }
     },
     components: {
