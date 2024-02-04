@@ -47,7 +47,7 @@ import LinkButton from '../btnComponents/GlobalButtons/LinkButton.vue';
             <br><br>
         </div>
         <div class="bannerImage">
-            <img :src="'../../src/assets/images/couch.png'" alt="" srcset="">
+            <img :src="bannerImage" alt="" />
         </div>
 
     </div>
@@ -63,9 +63,9 @@ export default {
         }
     },
     props: {
+        bannerImage: { type: String, default: "../../src/assets/images/sli-h1.webp" },
         bannerTitle: { type: String, default: "Image Banner Title" },
         bannerDescription: { type: String, default: "Description text goes here..." },
-        bannerImage: { type: String },
         bannerLink: { type: String },
         btnLabel: { type: String, default: "Discover now" }
     }
