@@ -35,6 +35,10 @@ button:active {
     background-color: #1a1a1a !important;
 }
 
+.formbx {
+    min-width: 390px !important;
+}
+
 .line {
     height: 2px;
     background-color: #e8ecf0;

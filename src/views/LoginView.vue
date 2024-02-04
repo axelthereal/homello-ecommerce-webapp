@@ -30,6 +30,10 @@ button:active {
     background-color: #e8ecf0;
 }
 
+.formbx {
+    min-width: 390px !important;
+}
+
 .btndark:active {
     background-color: #1a1a1a !important;
 }
