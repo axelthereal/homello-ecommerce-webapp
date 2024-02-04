@@ -202,7 +202,15 @@ import GlobalFooter from '../components/footerComponents/GlobalFooter.vue';
 
 <script>
 export default {
-    name: "COntactView"
+    name: "COntactView",
+    methods: {
+        setPageTitle() {
+            document.title = "Homello | Contact Us";
+        }
+    },
+    beforeMount() {
+        this.setPageTitle()
+    }
 }
 </script>    
     
