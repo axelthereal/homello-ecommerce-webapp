@@ -2,7 +2,7 @@
 
 **Homello** is an open-source home furniture e-commerce web app built with **Vue.js**.
 
-- **Website :** visit [http://localhost:PORT](http://localhost:PORT)
+- **Website :** visit [https://homello.netlify.app/](https://homello.netlify.app/)
 
 ## **Overview**
 
