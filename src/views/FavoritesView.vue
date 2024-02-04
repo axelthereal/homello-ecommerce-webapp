@@ -1,7 +1,7 @@
 <script setup>
 // import_required_components
-import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue";
-import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue";
+import GlobalNavbar from "@/components/headerComponents/GlobalNavbar.vue";
+import LinkButton from "@/components/btnComponents/GlobalButtons/LinkButton.vue";
 </script>
 
 <style scoped>
@@ -46,7 +46,7 @@ import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue
             <!-- Product-Item -->
             <div class="product-item row text-center border-bottom d-flex align-items-stretch justify-content-between">
                 <div class="col-sm-2 fw-semibold p-3 themed-grid-col d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/product-3.png" class="w-50" alt="Product-img">
+                    <img src="@/assets/images/product-3.png" class="w-50" alt="Product-img">
                 </div>
                 <div class="col-sm-2 fw-semibold p-3 themed-grid-col d-flex justify-content-center align-items-center">
                     Chair-product {{ item }}</div>
