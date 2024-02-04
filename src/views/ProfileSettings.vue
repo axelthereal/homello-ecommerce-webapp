@@ -1,7 +1,7 @@
 <script setup>
 // import_required_components
-import GlobalNavbar from "../components/headerComponents/GlobalNavbar.vue";
-import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue";
+import GlobalNavbar from "@/components/headerComponents/GlobalNavbar.vue";
+import LinkButton from "@/components/btnComponents/GlobalButtons/LinkButton.vue";
 </script>
 
 <style scoped>
