@@ -47,7 +47,7 @@ import LinkButton from '../btnComponents/GlobalButtons/LinkButton.vue';
             <br><br>
         </div>
         <div class="bannerImage">
-            <img :src="bannerImage" alt="" srcset="">
+            <img :src="'src/assets/images/couch.png'" alt="" srcset="">
         </div>
 
     </div>
