@@ -10,5 +10,13 @@ import LinkButton from "../components/btnComponents/GlobalButtons/LinkButton.vue
 <script>
 export default {
     name: "RecoverAccountView",
+    methods: {
+        setPageTitle() {
+            document.title = "Homello | Recover Your Account";
+        }
+    },
+    beforeMount() {
+        this.setPageTitle()
+    }
 }
 </script>
